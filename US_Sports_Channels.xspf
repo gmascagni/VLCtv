@@ -113,7 +113,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ebc8688f3697d00072f7cf8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Bellator MMA</title>
       <image>https://i.imgur.com/VBKoLHk.png</image>
       <annotation>Action-packed combat sports, mixed martial arts, professional wrestling, and bout archives.</annotation>
@@ -153,7 +153,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>CBS Sports HQ (720p)</title>
       <image>https://i.imgur.com/q8BENJg.png</image>
       <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
@@ -323,7 +323,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Golazo Network (720p)</title>
       <image>https://images.pluto.tv/channels/63a0e33a45264d000850ed7e/colorLogoPNG_1731835813404.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -343,7 +343,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e66968a70f34c0007d050be/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>MLB (720p)</title>
       <image>https://i.imgur.com/ym3su2J.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -403,7 +403,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ced7d5df64be98e07ed47b6/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>NFL Channel (720p)</title>
       <image>https://i.imgur.com/mPGtwAP.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -493,7 +493,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-60d39387706fe50007fda8e8.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60d39387706fe50007fda8e8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>PBR RidePass (720p)</title>
       <image>https://i.imgur.com/gUxH97E.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -513,7 +513,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-69d7ebb726eeec84158e28cb.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/69d7ebb726eeec84158e28cb/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Pluto TV Adventure</title>
       <image>https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -523,7 +523,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b3a4249444e05d09cc46/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Pluto TV Cars</title>
       <image>https://images.pluto.tv/channels/69c592dff0f1a7d732dc6e36/colorLogoPNG_1774557827331.png</image>
       <annotation>Motorsports racing, high-octane automotive builds, and vehicle performance tests.</annotation>
@@ -533,7 +533,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-603fde9026ecbf0007752c2c.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/603fde9026ecbf0007752c2c/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Pluto TV Competition</title>
       <image>https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -543,7 +543,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5fc54366b04b2300072e31af.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fc54366b04b2300072e31af/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>PokerGo</title>
       <image>https://i.imgur.com/1603HED.png</image>
       <annotation>Championship poker tournaments, high-stakes cash games, and poker strategy.</annotation>
@@ -633,7 +633,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5c393cad2de254456f7ef8c2.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c393cad2de254456f7ef8c2/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Spike Outdoors</title>
       <image>https://i.imgur.com/cdCD2A2.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
@@ -713,7 +713,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/681109b688b9d85d0938c6ba/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Tennis Channel +2 (720p)</title>
       <image>https://i.imgur.com/tsljAnY.png</image>
       <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>

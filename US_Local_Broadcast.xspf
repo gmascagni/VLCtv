@@ -393,7 +393,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-668c5cb4f01dbe0008dd4082.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/668c5cb4f01dbe0008dd4082/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>CBS en espanol</title>
       <image>https://images.pluto.tv/channels/668c5cb4f01dbe0008dd4082/colorLogoPNG.png</image>
       <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
@@ -1083,7 +1083,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96cc422df39f1a338d165/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Telemundo Telenovelas Clasicas</title>
       <image>https://i.imgur.com/9bPcYIN.png</image>
       <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>

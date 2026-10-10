@@ -83,7 +83,7 @@ https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-657880c46e4f6a00087404d0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/657880c46e4f6a00087404d0/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="CuriosityNOW.de@EN" tvg-name="Curiosity NOW EN (1080p)" tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Documentary",Curiosity NOW EN (1080p)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
@@ -138,7 +138,7 @@ https://docurama-plex-ingest.cinedigm.com/playlist.m3u8
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-62e92392a3e6270007f562e8.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/62e92392a3e6270007f562e8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="GenesisScienceNetwork.us@SD" tvg-name="Genesis Science Network (720p)" tvg-logo="https://i.imgur.com/CFAn996.png" group-title="Documentary",Genesis Science Network (720p)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
@@ -173,7 +173,7 @@ https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-60807fd5db701400078219c2.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60807fd5db701400078219c2/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="InvestigationDiscovery.us@East" tvg-name="Investigation Discovery (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="Documentary",Investigation Discovery (1080p) [Geo-blocked]
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
@@ -360,22 +360,22 @@ https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
 #EXTGRP:Documentary
 #EXTREM:Description: Historical documentaries, archaeological explorations, and world history specials.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a4d35dfa5c02e717a234f86/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="PlutoTVParanormal.us@US" tvg-name="Pluto TV Paranormal (United States)" tvg-logo="https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png" group-title="Documentary",Pluto TV Paranormal (United States)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5adf96e3e738977e2c31cb04/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="PlutoTVScience.us@US" tvg-name="Pluto TV Science (United States)" tvg-logo="https://i.imgur.com/uhunRoU.png" group-title="Documentary",Pluto TV Science (United States)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/563a970aa1a1f7fe7c9daad7/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="PlutoTVTrueCrime.us@US" tvg-name="Pluto TV True Crime (United States)" tvg-logo="https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png" group-title="Documentary",Pluto TV True Crime (United States)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5812be1c249444e05d09cc50.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812be1c249444e05d09cc50/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="PSDTV.us@SD" tvg-name="PSD TV (720p)" tvg-logo="https://i.imgur.com/djT0Q8q.png" group-title="Documentary",PSD TV (720p)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
@@ -410,12 +410,12 @@ https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sd
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f21ea08007a49000762d349/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="SpikePlutoTV.us@SD" tvg-name="Spike Pluto TV" tvg-logo="https://i.imgur.com/woY8Ecb.png" group-title="Documentary",Spike Pluto TV
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5812bcc8237a6ff45d16c407.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812bcc8237a6ff45d16c407/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="StLuciePublicSchools.us@SD" tvg-name="St Lucie Public Schools" tvg-logo="https://i.imgur.com/wnB0fWG.png" group-title="Documentary",St Lucie Public Schools
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
@@ -425,7 +425,7 @@ https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-6127e12ed140e900077e7b6f.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6127e12ed140e900077e7b6f/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@English" tvg-name="Terra Mater WILD English (1080p)" tvg-logo="https://i.imgur.com/EbMK3Ph.png" group-title="Documentary",Terra Mater WILD English (1080p)
 #EXTGRP:Documentary
 #EXTREM:Description: Wildlife expeditions, animal adventures, and breathtaking nature documentaries.
@@ -460,7 +460,7 @@ https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
 #EXTGRP:Documentary
 #EXTREM:Description: Wildlife expeditions, animal adventures, and breathtaking nature documentaries.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d48678d34ceb37d3c458a55/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="WorldChannel.us@SD" tvg-name="World Channel (1080p)" tvg-logo="https://worldchannel.org/static/images/logo-world-channel.png" group-title="Documentary",World Channel (1080p)
 #EXTGRP:Documentary
 #EXTREM:Description: Educational documentaries, science explorations, history, and real-world investigations.

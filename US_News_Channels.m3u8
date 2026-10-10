@@ -88,7 +88,7 @@ https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 #EXTGRP:News
 #EXTREM:Description: Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e1f7da4bc7d740009831259/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="Ameritrade.us@SD" tvg-name="Ameritrade (1080p) [Not 24/7]" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CZKwin9mL.png" group-title="News",Ameritrade (1080p) [Not 24/7]
 #EXTGRP:News
 #EXTREM:Description: Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.
@@ -113,7 +113,7 @@ https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8
 #EXTGRP:News
 #EXTREM:Description: Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46fba0c43b0d00096e5ac1/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-name="Bloomberg Originals (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="News",Bloomberg Originals (1080p)
 #EXTGRP:News
 #EXTREM:Description: Global business, financial market news, economic updates, and corporate interviews.
@@ -163,7 +163,7 @@ https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGci
 #EXTGRP:News
 #EXTREM:Description: Live continuous national and global news reporting from CBS News.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6350fdd266e9ea0007bedec5/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="CBSNewsBaltimore.us@SD" tvg-name="CBS News Baltimore (720p)" tvg-logo="https://i.imgur.com/jy3UfCe.png" group-title="News",CBS News Baltimore (720p)
 #EXTGRP:News
 #EXTREM:Description: Live continuous national and global news reporting from CBS News.

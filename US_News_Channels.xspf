@@ -171,7 +171,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e1f7da4bc7d740009831259/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>America's Voice News (720p)</title>
       <image>https://i.imgur.com/C4w0eYC.png</image>
       <annotation>Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.</annotation>
@@ -221,7 +221,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46fba0c43b0d00096e5ac1/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>Blaze Live (720p)</title>
       <image>https://i.imgur.com/GwxneSQ.png</image>
       <annotation>Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.</annotation>
@@ -321,7 +321,7 @@
       </extension>
     </track>
     <track>
-      <location>https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8</location>
+      <location>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6350fdd266e9ea0007bedec5/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false</location>
       <title>CBS News 24/7 (720p)</title>
       <image>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png</image>
       <annotation>Live continuous national and global news reporting from CBS News.</annotation>

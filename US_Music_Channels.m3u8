@@ -43,7 +43,7 @@ https://aegis-cloudfront-1.tubi.video/0b16cabe-a8fd-4d91-99e5-3efb7aa740cc/playl
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f779951372da90007fd45e8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="CMCUSACountryMusicChannel.us@SD" tvg-name="CMC-USA Country Music Channel (720p)" tvg-logo="https://i.imgur.com/QsANRSu.png" group-title="Music",CMC-USA Country Music Channel (720p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -58,7 +58,7 @@ http://23.237.104.106:8080/USA_CMT/index.m3u8
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f68f53eb1e5800007390bf8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="CMTV.us@SD" tvg-name="CMTV (720p)" tvg-logo="https://i.imgur.com/73LKwAK.png" group-title="Music",CMTV (720p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -68,7 +68,7 @@ https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6868152657543d1f8be4ece3/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="DegaTV.us@SD" tvg-name="Dega TV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/ZTYvHyR/DEGA-TV-TELEPACK.jpg" group-title="Music",Dega TV (720p) [Not 24/7]
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -108,7 +108,7 @@ https://streamyes.alsolnet.com/quebuenaatlanta/live/index.m3u8
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5873fc21cad696fb37aa9054/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="LIVExLIVE.us@SD" tvg-name="LIVExLIVE (1080p)" tvg-logo="https://i.imgur.com/KFzEoed.png" group-title="Music",LIVExLIVE (1080p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -138,17 +138,17 @@ http://23.237.104.106:8080/USA_MTV/index.m3u8
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5d14fd1a252d35decbc4080c.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="MTVenEspanol.us@SD" tvg-name="MTV en Espanol" tvg-logo="https://i.imgur.com/vQWWfyW.png" group-title="Music",MTV en Espanol
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96d351652631e36d4331f/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="MTVFlowLatino.us@SD" tvg-name="MTV Flow Latino (720p)" tvg-logo="https://images.pluto.tv/channels/62b218fc511d4b00070ddc0c/colorLogoPNG.png" group-title="Music",MTV Flow Latino (720p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="MTVLive.us@SD" tvg-name="MTV Live (720p)" tvg-logo="https://i.imgur.com/3UByLqb.png" group-title="Music",MTV Live (720p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -158,12 +158,12 @@ http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-name="MTV Spankin' New (1080p)" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" group-title="Music",MTV Spankin' New (1080p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="NEWKPOP.us@SD" tvg-name="NEW K-POP (1080p)" tvg-logo="https://i.imgur.com/B7ILXMc.png" group-title="Music",NEW K-POP (1080p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -293,7 +293,7 @@ https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-s
 #EXTGRP:Music
 #EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/61d4c2817a823d00070ba53e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="VH1.us@East" tvg-name="VH1 (432p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1 (432p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -303,7 +303,7 @@ http://193.254.245.162/VH1/index.m3u8
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/66abefe5d2d50d00082c7d12/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="VideoMixTV.us@SD" tvg-name="Video Mix TV" tvg-logo="https://i.imgur.com/nyLrIPP.png" group-title="Music",Video Mix TV
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -328,7 +328,7 @@ https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/623b92a2ccefed0007b1db48/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false
 #EXTINF:-1 tvg-id="XITEJustChill.nl@US" tvg-name="XITE Just Chill (1080p)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/927dd614-017d-49dd-9eb9-0ed79d09084e/xitejustchill_logo_light_-_Arlette_FiranRDX.png" group-title="Music",XITE Just Chill (1080p)
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
@@ -358,4 +358,4 @@ https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTGRP:Music
 #EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
 #EXTVLCOPT:network-caching=1500
-https://jmp2.uk/plu-5d14fc31252d35decbc4080b.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false

@@ -2940,7 +2940,7 @@
       const progressBar = document.getElementById('playerEpgProgressBar');
 
       // Check if channel is from Pluto TV FAST network
-      const plutoMatch = (ch.url || '').match(/plu-([a-f0-9]{24})/i);
+      const plutoMatch = (ch.url || '').match(/(?:plu-|channel\/)([a-f0-9]{24})/i);
       if (plutoMatch) {
         const plutoId = plutoMatch[1];
         epgBadge.textContent = 'NOW PLAYING (LIVE GUIDE)';

@@ -642,6 +642,12 @@ def parse_m3u(m3u_text, api_map, feeds_map):
 
         primary_lang = ch_langs[0] if ch_langs else "eng"
 
+        stream_url = ch["url"]
+        pluto_m = re.search(r'(?:jmp2\.uk/plu-|channel/|plu-)([a-f0-9]{24})', stream_url)
+        if pluto_m:
+            cid = pluto_m.group(1)
+            stream_url = f"https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/{cid}/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=vlc&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=vlc&userId=&serverSideAds=false"
+
         processed.append({
             "id": ch["id"],
             "name": clean_name,
@@ -649,7 +655,7 @@ def parse_m3u(m3u_text, api_map, feeds_map):
             "description": desc,
             "languages": ch_langs,
             "primary_lang": primary_lang,
-            "url": ch["url"],
+            "url": stream_url,
             "logo": ch["logo"],
             "quality": quality,
             "network": network,
