@@ -32,7 +32,7 @@ Double-click any of the provided Windows `.bat` launchers in this folder to open
 | **`Open_News_In_VLC.bat`** | Opens **News, Financial, Weather & Emergency Channels** | **118** |
 | **`Open_Movies_In_VLC.bat`** | Opens **Movies & Cinema Channels** | **139** |
 | **`Open_Sports_In_VLC.bat`** | Opens **Sports, Racing & Outdoor Channels** | **89** |
-| **`Open_Adult_In_VLC.bat`** | Opens **Adult & XXX Live Channels** | **24** |
+| **`Open_Adult_In_VLC.bat`** | Opens **Adult Live Channels** | **24** |
 | **`Launch_Channel_Guide.bat`** | Launches the **Interactive Web TV Guide** in your browser | **1,493** |
 
 ---
@@ -62,7 +62,7 @@ Both standard **M3U8** (with extended EPG and VLC tags) and native **XSPF** (XML
 - **`US_Sports_Channels.m3u8`** & **`US_Sports_Channels.xspf`**
   - 89 Sports channels (ACC Network, Big Ten Network, beIN SPORTS XTRA, Fubo Sports, Red Bull TV, Fight Network, World Poker Tour, Stadium, Golf Kingdom, Pursuit Channel, etc.).
 - **`Adult_XXX_Channels.m3u8`** & **`Adult_XXX_Channels.xspf`**
-  - 24 Adult & XXX channels (Passcode protected with `xxx` on web guide).
+  - 24 Adult channels (Passcode protected with `xxx` on web guide).
 
 ### 2. Additional Curated Categories
 - **`US_Entertainment_Channels.m3u8`** & **`.xspf`** (297 channels — Comedy, Drama, Reality, Cooking, Lifestyle)

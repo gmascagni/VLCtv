@@ -2203,7 +2203,7 @@
       { id: 'Movies', label: 'Movies & Cinema', icon: '🎬' },
       { id: 'Sports', label: 'Sports & Outdoors', icon: '🏈' },
       { id: 'Entertainment', label: 'Entertainment & Series', icon: '🍿' },
-      { id: 'Adult & XXX', label: 'Adult & XXX', icon: '🔞' },
+      { id: 'Adult', label: 'Adult', icon: '🔞' },
       { id: 'Kids & Family', label: 'Kids & Family', icon: '🧒' },
       { id: 'Documentary', label: 'Documentary & Science', icon: '🔬' },
       { id: 'Music', label: 'Music & Radio', icon: '🎵' },
@@ -2291,7 +2291,7 @@
         const count = cat.id === 'all' ? allChannels.length : (counts[cat.id] || 0);
         if (cat.id !== 'all' && count === 0) return;
 
-        const isAdult = cat.id === 'Adult & XXX';
+        const isAdult = cat.id === 'Adult';
         const lockIcon = (isAdult && !adultUnlocked) ? ' 🔒' : '';
         const btn = document.createElement('button');
         btn.className = `cat-btn ${cat.id === currentCategory ? 'active' : ''}`;
@@ -2302,7 +2302,7 @@
     }
 
     function setCategory(catId) {
-      if (catId === 'Adult & XXX' && !adultUnlocked) {
+      if (catId === 'Adult' && !adultUnlocked) {
         openAdultModal();
         return;
       }
@@ -2347,12 +2347,12 @@
       if (val === 'xxx') {
         adultUnlocked = true;
         closeAdultModal();
-        showToast('🔓 Adult & XXX section unlocked!');
+        showToast('🔓 Adult section unlocked!');
         // Refresh tabs with unlocked state
         const counts = {};
         allChannels.forEach(c => counts[c.category] = (counts[c.category] || 0) + 1);
         renderCategoryTabs(counts);
-        setCategory('Adult & XXX');
+        setCategory('Adult');
       } else {
         if (err) err.style.display = 'block';
         if (input) {
@@ -2430,7 +2430,7 @@
     function getFilteredChannels() {
       return allChannels.filter(ch => {
         // Adult section password lock
-        if (ch.category === 'Adult & XXX' && !adultUnlocked) {
+        if (ch.category === 'Adult' && !adultUnlocked) {
           return false;
         }
 

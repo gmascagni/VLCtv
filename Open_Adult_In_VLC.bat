@@ -1,5 +1,5 @@
 @echo off
-echo Launching Adult and XXX Channels in VLC Media Player...
+echo Launching Adult Channels in VLC Media Player...
 set "VLC=C:\Program Files\VideoLAN\VLC\vlc.exe"
 if not exist "%VLC%" set "VLC=C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 if not exist "%VLC%" (

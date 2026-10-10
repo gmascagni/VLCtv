@@ -93,7 +93,7 @@ CATEGORY_DEFINITIONS = [
     },
     {
         "id": "adult",
-        "name": "Adult & XXX",
+        "name": "Adult",
         "filename": "Adult_XXX_Channels",
         "keywords": ["xxx", "adult", "porn", "erotic", "adultiptv"]
     }
@@ -103,7 +103,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-vod",
         "name": "AdultIPTV.net VOD Videos",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://adultiptv.net/videos.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -114,7 +114,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-livecams",
         "name": "AdultIPTV.net Live Cams",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/livecams.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -125,7 +125,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-milf",
         "name": "AdultIPTV.net MILF",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/milf.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -136,7 +136,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-bigdick",
         "name": "AdultIPTV.net Big Dick",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/bigdick.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -147,7 +147,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-bigtits",
         "name": "AdultIPTV.net Big Tits",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/bigtits.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -158,7 +158,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-fetish",
         "name": "AdultIPTV.net Fetish",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/fetish.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -169,7 +169,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-pornstar",
         "name": "AdultIPTV.net Pornstar",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/pornstar.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -180,7 +180,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-bigass",
         "name": "AdultIPTV.net Big Ass",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/bigass.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -191,7 +191,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-interracial",
         "name": "AdultIPTV.net Interracial",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/interracial.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -202,7 +202,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-latina",
         "name": "AdultIPTV.net Latina",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/latina.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -213,7 +213,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-pov",
         "name": "AdultIPTV.net POV",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/pov.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -224,7 +224,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-blowjob",
         "name": "AdultIPTV.net Blowjob",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/blowjob.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -235,7 +235,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-hardcore",
         "name": "AdultIPTV.net Hardcore",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/hardcore.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -246,7 +246,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-cuckold",
         "name": "AdultIPTV.net Cuckold",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/cuckold.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -257,7 +257,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-threesome",
         "name": "AdultIPTV.net Threesome",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/threesome.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -268,7 +268,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-russian",
         "name": "AdultIPTV.net Russian",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/russian.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -279,7 +279,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-lesbian",
         "name": "AdultIPTV.net Lesbian",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/lesbian.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -290,7 +290,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-rough",
         "name": "AdultIPTV.net Rough",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/rough.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -301,7 +301,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-gangbang",
         "name": "AdultIPTV.net Gangbang",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/gangbang.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -312,7 +312,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-anal",
         "name": "AdultIPTV.net Anal",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/anal.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -323,7 +323,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-compilation",
         "name": "AdultIPTV.net Compilation",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/compilation.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -334,7 +334,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-brunette",
         "name": "AdultIPTV.net Brunette",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/brunette.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -345,7 +345,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-blonde",
         "name": "AdultIPTV.net Blonde",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/blonde.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -356,7 +356,7 @@ CUSTOM_CHANNELS = [
     {
         "id": "adultiptv-asian",
         "name": "AdultIPTV.net Asian",
-        "category": "Adult & XXX",
+        "category": "Adult",
         "url": "http://live.adultiptv.net/asian.m3u8",
         "logo": "https://files.adultiptv.net/adultiptvnet.jpg",
         "quality": "HD",
@@ -483,7 +483,7 @@ def build_description(name, category, network=""):
         return "Inspirational Christian gospel music, sacred hymns, and worship concerts."
     if "3abn" in n_lower:
         return "Christian programming, health lifestyle seminars, and spiritual ministry broadcasts."
-    if "adultiptv" in n_lower or category == "Adult & XXX":
+    if "adultiptv" in n_lower or category == "Adult":
         return "Adult entertainment programming and video on-demand streams."
     if n_lower.startswith("abc "):
         return "Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming."
@@ -530,7 +530,7 @@ def build_description(name, category, network=""):
         "Local Broadcast": "Regional broadcast television featuring local community news, weather, and syndicated programming.",
         "Public & Government": "Public access programming, municipal council meetings, and civic government coverage.",
         "Religious": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-        "Adult & XXX": "Adult entertainment programming and adult video streams.",
+        "Adult": "Adult entertainment programming and adult video streams.",
         "General & Regional": f"Community television, regional broadcasts, and general entertainment programming{net_str}."
     }
     return cat_defaults.get(category, f"Live stream broadcast featuring {category} programming{net_str}.")
@@ -781,7 +781,7 @@ def main():
         elif cat_id == "religious":
             matched = [c for c in channels if c["category"] == "Religious"]
         elif cat_id == "adult":
-            matched = [c for c in channels if c["category"] == "Adult & XXX"]
+            matched = [c for c in channels if c["category"] == "Adult"]
 
         if matched:
             m3u8_path = os.path.join(output_dir, f"{filename_base}.m3u8")
@@ -842,7 +842,7 @@ def main():
     make_launcher("Open_News_In_VLC.bat", "US News Channels", "US_News_Channels.m3u8")
     make_launcher("Open_Movies_In_VLC.bat", "US Movies Channels", "US_Movies_Channels.m3u8")
     make_launcher("Open_Sports_In_VLC.bat", "US Sports Channels", "US_Sports_Channels.m3u8")
-    make_launcher("Open_Adult_In_VLC.bat", "Adult & XXX Channels", "Adult_XXX_Channels.m3u8")
+    make_launcher("Open_Adult_In_VLC.bat", "Adult Channels", "Adult_XXX_Channels.m3u8")
 
     # Launch Web Guide
     with open(os.path.join(output_dir, "Launch_Channel_Guide.bat"), "w", encoding="utf-8") as f:
