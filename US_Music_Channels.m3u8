@@ -1,0 +1,361 @@
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us.xml"
+#EXTINF:-1 tvg-id="3ABNPraiseHimMusicNetwork.us@SD" tvg-name="3ABN Praise Him Music Network" tvg-logo="https://i.imgur.com/iBcqT8L.png" group-title="Music",3ABN Praise Him Music Network
+#EXTGRP:Music
+#EXTREM:Description: Inspirational Christian gospel music, sacred hymns, and worship concerts.
+#EXTVLCOPT:network-caching=1500
+https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="30AMusic.us@SD" tvg-name="30A Music (720p)" tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Music",30A Music (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://30a-tv.com/music.m3u8
+#EXTINF:-1 tvg-id="ACECountryRadio.us@KPVMLD" tvg-name="ACE Country Radio KPVM-LD" tvg-logo="https://i.imgur.com/iPtuku6.png" group-title="Music",ACE Country Radio KPVM-LD
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
+#EXTINF:-1 tvg-id="AvangTV.us@SD" tvg-name="Avang TV (1080p)" tvg-logo="https://i.imgur.com/3I1n7fO.png" group-title="Music",Avang TV (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AXSTV.us@SD" tvg-name="AXS TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/960px-AXS_TV_logo.svg.png" group-title="Music",AXS TV (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://23.239.31.26:8989/axstv/index.m3u8
+#EXTINF:-1 tvg-id="BPXTVRadio.us@SD" tvg-name="BPX TV Radio" tvg-logo="https://i.imgur.com/86VXni8.jpeg" group-title="Music",BPX TV Radio
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8
+#EXTINF:-1 tvg-id="CaliforniaMusicChannel.us@SD" tvg-name="California Music Channel (1080p)" tvg-logo="https://i.imgur.com/FyNot5W.png" group-title="Music",California Music Channel (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KMTVTV" tvg-name="CBS KMTV-TV (720p)" tvg-logo="https://i.imgur.com/E4PkyqN.png" group-title="Music",CBS KMTV-TV (720p)
+#EXTGRP:Music
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/0b16cabe-a8fd-4d91-99e5-3efb7aa740cc/playlist.m3u8
+#EXTINF:-1 tvg-id="Classica.us@SD" tvg-name="Classica (720p)" tvg-logo="https://i.imgur.com/bLjmQTU.png" group-title="Music",Classica (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8
+#EXTINF:-1 tvg-id="CMCUSACountryMusicChannel.us@SD" tvg-name="CMC-USA Country Music Channel (720p)" tvg-logo="https://i.imgur.com/QsANRSu.png" group-title="Music",CMC-USA Country Music Channel (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
+#EXTINF:-1 tvg-id="CMT.us@East" tvg-name="CMT (720p)" tvg-logo="https://i.imgur.com/S7DOpdY.png" group-title="Music",CMT (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://23.237.104.106:8080/USA_CMT/index.m3u8
+#EXTINF:-1 tvg-id="CMTEqualPlay.us@SD" tvg-name="CMT Equal Play (720p)" tvg-logo="https://i.imgur.com/9ysjkkL.png" group-title="Music",CMT Equal Play (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8
+#EXTINF:-1 tvg-id="CMTV.us@SD" tvg-name="CMTV (720p)" tvg-logo="https://i.imgur.com/73LKwAK.png" group-title="Music",CMTV (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
+#EXTINF:-1 tvg-id="ConcertChannel.us@SD" tvg-name="Concert Channel (720p)" tvg-logo="https://i.imgur.com/u2irADf.png" group-title="Music",Concert Channel (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8
+#EXTINF:-1 tvg-id="DegaTV.us@SD" tvg-name="Dega TV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/ZTYvHyR/DEGA-TV-TELEPACK.jpg" group-title="Music",Dega TV (720p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://59d39900ebfb8.streamlock.net/saintlouisltv/saintlouisltv/playlist.m3u8
+#EXTINF:-1 tvg-id="EBSMusika.us@SD" tvg-name="EBS Musika (720p)" tvg-logo="https://i.imgur.com/lSpplhD.png" group-title="Music",EBS Musika (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://rpn.bozztv.com/ebstv/ebsmusika/index.m3u8
+#EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-name="FilAmTV Network (1080p)" tvg-logo="https://i.imgur.com/nRiApdI.png" group-title="Music",FilAmTV Network (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
+#EXTINF:-1 tvg-id="GMTV.us@SD" tvg-name="GMTV (1080p)" tvg-logo="https://i.imgur.com/GJYb8c8.png" group-title="Music",GMTV (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
+#EXTINF:-1 tvg-id="HarmonyGospelMusicTV.us@SD" tvg-name="Harmony Gospel Music TV (1080p)" tvg-logo="https://i.imgur.com/iDiGBE3.png" group-title="Music",Harmony Gospel Music TV (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
+#EXTINF:-1 tvg-id="HighVisionTV.us@SD" tvg-name="High Vision TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/zhCgoru.png" group-title="Music",High Vision TV (1080p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
+#EXTINF:-1 tvg-id="LaQueBuenaAtlanta.us@SD" tvg-name="La Que Buena Atlanta" tvg-logo="https://iili.io/JysD2a4.png" group-title="Music",La Que Buena Atlanta
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://streamyes.alsolnet.com/quebuenaatlanta/live/index.m3u8
+#EXTINF:-1 tvg-id="LiveMusic.us@SD" tvg-name="Live Music" tvg-logo="https://images.pluto.tv/channels/5873fc21cad696fb37aa9054/colorLogoPNG.png" group-title="Music",Live Music
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
+#EXTINF:-1 tvg-id="LIVExLIVE.us@SD" tvg-name="LIVExLIVE (1080p)" tvg-logo="https://i.imgur.com/KFzEoed.png" group-title="Music",LIVExLIVE (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://livestream.liveone.com/lc1/p1.m3u8
+#EXTINF:-1 tvg-id="MBCAmerica.us@SD" tvg-name="MBC America (1080p)" tvg-logo="https://i.imgur.com/RRc23ra.png" group-title="Music",MBC America (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
+#EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-name="Metaleitor TV" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="Music",Metaleitor TV
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
+#EXTINF:-1 tvg-id="MTV2.us@East" tvg-name="MTV2 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/960px-MTV2_logo_2013.svg.png" group-title="Music",MTV2 (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://198.58.104.90:8989/mtv2/index.m3u8
+#EXTINF:-1 tvg-id="MTV.us@East" tvg-name="MTV (United States) (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Music",MTV (United States) (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://23.237.104.106:8080/USA_MTV/index.m3u8
+#EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-name="MTV Biggest Pop (1080p)" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Music",MTV Biggest Pop (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5d14fd1a252d35decbc4080c.m3u8
+#EXTINF:-1 tvg-id="MTVenEspanol.us@SD" tvg-name="MTV en Espanol" tvg-logo="https://i.imgur.com/vQWWfyW.png" group-title="Music",MTV en Espanol
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
+#EXTINF:-1 tvg-id="MTVFlowLatino.us@SD" tvg-name="MTV Flow Latino (720p)" tvg-logo="https://images.pluto.tv/channels/62b218fc511d4b00070ddc0c/colorLogoPNG.png" group-title="Music",MTV Flow Latino (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
+#EXTINF:-1 tvg-id="MTVLive.us@SD" tvg-name="MTV Live (720p)" tvg-logo="https://i.imgur.com/3UByLqb.png" group-title="Music",MTV Live (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
+#EXTINF:-1 tvg-id="MTVPlutoTV.us@US" tvg-name="MTV Pluto TV" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="Music",MTV Pluto TV
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8
+#EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-name="MTV Spankin' New (1080p)" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" group-title="Music",MTV Spankin' New (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8
+#EXTINF:-1 tvg-id="NEWKPOP.us@SD" tvg-name="NEW K-POP (1080p)" tvg-logo="https://i.imgur.com/B7ILXMc.png" group-title="Music",NEW K-POP (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="RadioTeleKajou.us@SD" tvg-name="Radio Tele Kajou (480p) [Not 24/7]" tvg-logo="https://i.ibb.co/1MhvJ3B/logork.png" group-title="Music",Radio Tele Kajou (480p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://59d39900ebfb8.streamlock.net/RadioTelekAJOU/RadioTelekAJOU/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTelePuissance.us@SD" tvg-name="Radio Tele Puissance" tvg-logo="https://i.imgur.com/ZLPwJug.png" group-title="Music",Radio Tele Puissance
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://video1.getstreamhosting.com:1936/8560/8560/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTeleSentinel.us@SD" tvg-name="Radio Tele Sentinel" tvg-logo="https://i.imgur.com/hy3BJxj.png" group-title="Music",Radio Tele Sentinel
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://59d39900ebfb8.streamlock.net/radiotelesentinel/radiotelesentinel/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTeleWisdom.us@SD" tvg-name="Radio Tele Wisdom (360p) [Not 24/7]" tvg-logo="https://i.ibb.co/DQksC23/unnamed-1.jpg" group-title="Music",Radio Tele Wisdom (360p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://59d39900ebfb8.streamlock.net/daniel/daniel/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioyTelevisionMarti.us@SD" tvg-name="Radio y Television Marti (720p)" tvg-logo="https://i.imgur.com/J2ZMa4g.png" group-title="Music",Radio y Television Marti (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioMensajeTV.us@SD" tvg-name="RadioMensaje TV (720p)" tvg-logo="https://i.imgur.com/TJNXjS2.png" group-title="Music",RadioMensaje TV (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://eu1.servers10.com:8081/8230/index.m3u8
+#EXTINF:-1 tvg-id="SpiritTV.us@SD" tvg-name="Spirit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/yCp6vXz.png" group-title="Music",Spirit TV (720p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
+#EXTINF:-1 tvg-id="StingrayGreatestHolidayHits.us@SD" tvg-name="Stingray Greatest Holiday Hits" tvg-logo="https://i.imgur.com/Hz2d6og.png" group-title="Music",Stingray Greatest Holiday Hits
+#EXTGRP:Music
+#EXTREM:Description: Curated music broadcasts and high-fidelity sound tracks.
+#EXTVLCOPT:network-caching=1500
+https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8
+#EXTINF:-1 tvg-id="StrykTV.us@HD" tvg-name="Stryk TV (1080p)" tvg-logo="https://i.imgur.com/rKkHhkX.png" group-title="Music",Stryk TV (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
+#EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-name="SUMtv English (1080p)" tvg-logo="https://i.imgur.com/hp1rJjX.png" group-title="Music",SUMtv English (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-name="SUMtv Latino (1080p)" tvg-logo="https://i.imgur.com/ZObFN8Z.png" group-title="Music",SUMtv Latino (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TheCountryNetwork.us@SD" tvg-name="The Country Network (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/dd/The_Country_Network_Logo.png" group-title="Music",The Country Network (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSMusicNetwork.us@SD" tvg-name="TVS Music Network (720p)" group-title="Music",TVS Music Network (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8
+#EXTINF:-1 tvg-id="VallenatoInternacional.us@SD" tvg-name="Vallenato Internacional (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/rVKroNW.png" group-title="Music",Vallenato Internacional (720p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://59a564764e2b6.streamlock.net/vallenato/vallenatom/playlist.m3u8
+#EXTINF:-1 tvg-id="Vevo2K.us@SD" tvg-name="Vevo 2K (1080p)" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" group-title="Music",Vevo 2K (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="Vevo70s.us@SD" tvg-name="Vevo '70s (1080p)" tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" group-title="Music",Vevo '70s (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="Vevo80s.us@SD" tvg-name="Vevo '80s (1080p)" tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" group-title="Music",Vevo '80s (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="Vevo90s.us@SD" tvg-name="Vevo '90s (1080p)" tvg-logo="https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg" group-title="Music",Vevo '90s (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="VevoCountry.us@SD" tvg-name="Vevo Country (1080p)" tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" group-title="Music",Vevo Country (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="VevoHipHop.us@SD" tvg-name="Vevo Hip Hop (1080p)" tvg-logo="https://i.imgur.com/Lbc9cYw.png" group-title="Music",Vevo Hip Hop (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://d3vgs3ro3x6v8a.cloudfront.net/Vevo_Hip_Hop.m3u8
+#EXTINF:-1 tvg-id="VevoLatino.us@SD" tvg-name="Vevo Latino (1080p)" tvg-logo="https://i.imgur.com/D7SwmuB.png" group-title="Music",Vevo Latino (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="VevoPop.us@SD" tvg-name="Vevo Pop (1080p)" tvg-logo="https://i.imgur.com/dZHktKR.png" group-title="Music",Vevo Pop (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="VevoRB.us@SD" tvg-name="Vevo R&B (1080p)" tvg-logo="https://images.pluto.tv/channels/5da0d83f66c9700009b96d0e/featuredImage.jpg" group-title="Music",Vevo R&B (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
+#EXTINF:-1 tvg-id="VevoRetroRock.us@SD" tvg-name="Vevo Retro Rock (1080p)" tvg-logo="https://i.imgur.com/H1Aap4E.png" group-title="Music",Vevo Retro Rock (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="VevoTrueSchoolHipHop.us@SD" tvg-name="Vevo True School Hip-Hop" tvg-logo="https://i.imgur.com/owUXUih.png" group-title="Music",Vevo True School Hip-Hop
+#EXTGRP:Music
+#EXTREM:Description: Continuous music video streams featuring chart-topping artists and hits.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+#EXTINF:-1 tvg-id="VH1.us@East" tvg-name="VH1 (432p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1 (432p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://193.254.245.162/VH1/index.m3u8
+#EXTINF:-1 tvg-id="VH1QueensofReality.us@SD" tvg-name="VH1 Queens of Reality" tvg-logo="https://images.pluto.tv/channels/66abefe5d2d50d00082c7d12/colorLogoPNG.png" group-title="Music",VH1 Queens of Reality
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
+#EXTINF:-1 tvg-id="VideoMixTV.us@SD" tvg-name="Video Mix TV" tvg-logo="https://i.imgur.com/nyLrIPP.png" group-title="Music",Video Mix TV
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
+#EXTINF:-1 tvg-id="WLNGRadio.us@SD" tvg-name="WLNG Radio (410p) [Not 24/7]" group-title="Music",WLNG Radio (410p) [Not 24/7]
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+http://wlngstudiowebcam.srfms.com:1935/wlngstudiowebcam/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="WVCULP.us@SD" tvg-name="WVCU-LP (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG" group-title="Music",WVCU-LP (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
+#EXTINF:-1 tvg-id="XITE90sThrowback.us@SD" tvg-name="XITE 90's Throwback (1080p)" tvg-logo="https://i.imgur.com/vwpOzuz.png" group-title="Music",XITE 90's Throwback (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
+#EXTINF:-1 tvg-id="XITEClassicCountry.nl@SD" tvg-name="XITE Classic Country (720p)" tvg-logo="https://i.imgur.com/XQrMCkT.png" group-title="Music",XITE Classic Country (720p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
+#EXTINF:-1 tvg-id="XITEJustChill.nl@US" tvg-name="XITE Just Chill (1080p)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/927dd614-017d-49dd-9eb9-0ed79d09084e/xitejustchill_logo_light_-_Arlette_FiranRDX.png" group-title="Music",XITE Just Chill (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
+#EXTINF:-1 tvg-id="XITENuevoLatino.us@SD" tvg-name="XITE Nuevo Latino (1080p)" tvg-logo="https://i.imgur.com/2qyl2y3.png" group-title="Music",XITE Nuevo Latino (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
+#EXTINF:-1 tvg-id="XITEReggaeVibes.nl@HD" tvg-name="XITE Reggae Vibes (1080p)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c7506335-967f-46a9-917a-2a35475cd96c/xitereggaevibes_logo_light_-_Arlette_FiranRDX.png" group-title="Music",XITE Reggae Vibes (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
+#EXTINF:-1 tvg-id="XITERockxMetal.nl@US" tvg-name="XITE Rock x Metal (1080p)" tvg-logo="https://i.imgur.com/uIIUIuN.png" group-title="Music",XITE Rock x Metal (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
+#EXTINF:-1 tvg-id="XITESiempreLatino.us@SD" tvg-name="XITE Siempre Latino (1080p)" tvg-logo="https://i.imgur.com/bwmIEgG.png" group-title="Music",XITE Siempre Latino (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
+#EXTINF:-1 tvg-id="YoMTV.us@SD" tvg-name="Yo! MTV (1080p)" tvg-logo="https://images.pluto.tv/channels/654102ed770cf1000866c307/colorLogoPNG.png" group-title="Music",Yo! MTV (1080p)
+#EXTGRP:Music
+#EXTREM:Description: Curated music videos, artist spotlights, concerts, and continuous music streaming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5d14fc31252d35decbc4080b.m3u8

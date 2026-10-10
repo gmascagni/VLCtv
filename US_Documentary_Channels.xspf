@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+  <title>US Documentary &amp; Science Channels</title>
+  <trackList>
+    <track>
+      <location>http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8</location>
+      <title>American Heroes Channel (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/960px-American_Heroes_Channel_logo.svg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>0</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.239.31.26:8989/animalplanet/index.m3u8</location>
+      <title>Animal Planet (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>1</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://193.254.245.162/ANIMAL-PLANET/index.m3u8</location>
+      <title>Animal Planet East HD (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>2</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn.whiplash.cc/whiplash-atlas/index.m3u8</location>
+      <title>Atlas (480p)</title>
+      <image>https://whiplash.cc/assets/img/channels/atlas.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>3</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8</location>
+      <title>Autentic History (1080p)</title>
+      <image>https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png</image>
+      <annotation>Historical documentaries, archaeological explorations, and world history specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>4</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d2ah48mnofquik.cloudfront.net/Backstage.m3u8</location>
+      <title>Backstage (1080p)</title>
+      <image>https://i.imgur.com/qcTNvNU.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>5</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/billerica2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>BATV Educational Channel</title>
+      <image>https://i.imgur.com/eDoJqtg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>6</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8</location>
+      <title>BBC Earth US (1080p)</title>
+      <image>https://i.imgur.com/nGSsUd4.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>7</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8</location>
+      <title>Better Life Nature Channel (480p)</title>
+      <image>https://i.imgur.com/D8Vuw6I.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>8</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/c95700f8-e51c-4a36-ad46-56f70fc9f1d9/playlist.m3u8</location>
+      <title>BritBox Mysteries (1080p)</title>
+      <image>https://i.imgur.com/PJdzoLN.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>9</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdnapisec.kaltura.com/p/2184561/sp/218456100/playManifest/entryId/1_68qxw4eu/format/applehttp/a.m3u8</location>
+      <title>BUTV10 (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/Iv1Fe67.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>10</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cloudflare.tv/hls/live.m3u8</location>
+      <title>Cloudflare TV (720p)</title>
+      <image>https://i.imgur.com/l4m0is8.jpeg</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>11</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8</location>
+      <title>CMAC 2 (720p)</title>
+      <image>https://i.imgur.com/O0sYOED.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>12</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://create.lls.pbs.org/index.m3u8</location>
+      <title>Create (1080p)</title>
+      <image>https://static.wikia.nocookie.net/logopedia/images/4/43/Create_TV_2006.svg/revision/latest/smart/width/386/height/259?cb=20240205233457</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>13</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8</location>
+      <title>Create WMPT</title>
+      <image>https://static.wikia.nocookie.net/logopedia/images/4/43/Create_TV_2006.svg/revision/latest/smart/width/386/height/259?cb=20240205233457</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>14</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8</location>
+      <title>CreaTV Channel 28 (720p)</title>
+      <image>https://i.imgur.com/rvQdzL1.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>15</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-657880c46e4f6a00087404d0.m3u8</location>
+      <title>Crime 360 (720p)</title>
+      <image>https://i.imgur.com/IjtaG1m.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>16</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>Curiosity NOW EN (1080p)</title>
+      <image>https://i.imgur.com/gJ9eMaG.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>17</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dlttx48mxf9m3.cloudfront.net/vod_clients/bolton/live/ch2/video.m3u8</location>
+      <title>CVC Education (480p)</title>
+      <image>https://i.imgur.com/tUgEAUJ.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>18</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dk0n7jh428tzj.cloudfront.net/v1/dangertv/samsungheadend_us/latest/main/hls/playlist.m3u8</location>
+      <title>Danger TV (720p)</title>
+      <image>https://i.imgur.com/4aTk45R.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>19</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1si3n1st4nkgb.cloudfront.net/10502/88896029/hls/master.m3u8?ads.xumo_channelId=88896029</location>
+      <title>Dateline 24/7 (1080p)</title>
+      <image>https://i.imgur.com/8mAJuut.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>20</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/derrynh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>DerryTV 23 (720p)</title>
+      <image>https://i.imgur.com/MRR6UL3.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>21</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8</location>
+      <title>Detroit Channel 22</title>
+      <image>https://i.imgur.com/zAdcg9m.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>22</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://212.5.144.156:8080/discovery/index.m3u8</location>
+      <title>Discovery Channel (1080p) [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>23</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://video.oct.dc.gov/out/u/DKN.m3u8</location>
+      <title>DKN (1080p)</title>
+      <image>https://i.imgur.com/DIau0GB.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>24</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8</location>
+      <title>Documentary+ (1080p)</title>
+      <image>https://i.imgur.com/x57klfS.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>25</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://docurama-plex-ingest.cinedigm.com/playlist.m3u8</location>
+      <title>Docurama (1080p)</title>
+      <image>https://i.imgur.com/2248nxX.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>26</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-62e92392a3e6270007f562e8.m3u8</location>
+      <title>Forensic Files</title>
+      <image>https://i.imgur.com/V5vvuLK.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>27</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-1.streamhoster.com/pl_122/amlst:206018-2645902/playlist.m3u8</location>
+      <title>Genesis Science Network (720p)</title>
+      <image>https://i.imgur.com/CFAn996.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>28</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8</location>
+      <title>Gillette Public Access Television Channel 189</title>
+      <image>https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>29</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8</location>
+      <title>HCTV Educational Access Channel</title>
+      <image>https://i.imgur.com/bVbpgiD.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>30</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://212.5.144.156:8080/history/index.m3u8</location>
+      <title>History (United States) (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png</image>
+      <annotation>Historical documentaries, archaeological explorations, and world history specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>31</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://lds-timeline-rakuten.amagi.tv/playlist.m3u8</location>
+      <title>History Hit (1080p)</title>
+      <image>https://i.imgur.com/ulHoqlP.png</image>
+      <annotation>Historical documentaries, archaeological explorations, and world history specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>32</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8</location>
+      <title>HKTV (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/AYzdlMz.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>33</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60807fd5db701400078219c2.m3u8</location>
+      <title>Ink Master</title>
+      <image>https://images.pluto.tv/channels/655f2d713944b60008bc7e90/colorLogoPNG.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>34</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://212.5.144.156:8080/id/index.m3u8</location>
+      <title>Investigation Discovery (1080p) [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>35</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8</location>
+      <title>INWILD (1080p)</title>
+      <image>https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>36</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8</location>
+      <title>KBEV (1080p)</title>
+      <image>https://i.imgur.com/YFVrphZ.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>37</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8</location>
+      <title>KCAT (1080p)</title>
+      <image>https://i.imgur.com/ZAypRkk.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>38</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://securestream10.champds.com/LIVE/KOCTCALIVE2/KOCTCALIVE2.m3u8</location>
+      <title>KOCT Channel 19 (720p)</title>
+      <image>https://i.imgur.com/6C71KwP.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>39</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8</location>
+      <title>LA36 (1080p)</title>
+      <image>https://i.imgur.com/JxTzUEq.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>40</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/leominster2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>Leominster TV Educational (720p)</title>
+      <image>https://i.imgur.com/Cy94oLl.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>41</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv/bamus-lovenaturespanish-roku/playlist.m3u8</location>
+      <title>Love Nature en Espanol (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/7uNdcWB.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>42</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv/playlist/amg01576-blueskyeenterta-lovepetsemea-samsungse/playlist.m3u8</location>
+      <title>Love Pets (1080p)</title>
+      <image>https://lovepetstv.com/wp-content/uploads/2022/12/LovePets_Logo_SecondaryColor.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>43</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8</location>
+      <title>Love The Planet (1080p)</title>
+      <image>https://i.imgur.com/RBcD49X.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>44</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3j95sejv6mybj.cloudfront.net/Lucky_Dog.m3u8</location>
+      <title>Lucky Dog (720p)</title>
+      <image>https://i.imgur.com/1j4gwL3.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>45</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungau/playlist.m3u8</location>
+      <title>MagellanTV Now (1080p)</title>
+      <image>https://i.imgur.com/gEraSp5.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>46</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8</location>
+      <title>MCN6 Arts Channel (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/j6IiysJ.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>47</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://5b200f5268ceb.streamlock.net/MCPSS/MCPSS247.smil/playlist.m3u8</location>
+      <title>MCPSS TV</title>
+      <image>https://i.imgur.com/qo5sk1g.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>48</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8</location>
+      <title>Midpen Media Center Channel 28 (720p)</title>
+      <image>https://i.imgur.com/RPJiolQ.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>49</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://frndly.keralive.workers.dev/v1/master/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/ab44a8245afe413db1169317ee5cda08/index.m3u8?type=ae2</location>
+      <title>Military History (720p)</title>
+      <image>https://i.imgur.com/S1SnpoA.png</image>
+      <annotation>Historical documentaries, archaeological explorations, and world history specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>50</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+        <vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-monroe-public-access.cablecast.tv/live-4/live/live.m3u8</location>
+      <title>Monroe Community Media Education Channel</title>
+      <image>https://i.imgur.com/gS4x0uX.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>51</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8</location>
+      <title>MSTV (1080p)</title>
+      <image>https://i.imgur.com/x0lJqSp.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>52</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1c73nj8qxp55a.cloudfront.net/Mystery_Science_Theater_3000.m3u8</location>
+      <title>Mystery Science Theater 3000 (1080p)</title>
+      <image>https://i.imgur.com/8KWjY4o.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>53</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/nashuanh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>Nashua ETV (720p)</title>
+      <image>https://i.imgur.com/iv9Vfcb.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>54</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/natickpegasus1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>Natick Education Channel (720p)</title>
+      <image>https://i.imgur.com/VKU9qwy.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>55</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://212.5.144.156:8080/natgeo/index.m3u8</location>
+      <title>National Geographic (United States) (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>56</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://198.58.104.90:8989/natgeo/index.m3u8</location>
+      <title>National Geographic (United States) HD East (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>57</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://198.58.104.90:8989/natgeowild/index.m3u8</location>
+      <title>National Geographic Wild (United States) HD East (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>58</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8</location>
+      <title>Payam Javan TV (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/GYfsHh9.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>59</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pbs.lls.cdn.pbs.org/est/index.m3u8</location>
+      <title>PBS (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>60</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://ketsdt.lls.pbs.org/out/v1/03c094dbd7874a4a8c3fe9fb10081bdb/index.m3u8</location>
+      <title>PBS KETS [Geo-blocked]</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>61</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8</location>
+      <title>PBS KHET (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>62</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8</location>
+      <title>PBS KMOS-TV (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>63</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8</location>
+      <title>PBS KQED (1080p)</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>64</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8</location>
+      <title>PBS KUON-TV (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>65</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8</location>
+      <title>PBS KVIE (1080p)</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>66</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8</location>
+      <title>PBS WEDQ (1080p)</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>67</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8</location>
+      <title>PBS WJXT (720p)</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>68</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8</location>
+      <title>PBS WNJT (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/8c8isLj.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>69</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8</location>
+      <title>PBS Nature (1080p)</title>
+      <image>https://i.imgur.com/Brry7cZ.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>70</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8</location>
+      <title>Pluto TV History</title>
+      <image>https://i.imgur.com/XkQD5kM.png</image>
+      <annotation>Historical documentaries, archaeological explorations, and world history specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>71</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8</location>
+      <title>Pluto TV Paranormal (United States)</title>
+      <image>https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>72</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8</location>
+      <title>Pluto TV Science (United States)</title>
+      <image>https://i.imgur.com/uhunRoU.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>73</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5812be1c249444e05d09cc50.m3u8</location>
+      <title>Pluto TV True Crime (United States)</title>
+      <image>https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>74</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-broadcast-psdschools.cablecast.tv/live-6/live/live.m3u8</location>
+      <title>PSD TV (720p)</title>
+      <image>https://i.imgur.com/djT0Q8q.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>75</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://lds-realwild-samsungau.amagi.tv/playlist.m3u8</location>
+      <title>Real Wild (1080p)</title>
+      <image>https://i.imgur.com/T9HHmAO.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>76</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8</location>
+      <title>Red Apple 21 (480p) [Not 24/7]</title>
+      <image>https://i.imgur.com/ICcQUCH.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>77</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_REELZ/index.m3u8</location>
+      <title>Reelz (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>78</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pb-olm46bexcljjf.akamaized.net/Samsung_Wild_Life.m3u8</location>
+      <title>Samsung Wildlife (720p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/x06npU2.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>79</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>SMCTV Channel 24 (720p)</title>
+      <image>https://i.imgur.com/4Autljp.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>80</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8</location>
+      <title>Smithsonian Channel Selects (United States)</title>
+      <image>https://i.imgur.com/Kt5j8Vr.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>81</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5812bcc8237a6ff45d16c407.m3u8</location>
+      <title>Spike Pluto TV</title>
+      <image>https://i.imgur.com/woY8Ecb.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>82</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8</location>
+      <title>St Lucie Public Schools</title>
+      <image>https://i.imgur.com/wnB0fWG.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>83</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6127e12ed140e900077e7b6f.m3u8</location>
+      <title>Teen Mom (United States)</title>
+      <image>https://i.imgur.com/8o3ClCV.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>84</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8</location>
+      <title>Terra Mater WILD English (1080p)</title>
+      <image>https://i.imgur.com/EbMK3Ph.png</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>85</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://fast-channels.sinclairstoryline.com/THENEST/index.m3u8</location>
+      <title>The Nest (1080p)</title>
+      <image>https://iili.io/JGqD21e.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>86</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-188.frequency.stream/dist/glewedtv/188/hls/master/playlist.m3u8</location>
+      <title>True History (720p)</title>
+      <image>https://i.imgur.com/1BHDGXx.png</image>
+      <annotation>Historical documentaries, archaeological explorations, and world history specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>87</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8</location>
+      <title>TUTV (1080p)</title>
+      <image>https://i.imgur.com/At0BPeA.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>88</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8</location>
+      <title>UCTV (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/ehMz9T5.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>89</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3ify425qsio2d.cloudfront.net/playlist.m3u8</location>
+      <title>Unidentified (1080p)</title>
+      <image>https://i.imgur.com/naYszow.jpg</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>90</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8</location>
+      <title>Wild 'N Out</title>
+      <image>https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true</image>
+      <annotation>Wildlife expeditions, animal adventures, and breathtaking nature documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>91</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://world.lls.pbs.org/index.m3u8</location>
+      <title>World Channel (1080p)</title>
+      <image>https://worldchannel.org/static/images/logo-world-channel.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>92</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://wgtvdt3.lls.pbs.org/wgtvdt3-cmaf-hls.m3u8</location>
+      <title>World Channel WGTV (1080p)</title>
+      <image>https://worldchannel.org/static/images/logo-world-channel.png</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>93</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-2.streamhoster.com/pl_120/amlst:203530-1426406/playlist.m3u8</location>
+      <title>WPS-TV (360p)</title>
+      <image>https://i.imgur.com/zwzmwse.jpg</image>
+      <annotation>Educational documentaries, science explorations, history, and real-world investigations.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>94</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8</location>
+      <title>NASA TV Public (720p HD)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg</image>
+      <annotation>Live rocket launches, space station coverage, astronaut missions, and astronomy documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>95</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8</location>
+      <title>NASA TV Media (720p HD)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg</image>
+      <annotation>Live rocket launches, space station coverage, astronaut missions, and astronomy documentaries.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>96</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+  </trackList>
+</playlist>

@@ -1,0 +1,3092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLC US Channel Guide — Live TV & EPG</title>
+  <link rel="icon" href="https://images.videolan.org/images/icons-vlc/vlc.ico" type="image/x-icon">
+  
+  <!-- Modern Sans & Monospace Font Stacks (Inter & JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="channels_data.js"></script>
+
+  <style>
+
+    /* ==========================================================================
+       BRUSHED ALUMINUM BEZELS, RAISED & EMBOSSED LUXURY CARDS
+       Tactile transitions from light brushed highlights to dark precision milled metal
+       ========================================================================== */
+    :root {
+      /* Brushed Aluminum & Precision Metal Palette */
+      --al-sheen: #ffffff;
+      --al-highlight: #e8ecf1;
+      --al-mid: #cfd6df;
+      --al-base: #a6b2c0;
+      --al-slate: #738090;
+      --al-shadow: #2f3742;
+      --al-dark-chassis: #12161c;
+      --al-canvas-bg: #0b0e13;
+
+      /* Surface Gradients (Transitions from lighter to darker brushed metal) */
+      --grad-brushed-bezel: linear-gradient(145deg, #e4e9f0 0%, #cbd4de 35%, #9faec0 70%, #6e7d90 100%);
+      --grad-brushed-face: linear-gradient(135deg, rgba(38, 46, 58, 0.92) 0%, rgba(22, 27, 36, 0.96) 50%, rgba(13, 17, 23, 0.98) 100%);
+      --grad-card-embossed: linear-gradient(145deg, rgba(45, 54, 68, 0.88) 0%, rgba(24, 30, 40, 0.94) 55%, rgba(14, 18, 26, 0.97) 100%);
+      --grad-card-hover: linear-gradient(145deg, rgba(62, 74, 92, 0.92) 0%, rgba(32, 40, 52, 0.96) 50%, rgba(16, 21, 29, 0.98) 100%);
+      --grad-button-metal: linear-gradient(180deg, #d8e0ea 0%, #adbccc 45%, #8899ac 50%, #6f8094 100%);
+      --grad-button-active: linear-gradient(180deg, #66778b 0%, #899ab0 50%, #b2c0d0 100%);
+      --grad-vlc-amber: linear-gradient(135deg, #ff9d26 0%, #e66a00 60%, #cc5200 100%);
+
+      /* Text Hierarchy */
+      --text-bright: #ffffff;
+      --text-primary: #edf2f7;
+      --text-secondary: #a6b4c4;
+      --text-muted: #748394;
+      --text-glow-amber: #ffaa33;
+
+      /* Hairline High-Precision Borders & Bevels */
+      --border-bezel-outer: rgba(255, 255, 255, 0.35);
+      --border-bezel-rim: rgba(255, 255, 255, 0.15);
+      --border-bezel-groove: rgba(0, 0, 0, 0.7);
+      --border-bezel-subtle: rgba(255, 255, 255, 0.08);
+
+      /* Embossed 3D Shadows & Specular Glows */
+      --shadow-embossed-card: 
+        0 14px 34px -8px rgba(0, 0, 0, 0.75),
+        0 4px 12px rgba(0, 0, 0, 0.45),
+        inset 0 1px 1px rgba(255, 255, 255, 0.35),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.5);
+
+      --shadow-embossed-hover: 
+        0 22px 46px -10px rgba(0, 0, 0, 0.9),
+        0 6px 18px rgba(0, 160, 255, 0.12),
+        inset 0 1px 2px rgba(255, 255, 255, 0.55),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.6);
+
+      --shadow-metal-inset: inset 0 2px 5px rgba(0, 0, 0, 0.8), inset 0 -1px 1px rgba(255, 255, 255, 0.15);
+
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --radius-xl: 20px;
+      --radius-full: 9999px;
+
+      --ease-tactile: cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-fast: 0.15s var(--ease-tactile);
+      --transition-normal: 0.22s var(--ease-tactile);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+      background: rgba(255, 157, 38, 0.35);
+      color: #ffffff;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0b0e13;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #6c7c8f 0%, #3a4554 100%);
+      border-radius: var(--radius-full);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg, #9cb0c5 0%, #536274 100%);
+    }
+
+    body {
+      background-color: var(--al-canvas-bg);
+      background-image: 
+        radial-gradient(1300px 600px at 50% -120px, rgba(166, 178, 192, 0.16), transparent 75%),
+        radial-gradient(900px 500px at 90% 15%, rgba(68, 86, 108, 0.14), transparent 60%),
+        radial-gradient(850px 550px at 10% 85%, rgba(45, 58, 74, 0.18), transparent 70%);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-size: 0.875rem;
+      line-height: 1.55;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* ==========================================================================
+       HEADER & BRUSHED ALUMINUM BEZEL
+       ========================================================================== */
+    header {
+      background: linear-gradient(180deg, rgba(30, 37, 47, 0.94) 0%, rgba(18, 23, 31, 0.96) 100%);
+      border-bottom: 2px solid #3c4858;
+      box-shadow: 
+        0 8px 26px rgba(0, 0, 0, 0.65), 
+        inset 0 1px 0 rgba(255, 255, 255, 0.28),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.75);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .header-container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      user-select: none;
+    }
+
+    .vlc-cone-icon {
+      width: 44px;
+      height: 44px;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.65)) drop-shadow(0 0 14px rgba(255, 140, 0, 0.45));
+      transition: transform var(--transition-normal);
+      flex-shrink: 0;
+    }
+
+    .vlc-cone-icon:hover {
+      transform: scale(1.06) rotate(-2deg);
+    }
+
+    .brand-title h1 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: #ffffff;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+      line-height: 1.25;
+    }
+
+    .brand-title h1 span.badge {
+      background: linear-gradient(180deg, #d8e2ec 0%, #9cb0c4 50%, #68798e 100%);
+      color: #0d1218;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: var(--radius-full);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .brand-subtitle {
+      font-size: 0.8125rem;
+      color: var(--text-secondary);
+      margin-top: 0.15rem;
+      font-weight: 400;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    /* Machined Metal Tactile Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.52rem 0.95rem;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      user-select: none;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .btn:active {
+      transform: translateY(1px) scale(0.98);
+    }
+
+    .btn-vlc {
+      background: var(--grad-vlc-amber);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-bottom: 2px solid #8f3700;
+      box-shadow: 0 4px 12px rgba(230, 106, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn-vlc:hover {
+      background: linear-gradient(135deg, #ffae42 0%, #ff7e00 60%, #e65500 100%);
+      box-shadow: 0 6px 18px rgba(230, 106, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: linear-gradient(180deg, #374251 0%, #252e3a 50%, #1c222b 100%);
+      color: var(--text-primary);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid #0f141a;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    }
+
+    .btn-secondary:hover {
+      background: linear-gradient(180deg, #49576a 0%, #323d4c 50%, #252c37 100%);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background: linear-gradient(180deg, rgba(40, 48, 60, 0.8) 0%, rgba(20, 26, 34, 0.9) 100%);
+      color: var(--text-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+
+    .btn-outline:hover {
+      background: linear-gradient(180deg, rgba(58, 69, 85, 0.9) 0%, rgba(30, 38, 48, 0.95) 100%);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.28);
+      transform: translateY(-1px);
+    }
+
+    /* Sub-header Metric Ribbon */
+    .hero-stats-bar {
+      background: linear-gradient(180deg, #151a22 0%, #0e1218 100%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 0.7rem 1.5rem;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+
+    .hero-stats-container {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .stats-badges {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    .stat-item strong {
+      color: var(--text-primary);
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.875rem;
+    }
+
+    .playlist-download-pills {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+
+    .download-pill {
+      font-size: 0.75rem;
+      padding: 0.3rem 0.7rem;
+      border-radius: var(--radius-full);
+      background: linear-gradient(180deg, #2a3340 0%, #1a2029 100%);
+      color: #d8e4f0;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-weight: 600;
+      transition: all var(--transition-fast);
+      user-select: none;
+    }
+
+    .download-pill:active {
+      transform: translateY(1px) scale(0.97);
+    }
+
+    .download-pill:hover {
+      background: linear-gradient(180deg, #3d4a5b 0%, #26303d 100%);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-1px);
+    }
+
+    /* Workspace */
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      flex: 1;
+      width: 100%;
+    }
+
+    /* ==========================================================================
+       BEZEL CONTROLS & EMBOSSED WORKBENCH
+       ========================================================================== */
+    .controls-wrapper {
+      background: var(--grad-brushed-face);
+      border: 2px solid #4a5768;
+      border-bottom: 3px solid #1c222b;
+      border-radius: var(--radius-xl);
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 
+        0 16px 36px rgba(0, 0, 0, 0.7),
+        inset 0 1px 2px rgba(255, 255, 255, 0.3),
+        inset 0 -1px 3px rgba(0, 0, 0, 0.6);
+      position: relative;
+    }
+
+    /* Brushed Aluminum Top Bevel Accent */
+    .controls-wrapper::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.05));
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 0.85rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.15rem;
+    }
+
+    .search-input-box {
+      flex: 1;
+      min-width: 270px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 1rem;
+      color: #9cb0c5;
+      opacity: 0.9;
+      pointer-events: none;
+      transition: color var(--transition-fast);
+    }
+
+    .search-input-box input {
+      width: 100%;
+      padding: 0.75rem 3.5rem 0.75rem 2.85rem;
+      background: #0f131a;
+      border: 1px solid #364252;
+      border-top: 1px solid #232c37;
+      border-bottom: 1px solid #4a576a;
+      border-radius: var(--radius-md);
+      color: #ffffff;
+      font-size: 0.9rem;
+      font-family: inherit;
+      outline: none;
+      transition: all var(--transition-fast);
+      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.85), 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+
+    .search-input-box input:focus {
+      border-color: #8da2bb;
+      box-shadow: 
+        inset 0 2px 6px rgba(0, 0, 0, 0.85),
+        0 0 0 2px rgba(160, 185, 215, 0.3),
+        0 0 14px rgba(160, 185, 215, 0.25);
+      background: #131821;
+    }
+
+    .search-input-box input::placeholder {
+      color: #647385;
+      font-weight: 400;
+    }
+
+    .search-kbd-hint {
+      position: absolute;
+      right: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      pointer-events: none;
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 0.85rem;
+      background: none;
+      border: none;
+      color: var(--text-secondary);
+      cursor: pointer;
+      display: none;
+      font-size: 1.15rem;
+      line-height: 1;
+      padding: 0.25rem;
+      border-radius: var(--radius-sm);
+      transition: color var(--transition-fast);
+    }
+
+    .search-clear-btn:hover {
+      color: #ffffff;
+    }
+
+    .filter-options {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-select {
+      background: linear-gradient(180deg, #2b3442 0%, #1c222c 100%);
+      color: var(--text-primary);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+      padding: 0.68rem 2rem 0.68rem 0.85rem;
+      border-radius: var(--radius-md);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      transition: all var(--transition-fast);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23cbd5e1' stroke-width='2.5'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      appearance: none;
+      -webkit-appearance: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .filter-select:hover {
+      border-color: rgba(255, 255, 255, 0.35);
+      background-color: #374353;
+    }
+
+    .filter-select:focus-visible {
+      border-color: #a0b9d7;
+      box-shadow: 0 0 0 2px rgba(160, 185, 215, 0.4);
+    }
+
+    .lang-toggle-btn {
+      background: linear-gradient(180deg, #2b3442 0%, #1c222c 100%);
+      color: var(--text-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+      padding: 0.68rem 0.95rem;
+      border-radius: var(--radius-md);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: all var(--transition-fast);
+      user-select: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .lang-toggle-btn:active {
+      transform: translateY(1px) scale(0.97);
+    }
+
+    .lang-toggle-btn:hover {
+      background: linear-gradient(180deg, #3a4758 0%, #252e3b 100%);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    .lang-toggle-btn.active {
+      background: linear-gradient(180deg, #3b5068 0%, #223447 100%);
+      color: #ffffff;
+      border-color: #8daecf;
+      box-shadow: 0 0 12px rgba(141, 174, 207, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    }
+
+    .view-toggles {
+      display: flex;
+      background: #0f131a;
+      border: 1px solid #364252;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      padding: 2px;
+      gap: 2px;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .view-toggle-btn {
+      background: none;
+      border: none;
+      color: #8da0b5;
+      padding: 0.55rem 0.85rem;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      transition: all var(--transition-fast);
+      user-select: none;
+    }
+
+    .view-toggle-btn:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .view-toggle-btn.active {
+      background: linear-gradient(180deg, #3f4d60 0%, #263140 100%);
+      color: #ffffff;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    }
+
+    /* Category Navigation */
+    .categories-bar {
+      display: flex;
+      gap: 0.45rem;
+      overflow-x: auto;
+      padding-bottom: 0.35rem;
+      scrollbar-width: thin;
+      user-select: none;
+    }
+
+    .cat-btn {
+      background: linear-gradient(180deg, #242c38 0%, #171d26 100%);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.65);
+      color: var(--text-secondary);
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      white-space: nowrap;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      transition: all var(--transition-fast);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+
+    .cat-btn:active {
+      transform: translateY(1px) scale(0.96);
+    }
+
+    .cat-btn:hover {
+      background: linear-gradient(180deg, #374353 0%, #222a36 100%);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.28);
+      transform: translateY(-1px);
+    }
+
+    .cat-btn.active {
+      background: linear-gradient(180deg, #4f637b 0%, #2d3b4c 100%);
+      color: #ffffff;
+      border-color: #a4bedb;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6), 0 0 14px rgba(164, 190, 219, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.4);
+    }
+
+    .cat-badge {
+      background: rgba(0, 0, 0, 0.55);
+      font-size: 0.7rem;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 0.05rem 0.45rem;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      color: #e2e8f0;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .results-info-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.15rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      padding: 0 0.25rem;
+    }
+
+    /* ==========================================================================
+       CHANNEL CARDS: EMBOSSED & RAISED WITH WATERMARK LOGO BACKGROUNDS
+       ========================================================================== */
+    .channel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .channel-card {
+      background: var(--grad-card-embossed);
+      border: 1px solid #4a5768;
+      border-top: 1px solid #6b7a8f;
+      border-bottom: 2px solid #141a22;
+      border-radius: var(--radius-lg);
+      padding: 1.15rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.85rem;
+      transition: all var(--transition-normal);
+      box-shadow: var(--shadow-embossed-card);
+      position: relative;
+      overflow: hidden;
+      animation: cardEntrance 0.22s var(--ease-tactile);
+    }
+
+    @keyframes cardEntrance {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Channel Logo Watermark Background */
+    .channel-card-watermark {
+      position: absolute;
+      right: -25px;
+      bottom: -25px;
+      width: 170px;
+      height: 170px;
+      opacity: 0.07;
+      pointer-events: none;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      filter: grayscale(85%) contrast(150%);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      z-index: 0;
+    }
+
+    .channel-card:hover .channel-card-watermark {
+      opacity: 0.15;
+      transform: scale(1.08) rotate(-4deg);
+      filter: grayscale(40%) contrast(130%);
+    }
+
+    /* Specular Bezel Edge on Top of Card */
+    .channel-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, 0.45) 50%, transparent 95%);
+      opacity: 0.7;
+      transition: opacity var(--transition-normal);
+      z-index: 1;
+    }
+
+    .channel-card:hover {
+      background: var(--grad-card-hover);
+      border-color: #798b9f;
+      border-top-color: #9cb0c5;
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-embossed-hover);
+    }
+
+    .channel-card:hover::before {
+      opacity: 1;
+    }
+
+    .channel-card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-container {
+      width: 52px;
+      height: 52px;
+      background: radial-gradient(circle at 35% 35%, #1f2732 0%, #0d1117 100%);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      overflow: hidden;
+      padding: 5px;
+      box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.5), 
+        inset 0 1px 1px rgba(255, 255, 255, 0.3),
+        inset 0 -1px 3px rgba(0, 0, 0, 0.7);
+      transition: border-color var(--transition-fast);
+    }
+
+    .channel-card:hover .logo-container {
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .logo-container img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .logo-fallback {
+      font-size: 1.4rem;
+      color: var(--text-muted);
+    }
+
+    .channel-info {
+      flex: 1;
+      overflow: hidden;
+      min-width: 0;
+    }
+
+    .channel-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.02em;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .channel-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .badge-cat {
+      font-size: 0.6875rem;
+      padding: 0.12rem 0.45rem;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(180deg, #323d4c 0%, #1c232c 100%);
+      color: #d8e4f0;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      font-weight: 600;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .badge-quality {
+      font-size: 0.6875rem;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 0.12rem 0.45rem;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .badge-1080p {
+      background: linear-gradient(180deg, rgba(52, 211, 153, 0.25) 0%, rgba(16, 185, 129, 0.15) 100%);
+      color: #6ee7b7;
+      border: 1px solid rgba(52, 211, 153, 0.4);
+    }
+
+    .badge-720p {
+      background: linear-gradient(180deg, rgba(96, 165, 250, 0.25) 0%, rgba(59, 130, 246, 0.15) 100%);
+      color: #93c5fd;
+      border: 1px solid rgba(96, 165, 250, 0.4);
+    }
+
+    .badge-sd {
+      background: linear-gradient(180deg, rgba(148, 163, 184, 0.22) 0%, rgba(100, 116, 139, 0.12) 100%);
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+    }
+
+    .channel-desc {
+      font-size: 0.8125rem;
+      color: #b5c2d1;
+      line-height: 1.5;
+      margin-top: 0.2rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex-grow: 1;
+      position: relative;
+      z-index: 1;
+    }
+
+    .table-desc {
+      font-size: 0.78rem;
+      color: #a4b4c6;
+      margin-top: 0.2rem;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 380px;
+    }
+
+    .badge-lang {
+      font-size: 0.6875rem;
+      padding: 0.12rem 0.42rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      background: linear-gradient(180deg, rgba(245, 158, 11, 0.22) 0%, rgba(217, 119, 6, 0.12) 100%);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+    }
+
+    .badge-lang-spa {
+      background: linear-gradient(180deg, rgba(234, 179, 8, 0.22) 0%, rgba(202, 138, 4, 0.12) 100%);
+      color: #fde047;
+      border: 1px solid rgba(234, 179, 8, 0.35);
+    }
+
+    .channel-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-top: 0.35rem;
+      padding-top: 0.65rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      z-index: 1;
+    }
+
+    .btn-action {
+      flex: 1;
+      padding: 0.45rem 0.6rem;
+      font-size: 0.775rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+      background: linear-gradient(180deg, #2b3542 0%, #19202a 100%);
+      color: var(--text-primary);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      user-select: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .btn-action:active {
+      transform: translateY(1px) scale(0.97);
+    }
+
+    .btn-action:hover {
+      background: linear-gradient(180deg, #3d4a5b 0%, #252d3a 100%);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #ffffff;
+    }
+
+    .btn-action.btn-vlc-action {
+      background: var(--grad-vlc-amber);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-bottom: 2px solid #8f3700;
+      box-shadow: 0 2px 8px rgba(230, 106, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    }
+
+    .btn-action.btn-vlc-action:hover {
+      background: linear-gradient(135deg, #ffae42 0%, #ff7e00 60%, #e65500 100%);
+      box-shadow: 0 4px 12px rgba(230, 106, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+      transform: translateY(-1px);
+    }
+
+    .btn-action.btn-play-web {
+      background: linear-gradient(180deg, #384656 0%, #222c37 100%);
+      border-color: rgba(255, 255, 255, 0.22);
+      color: #e2ecf6;
+    }
+
+    .btn-action.btn-play-web:hover {
+      background: linear-gradient(180deg, #495b6e 0%, #2d3946 100%);
+      color: #ffffff;
+      border-color: #8da2bb;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+      transform: translateY(-1px);
+    }
+
+    /* ==========================================================================
+       CABLE TV GUIDE LINEAR ROW VIEW (EPG STRIP)
+       ========================================================================== */
+    .channel-table-container {
+      background: linear-gradient(180deg, #18202b 0%, #0e131a 100%);
+      border: 2px solid #455263;
+      border-bottom: 4px solid #141a22;
+      border-radius: var(--radius-lg);
+      overflow-x: auto;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    }
+
+    .channel-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.85rem;
+      text-align: left;
+      min-width: 860px;
+    }
+
+    .channel-table th {
+      background: linear-gradient(180deg, #2b3543 0%, #171e27 100%);
+      padding: 0.85rem 1.1rem;
+      color: #9ab0c7;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 2px solid #3d4a5c;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    .channel-table tbody tr {
+      background: #121822;
+      transition: all 0.15s ease-in-out;
+      border-left: 3px solid transparent;
+    }
+
+    .channel-table tbody tr:nth-child(even) {
+      background: #161e2a;
+    }
+
+    .channel-table tbody tr:hover {
+      background: linear-gradient(90deg, #222d3d 0%, #1a2330 100%);
+      border-left: 3px solid var(--accent-vlc);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+    }
+
+    .channel-table td {
+      padding: 0.75rem 1.1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      vertical-align: middle;
+    }
+
+    .cable-ch-number {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.875rem;
+      font-weight: 800;
+      color: #ff9922;
+      background: linear-gradient(180deg, #242c38 0%, #13171e 100%);
+      padding: 0.35rem 0.6rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 4px rgba(0,0,0,0.4);
+      display: inline-block;
+      min-width: 58px;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+
+    .cable-station-cell {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .cable-logo-frame {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      background: radial-gradient(circle at 50% 30%, #1f2733 0%, #0d1117 100%);
+      border: 1.5px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      padding: 3px;
+    }
+
+    .cable-logo-frame img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .cable-station-meta {
+      min-width: 0;
+    }
+
+    .cable-station-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #ffffff;
+      line-height: 1.25;
+      margin-bottom: 0.25rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 240px;
+    }
+
+    .cable-sub-badges {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+    }
+
+    .cable-epg-cell {
+      min-width: 0;
+    }
+
+    .cable-live-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.6875rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 0.15rem 0.45rem;
+      border-radius: var(--radius-sm);
+      margin-bottom: 0.25rem;
+    }
+
+    .cable-live-dot {
+      width: 6px;
+      height: 6px;
+      background: #ef4444;
+      border-radius: 50%;
+      box-shadow: 0 0 6px #ef4444;
+      animation: livePulseDot 1.5s infinite;
+    }
+
+    @keyframes livePulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .cable-synopsis {
+      font-size: 0.8125rem;
+      color: #9db1c7;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 580px;
+    }
+
+    /* ==========================================================================
+       MODAL DIALOGS: HEAVY MILLED METAL BEZEL
+       ========================================================================== */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(6, 8, 12, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 1.5rem;
+    }
+
+    .modal-content {
+      background: linear-gradient(180deg, #1c232e 0%, #10151c 100%);
+      border: 2px solid #5a697c;
+      border-bottom: 3px solid #141a22;
+      border-radius: var(--radius-xl);
+      width: 100%;
+      max-width: 900px;
+      box-shadow: 
+        0 28px 70px rgba(0, 0, 0, 0.95),
+        inset 0 1px 2px rgba(255, 255, 255, 0.4),
+        inset 0 -1px 3px rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      animation: modalFadeIn 0.22s var(--ease-tactile);
+      position: relative;
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: scale(0.97) translateY(8px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-header {
+      padding: 1rem 1.25rem;
+      background: linear-gradient(180deg, #27313e 0%, #171d26 100%);
+      border-bottom: 2px solid #384554;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    .modal-header h2 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: #ffffff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-close-btn {
+      background: none;
+      border: none;
+      color: var(--text-secondary);
+      font-size: 1.4rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0.25rem 0.5rem;
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-fast);
+    }
+
+    .modal-close-btn:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      background: #000000;
+      aspect-ratio: 16 / 9;
+      box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.9);
+    }
+
+    .video-wrapper video {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .player-status-badge {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: rgba(10, 14, 20, 0.85);
+      backdrop-filter: blur(8px);
+      padding: 0.3rem 0.65rem;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #34d399;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      border: 1px solid rgba(52, 211, 153, 0.4);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: var(--radius-full);
+      background: #34d399;
+      box-shadow: 0 0 8px #34d399;
+    }
+
+    .modal-info-panel {
+      padding: 1.15rem 1.35rem;
+      background: linear-gradient(180deg, #181f28 0%, #10141a 100%);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .modal-channel-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .modal-channel-desc {
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: #d1dce8;
+    }
+
+    .modal-channel-tags {
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .modal-epg-box {
+      background: #0d1117;
+      border: 1px solid #364354;
+      border-bottom: 2px solid #10141c;
+      border-radius: var(--radius-md);
+      padding: 0.85rem 1rem;
+      position: relative;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .epg-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.4rem;
+      font-size: 0.75rem;
+    }
+
+    .epg-live-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-weight: 700;
+      color: #ff9d26;
+      letter-spacing: 0.05em;
+    }
+
+    .epg-pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: var(--radius-full);
+      background: #ff9d26;
+      box-shadow: 0 0 10px #ff9d26;
+      animation: pulseAnimation 1.6s infinite ease-in-out;
+    }
+
+    @keyframes pulseAnimation {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.3); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .epg-time-range {
+      color: #93a4b6;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+    }
+
+    .epg-prog-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .epg-prog-desc {
+      font-size: 0.8125rem;
+      color: #b2c2d2;
+      line-height: 1.45;
+    }
+
+    .epg-progress-bar-wrap {
+      margin-top: 0.65rem;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-full);
+      overflow: hidden;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .epg-progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #ff9d26 0%, #ffbb55 100%);
+      box-shadow: 0 0 8px rgba(255, 157, 38, 0.6);
+      border-radius: var(--radius-full);
+      transition: width 0.3s ease;
+    }
+
+    .player-toolbar {
+      padding: 0.65rem 1.25rem;
+      background: linear-gradient(180deg, #1b222c 0%, #12161e 100%);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .player-tool-btn {
+      background: linear-gradient(180deg, #2c3644 0%, #1c222c 100%);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+      color: var(--text-primary);
+      padding: 0.45rem 0.8rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      transition: all var(--transition-fast);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .player-tool-btn:hover {
+      background: linear-gradient(180deg, #3a4758 0%, #242c38 100%);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .player-tool-btn.active {
+      background: linear-gradient(180deg, rgba(52, 211, 153, 0.3) 0%, rgba(16, 185, 129, 0.2) 100%);
+      color: #6ee7b7;
+      border-color: rgba(52, 211, 153, 0.55);
+      box-shadow: 0 0 10px rgba(52, 211, 153, 0.25);
+    }
+
+    .player-tool-translate {
+      background: linear-gradient(180deg, #37475a 0%, #222e3c 100%);
+      color: #93c5fd;
+      border-color: rgba(147, 197, 253, 0.35);
+    }
+
+    .player-tool-translate:hover {
+      background: linear-gradient(180deg, #495d75 0%, #2d3d4f 100%);
+      border-color: rgba(147, 197, 253, 0.6);
+      transform: translateY(-1px);
+    }
+
+    .modal-footer {
+      padding: 1rem 1.25rem;
+      background: linear-gradient(180deg, #151a22 0%, #0d1016 100%);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .modal-stream-url {
+      font-size: 0.775rem;
+      color: #9cb0c5;
+      max-width: 450px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      background: #090c10;
+      padding: 0.4rem 0.65rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-family: 'JetBrains Mono', monospace;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Guide & Shortcuts Modals */
+    .guide-body {
+      padding: 1.5rem;
+      max-height: 75vh;
+      overflow-y: auto;
+      line-height: 1.6;
+      font-size: 0.875rem;
+    }
+
+    .guide-step {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.15rem;
+      background: linear-gradient(180deg, #1e2632 0%, #141922 100%);
+      padding: 1rem 1.15rem;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+
+    .step-number {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-full);
+      background: var(--grad-vlc-amber);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.8125rem;
+      flex-shrink: 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    }
+
+    .guide-step-content h3 {
+      font-size: 0.9375rem;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      margin-bottom: 0.35rem;
+      color: #ffffff;
+    }
+
+    .guide-step-content p {
+      color: #b2c2d2;
+      font-size: 0.85rem;
+    }
+
+    .guide-step-content code {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      color: #ffbb55;
+      border: 1px solid rgba(255, 187, 85, 0.25);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.775rem;
+    }
+
+    /* 3D Machined Keycaps */
+    .kbd-key {
+      display: inline-block;
+      padding: 0.18rem 0.55rem;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      color: #ffffff;
+      background: linear-gradient(180deg, #3a4758 0%, #1d242e 100%);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-bottom: 2px solid #090c10;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    .shortcuts-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.5rem;
+    }
+
+    .shortcuts-table tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .shortcuts-table tr:last-child {
+      border-bottom: none;
+    }
+
+    .shortcuts-table td {
+      padding: 0.55rem 0.5rem;
+      font-size: 0.8125rem;
+      vertical-align: middle;
+      color: #c0d0e0;
+    }
+
+    .shortcuts-table td.shortcut-key-col {
+      white-space: nowrap;
+      width: 160px;
+    }
+
+    .shortcuts-section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #ffaa33;
+      font-weight: 700;
+      margin: 1.15rem 0 0.4rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Tactile Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: linear-gradient(180deg, #2b3542 0%, #151a22 100%);
+      color: #ffffff;
+      padding: 0.75rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-bottom: 2px solid #0b0e14;
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-size: 0.84rem;
+      font-weight: 600;
+      z-index: 200;
+      opacity: 0;
+      transform: translateY(15px);
+      transition: all 0.25s var(--ease-tactile);
+      pointer-events: none;
+      backdrop-filter: blur(12px);
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(180deg, #141922 0%, #0b0e13 100%);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 2.2rem 1.5rem;
+      margin-top: auto;
+      text-align: center;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #9cb0c5;
+      text-decoration: none;
+      transition: color var(--transition-fast);
+      font-weight: 600;
+    }
+
+    .footer-links a:hover {
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+      .hero-stats-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .channel-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="brand-section">
+        <!-- VLC Icon -->
+        <svg class="vlc-cone-icon" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="64" cy="64" r="60" fill="#1c0d20" stroke="#ff8800" stroke-width="3.5"/>
+          <circle cx="64" cy="64" r="54" fill="none" stroke="rgba(244, 63, 94, 0.4)" stroke-width="1.5"/>
+          <path d="M64 18L44 86H84L64 18Z" fill="#FF8800"/>
+          <path d="M48 72L44 86H84L80 72H48Z" fill="#FFFFFF"/>
+          <path d="M54 50L51 60H77L74 50H54Z" fill="#FFFFFF"/>
+          <ellipse cx="64" cy="98" rx="36" ry="10" fill="#FF8800"/>
+          <ellipse cx="64" cy="96" rx="30" ry="7" fill="#E66A00"/>
+        </svg>
+        <div class="brand-title">
+          <h1>VLC US Channel Guide <span class="badge">Live IPTV</span></h1>
+          <div class="brand-subtitle">Stream & Organize 1,400+ Free US TV Channels in VLC Media Player</div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <a href="US_All_Channels.m3u8" class="btn btn-vlc" download="US_All_Channels.m3u8" title="Download master playlist of all US channels">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download All (.M3U8)
+        </a>
+        <a href="US_All_Channels.xspf" class="btn btn-secondary" download="US_All_Channels.xspf" title="Download native VLC XSPF format">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          VLC XSPF
+        </a>
+        <button class="btn btn-outline" onclick="openGuideModal()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          VLC Setup Guide
+        </button>
+        <button class="btn btn-outline" onclick="openShortcutsModal()" title="View VLC &amp; Web Player keyboard shortcuts (Press ?)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M6 12h.01M18 12h.01M8 16h8"/></svg>
+          ⌨️ Shortcuts
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sub-header Metric Ribbon -->
+  <div class="hero-stats-bar">
+    <div class="hero-stats-container">
+      <div class="stats-badges">
+        <div class="stat-item">
+          <span>Total Channels:</span> <strong id="stat-total">1,493</strong>
+        </div>
+        <div class="stat-item">
+          <span>Categories:</span> <strong id="stat-categories">12</strong>
+        </div>
+        <div class="stat-item">
+          <span>Format:</span> <strong>Live Web HLS &amp; M3U8</strong>
+        </div>
+        <div class="stat-item">
+          <span>Player:</span> <strong>In-Browser &amp; VLC 3.0+</strong>
+        </div>
+      </div>
+      <div style="font-size:0.8125rem; color:var(--text-muted); font-weight:500;">
+        💡 Click <strong style="color:var(--text-primary);">▶ Preview</strong> on any channel to watch instantly in your browser
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Controls Area -->
+    <div class="controls-wrapper">
+      <!-- Search & Filters -->
+      <div class="search-row">
+        <div class="search-input-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Search channels by name, callsign, network (e.g. ABC, CBS, ESPN, Bloomberg, FilmRise, Golf)..." oninput="handleSearch()">
+          <div class="search-kbd-hint" id="searchKbdHint" title="Press / to focus search">
+            <span class="kbd-key">/</span>
+          </div>
+          <button class="search-clear-btn" id="searchClearBtn" onclick="clearSearch()">&times;</button>
+        </div>
+
+        <div class="filter-options">
+          <select id="qualityFilter" class="filter-select" onchange="handleFilterChange()">
+            <option value="all">All Resolutions</option>
+            <option value="1080p">1080p Full HD</option>
+            <option value="720p">720p HD</option>
+            <option value="480p">480p / SD</option>
+          </select>
+
+          <select id="sortFilter" class="filter-select" onchange="handleFilterChange()">
+            <option value="name-asc">Sort: Name (A to Z)</option>
+            <option value="name-desc">Sort: Name (Z to A)</option>
+            <option value="category">Sort: Category</option>
+          </select>
+
+          <select id="langFilter" class="filter-select" onchange="handleFilterChange()">
+            <option value="all">🌐 All Languages (1,491)</option>
+            <option value="eng">🇺🇸 English Only (1,282)</option>
+            <option value="spa">🇪🇸 Spanish Only (105)</option>
+            <option value="other">🌍 Other Languages (104)</option>
+          </select>
+
+          <button class="lang-toggle-btn" id="btnEnglishOnly" onclick="toggleEnglishOnly()" title="Quick 1-Click Toggle: English Channels Only">
+            🇺🇸 English Only
+          </button>
+
+          <div class="view-toggles">
+            <button class="view-toggle-btn active" id="btnViewTable" onclick="setViewMode('table')" title="Cable TV Guide linear row view">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              <span>📺 Cable Guide</span>
+            </button>
+            <button class="view-toggle-btn" id="btnViewGrid" onclick="setViewMode('grid')" title="Card Grid View">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              <span>⊞ Cards</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories Navigation Bar -->
+      <div class="categories-bar" id="categoriesBar">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <!-- Results Status Bar -->
+    <div class="results-info-bar">
+      <div>
+        Showing <strong id="visibleCount" style="color:var(--text-main)">0</strong> of <strong id="totalCount" style="color:var(--text-main)">0</strong> channels
+        <span id="activeFilterLabel" style="margin-left:0.5rem; color:var(--accent-vlc);"></span>
+      </div>
+      <div>
+        Tip: Click <strong>Watch</strong> or <strong>VLC</strong> to tune in &bull; Press <span class="kbd-key" style="cursor:pointer;" onclick="openShortcutsModal()" title="View shortcuts cheatsheet">?</span> for shortcuts
+      </div>
+    </div>
+
+    <!-- Channels Container -->
+    <div id="channelsTableContainer" class="channel-table-container">
+      <table class="channel-table">
+        <thead>
+          <tr>
+            <th style="width: 75px; text-align: center;">CH #</th>
+            <th style="width: 300px;">Station / Network</th>
+            <th style="width: 150px;">Category</th>
+            <th>Now Airing / Program Overview</th>
+            <th style="text-align: right; width: 230px;">Remote / Actions</th>
+          </tr>
+        </thead>
+        <tbody id="channelsTableBody"></tbody>
+      </table>
+    </div>
+    <div id="channelsGrid" class="channel-grid" style="display:none;"></div>
+
+    <!-- Empty State -->
+    <div id="emptyState" style="display:none; text-align:center; padding: 4rem 1rem; color: var(--text-muted);">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:1rem; opacity:0.6;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <h3>No channels found</h3>
+      <p style="margin-top:0.4rem; font-size:0.9rem;">Try adjusting your search terms or selecting another category.</p>
+      <button class="btn btn-secondary" onclick="resetFilters()" style="margin-top:1rem;">Reset All Filters</button>
+    </div>
+  </main>
+
+  <!-- Video Player Modal -->
+  <div class="modal-overlay" id="playerModal" onclick="handleModalClick(event)">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>
+          <span id="playerChannelLogoWrap" style="display:inline-flex; align-items:center;"></span>
+          <span id="playerChannelTitle">Channel Name</span>
+        </h2>
+        <button class="modal-close-btn" onclick="closePlayerModal()">&times;</button>
+      </div>
+
+      <div class="video-wrapper">
+        <video id="liveVideo" controls playsinline autoplay></video>
+        <div class="player-status-badge">
+          <span class="status-dot"></span>
+          <span id="playerStatusText">Live Stream</span>
+        </div>
+      </div>
+
+      <!-- Player Live Subtitles & Translation Bar -->
+      <div class="player-toolbar">
+        <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+          <button class="player-tool-btn" id="btnToggleSubtitles" onclick="toggleSubtitles()" title="Toggle Closed Captions / Subtitles">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 15h4M15 15h2M7 11h2M13 11h4"/></svg>
+            <span id="subtitleBtnText">Subtitles / CC</span>
+          </button>
+
+          <button class="player-tool-btn" id="btnAudioTrack" onclick="cycleAudioTrack()" style="display:none;" title="Cycle Available Audio Tracks (e.g. English SAP)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            <span id="audioTrackBtnText">Audio: Default</span>
+          </button>
+        </div>
+
+        <button class="player-tool-btn player-tool-translate" onclick="openTranslateGuideModal()" title="How to translate foreign speech into English subtitles">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>Translate to English</span>
+        </button>
+      </div>
+
+      <!-- Channel Description & Real-Time EPG Guide -->
+      <div class="modal-info-panel">
+        <div class="modal-channel-meta">
+          <div class="modal-channel-desc" id="playerChannelDesc">Loading channel overview...</div>
+          <div class="modal-channel-tags" id="playerChannelTags"></div>
+        </div>
+
+        <div class="modal-epg-box" id="playerEpgBox">
+          <div class="epg-header">
+            <span class="epg-live-indicator">
+              <span class="epg-pulse-dot"></span>
+              <span id="playerEpgBadgeText">NOW PLAYING</span>
+            </span>
+            <span class="epg-time-range" id="playerEpgTime">Live Broadcast</span>
+          </div>
+          <div class="epg-content">
+            <div class="epg-title" id="playerEpgTitle">Loading program schedule...</div>
+            <div class="epg-desc" id="playerEpgDesc">Checking current broadcast information...</div>
+          </div>
+          <div class="epg-progress-bar-wrap" id="playerEpgProgressWrap" style="display:none;">
+            <div class="epg-progress-bar" id="playerEpgProgressBar" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-stream-url" id="playerStreamUrl" title="Direct Stream URL"></div>
+        <div style="display:flex; gap:0.5rem;">
+          <button class="btn btn-outline" id="btnCopyModalUrl" onclick="copyModalUrl()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy URL
+          </button>
+          <button id="btnOpenInVlcLink" class="btn btn-vlc" onclick="openModalInVlc()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Open in VLC
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VLC Setup Guide Modal -->
+  <div class="modal-overlay" id="guideModal" onclick="handleGuideModalClick(event)">
+    <div class="modal-content" style="max-width: 720px;">
+      <div class="modal-header">
+        <h2>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#FF8800"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          How to Use Playlists with VLC Media Player
+        </h2>
+        <button class="modal-close-btn" onclick="closeGuideModal()">&times;</button>
+      </div>
+
+      <div class="guide-body">
+        <div class="guide-step" style="border-color: rgba(255, 136, 0, 0.4); background: rgba(255, 136, 0, 0.06);">
+          <div class="step-number" style="background:#ff8800;">⚡</div>
+          <div class="guide-step-content">
+            <h3 style="color:#ffaa44;">Enable 1-Click VLC Launch from Browser</h3>
+            <p>To open channels in VLC with a single click from Chrome, Edge, or Firefox:</p>
+            <p style="margin-top:0.35rem;">Double-click <code>Enable_VLC_OneClick.bat</code> in this folder once. It registers the <code>vlc://</code> protocol for your user account (no admin rights needed). When your browser asks, check <em>"Always allow"</em> and VLC will launch immediately!</p>
+            <p style="margin-top:0.35rem; color:#94a3b8;"><em>Even without registration, clicking "Open in VLC" automatically downloads that channel's <code>.m3u8</code> file (click it in your browser downloads to play) and copies the stream URL to your clipboard.</em></p>
+          </div>
+        </div>
+
+        <div class="guide-step">
+          <div class="step-number">1</div>
+          <div class="guide-step-content">
+            <h3>Download or Locate Your Playlist</h3>
+            <p>Download <code>US_All_Channels.m3u8</code> for the complete catalog, or download category-specific playlists like <code>US_News_Channels.m3u8</code>, <code>US_Movies_Channels.m3u8</code>, or <code>US_Sports_Channels.m3u8</code>.</p>
+          </div>
+        </div>
+
+        <div class="guide-step">
+          <div class="step-number">2</div>
+          <div class="guide-step-content">
+            <h3>Open the Playlist in VLC</h3>
+            <p>Open VLC Media Player. Drag and drop the <code>.m3u8</code> or <code>.xspf</code> file directly into the VLC window, or press <code>Ctrl + O</code> and select the playlist.</p>
+            <p style="margin-top:0.35rem;">You can also double-click any of the provided <code>Open_In_VLC.bat</code> launcher scripts.</p>
+          </div>
+        </div>
+
+        <div class="guide-step">
+          <div class="step-number">3</div>
+          <div class="guide-step-content">
+            <h3>Enable Collapsible Category Grouping</h3>
+            <p>In VLC, press <code>Ctrl + L</code> to open the <strong>Playlist View</strong>. Right-click the column headers or open <strong>View &gt; Playlist View Mode</strong> and select <strong>Grouped by Category / Tree View</strong>. VLC will display News, Movies, Sports, and Entertainment as neat folders!</p>
+          </div>
+        </div>
+
+        <div class="guide-step">
+          <div class="step-number">4</div>
+          <div class="guide-step-content">
+            <h3>Optimize Network Caching for Smooth Playback</h3>
+            <p>To avoid buffering stutter on live HLS streams: Go to <strong>Tools &gt; Preferences</strong> (<code>Ctrl + P</code>) &gt; Click <strong>Show Settings: All</strong> (bottom left) &gt; Go to <strong>Input / Codecs</strong> &gt; Scroll to <strong>Advanced</strong> &gt; Set <strong>Network caching (ms)</strong> to <code>1500</code> or <code>2000</code> ms.</p>
+          </div>
+        </div>
+
+        <div class="guide-step">
+          <div class="step-number">5</div>
+          <div class="guide-step-content">
+            <h3>View Channel Descriptions &amp; TV Program Guide (EPG)</h3>
+            <p><strong>Channel Synopsis:</strong> Press <code>Ctrl + I</code> (Current Media Information) on any playing channel to view its complete description and genre details embedded in the playlist.</p>
+            <p style="margin-top:0.35rem;"><strong>Program Guide (EPG):</strong> Press <code>Shift + G</code> or select <strong>Tools &gt; Program Guide</strong> to open VLC's built-in TV schedule window displaying currently airing shows and upcoming programs!</p>
+          </div>
+        </div>
+
+        <div class="guide-step" style="border-color: rgba(255, 136, 0, 0.4); background: rgba(255, 136, 0, 0.05);">
+          <div class="step-number" style="background:var(--accent-vlc);">⌨️</div>
+          <div class="guide-step-content" style="width:100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
+              <h3 style="color:#ffaa44; margin:0;">Essential VLC Channel Surfing Shortcuts</h3>
+              <button class="btn btn-outline" onclick="closeGuideModal(); openShortcutsModal();" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+                Open Full Cheatsheet
+              </button>
+            </div>
+            <p style="margin-top:0.35rem;">Use these keyboard shortcuts while watching live streams in VLC Media Player:</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:0.5rem; margin-top:0.6rem;">
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">V</span> <span style="color:var(--text-main); margin-left:4px;">Subtitles / Captions [CC]</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">B</span> <span style="color:var(--text-main); margin-left:4px;">Audio Tracks / SAP Dub</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">Shift</span> + <span class="kbd-key">G</span> <span style="color:var(--text-main); margin-left:4px;">TV Program Guide (EPG)</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">Ctrl</span> + <span class="kbd-key">I</span> <span style="color:var(--text-main); margin-left:4px;">Channel Info &amp; Synopsis</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">Space</span> <span style="color:var(--text-main); margin-left:4px;">Pause / Play</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">N</span> / <span class="kbd-key">P</span> <span style="color:var(--text-main); margin-left:4px;">Next / Prev Channel</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">Ctrl</span> + <span class="kbd-key">L</span> <span style="color:var(--text-main); margin-left:4px;">Playlist View (Folders)</span>
+              </div>
+              <div style="background:#0c1220; padding:0.45rem 0.65rem; border-radius:4px; border:1px solid var(--border-color); font-size:0.82rem;">
+                <span class="kbd-key">F</span> <span style="color:var(--text-main); margin-left:4px;">Fullscreen Mode</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer" style="justify-content: flex-end;">
+        <button class="btn btn-vlc" onclick="closeGuideModal()">Got It!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keyboard Shortcuts Cheat Sheet Modal -->
+  <div class="modal-overlay" id="shortcutsModal" onclick="handleShortcutsModalClick(event)">
+    <div class="modal-content" style="max-width: 680px;">
+      <div class="modal-header">
+        <h2>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent-vlc);"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M6 12h.01M18 12h.01M8 16h8"/></svg>
+          Keyboard Shortcuts Guide
+        </h2>
+        <button class="modal-close-btn" onclick="closeShortcutsModal()">&times;</button>
+      </div>
+
+      <div class="guide-body" style="padding: 1.25rem 1.5rem;">
+        <div class="shortcuts-section-title">
+          <span>🎬</span> VLC Media Player Shortcuts
+        </div>
+        <table class="shortcuts-table">
+          <tbody>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">V</span></td>
+              <td><strong>Cycle Subtitles / Closed Captions [CC]</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Toggle or switch between broadcast caption tracks in VLC</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">B</span></td>
+              <td><strong>Cycle Audio Tracks (English SAP)</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Switch between foreign commentary and secondary English audio</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Shift</span> + <span class="kbd-key">G</span></td>
+              <td><strong>TV Program Guide (EPG)</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Opens VLC's interactive TV schedule grid showing airing shows</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Ctrl</span> + <span class="kbd-key">I</span></td>
+              <td><strong>Channel Information &amp; Synopsis</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Displays the channel's programming format and description</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Space</span></td>
+              <td><strong>Play / Pause Stream</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Pause or resume playback for the current live channel</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">N</span> &nbsp;/&nbsp; <span class="kbd-key">P</span></td>
+              <td><strong>Next / Previous Channel</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Channel zap forward or backward through your playlist</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">F</span></td>
+              <td><strong>Toggle Fullscreen</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Enter or exit full-screen video mode</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Ctrl</span> + <span class="kbd-key">L</span></td>
+              <td><strong>Toggle Playlist View</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">View collapsible category folders (News, Movies, Sports, etc.)</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Ctrl</span> + <span class="kbd-key">N</span></td>
+              <td><strong>Open Network Stream</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Paste a copied stream URL directly into VLC</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Ctrl</span> + <span class="kbd-key">↑</span> / <span class="kbd-key">↓</span></td>
+              <td><strong>Volume Up / Down</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Adjust audio playback volume</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">M</span></td>
+              <td><strong>Mute / Unmute Audio</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="shortcuts-section-title" style="margin-top:1.5rem; color:var(--accent-blue);">
+          <span>🌐</span> Web Channel Guide &amp; Player Shortcuts
+        </div>
+        <table class="shortcuts-table">
+          <tbody>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">/</span></td>
+              <td><strong>Focus Search Bar</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Jump directly to searching channels by name, network, or topic</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Space</span></td>
+              <td><strong>Play / Pause Live Preview</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">While the web player preview modal is open</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">C</span></td>
+              <td><strong>Toggle Subtitles / [CC]</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Turn on embedded broadcast captions in the preview player</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">Esc</span></td>
+              <td><strong>Close Open Windows</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Closes the player preview modal, guide modal, or shortcuts popup</span></td>
+            </tr>
+            <tr>
+              <td class="shortcut-key-col"><span class="kbd-key">?</span></td>
+              <td><strong>Open Shortcuts Cheat Sheet</strong> <span style="display:block; font-size:0.75rem; color:var(--text-muted);">Shows this keyboard guide anywhere on the page</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-footer" style="justify-content: flex-end;">
+        <button class="btn btn-vlc" onclick="closeShortcutsModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Translation & Subtitles Guide Modal -->
+  <div class="modal-overlay" id="translateGuideModal" onclick="handleTranslateModalClick(event)">
+    <div class="modal-content" style="max-width: 700px;">
+      <div class="modal-header">
+        <h2>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent-blue);"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          Subtitles &amp; English Translation Guide
+        </h2>
+        <button class="modal-close-btn" onclick="closeTranslateGuideModal()">&times;</button>
+      </div>
+
+      <div class="guide-body">
+        <div class="guide-step" style="border-color: rgba(56, 189, 248, 0.4); background: rgba(56, 189, 248, 0.06);">
+          <div class="step-number" style="background:var(--accent-blue);">AI</div>
+          <div class="guide-step-content">
+            <h3 style="color:var(--accent-blue);">Chrome &amp; Edge Real-Time Live Speech Translation</h3>
+            <p>Your web browser (Google Chrome &amp; Microsoft Edge) can transcribe foreign speech and translate it into English subtitles directly on your screen in real time:</p>
+            <p style="margin-top:0.4rem;"><strong>In Chrome:</strong> Open Chrome Settings (<code>chrome://settings/accessibility</code>) &rarr; Toggle on <strong>Live Caption</strong> &rarr; Enable <strong>Live Translate</strong> &rarr; Choose <strong>English</strong> as target language.</p>
+            <p style="margin-top:0.35rem;"><strong>In Edge:</strong> Settings &rarr; Accessibility &rarr; Turn on <strong>Live Captions</strong>.</p>
+            <p style="margin-top:0.35rem; color:#94a3b8;"><em>Once enabled, any Spanish, French, or foreign broadcast displays automatic live English subtitles overlaid on your screen!</em></p>
+          </div>
+        </div>
+
+        <div class="guide-step">
+          <div class="step-number">CC</div>
+          <div class="guide-step-content">
+            <h3>Embedded Broadcast Captions &amp; SAP English Audio</h3>
+            <p>Many channels broadcast official closed captions or Secondary Audio Programming (SAP) dubbing:</p>
+            <p style="margin-top:0.35rem;"><strong>In Web Preview:</strong> Click the <strong>[CC] Subtitles</strong> button directly under the video player. If the stream carries embedded CEA-608 / WebVTT caption tracks, they toggle on automatically.</p>
+            <p style="margin-top:0.35rem;"><strong>In VLC Media Player:</strong> Press <strong><code>V</code></strong> to toggle/cycle subtitles, and press <strong><code>B</code></strong> to cycle audio tracks to English SAP!</p>
+          </div>
+        </div>
+
+        <div class="guide-step" style="border-color: rgba(255, 136, 0, 0.35); background: rgba(255, 136, 0, 0.05);">
+          <div class="step-number" style="background:var(--accent-vlc);">🇺🇸</div>
+          <div class="guide-step-content">
+            <h3 style="color:#ffaa44;">Prefer Watching Only English Channels?</h3>
+            <p>You can instantly hide all foreign-language channels (Spanish, French, Arabic, etc.) with one click using the <strong>English Only</strong> button at the top of the channel guide.</p>
+            <button class="btn btn-vlc" onclick="filterEnglishAndCloseModal()" style="margin-top:0.65rem;">
+              ✓ Filter Guide to English Channels Only (1,282 Channels)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer" style="justify-content: flex-end;">
+        <button class="btn btn-secondary" onclick="closeTranslateGuideModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adult Section Password Modal -->
+  <div class="modal-overlay" id="adultPasswordModal" onclick="handleAdultModalClick(event)">
+    <div class="modal-content" style="max-width: 440px; border-color: #8899ac;">
+      <div class="modal-header" style="background: linear-gradient(180deg, #2b1f24 0%, #1a1418 100%); border-bottom: 2px solid #5a323f;">
+        <h2 style="color: #fda4af;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Restricted Adult Section
+        </h2>
+        <button class="modal-close-btn" onclick="closeAdultModal()">&times;</button>
+      </div>
+
+      <div class="guide-body" style="padding: 1.5rem; text-align: center;">
+        <div style="font-size: 2.4rem; margin-bottom: 0.5rem;">🔞</div>
+        <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: #ffffff;">Passcode Required</h3>
+        <p style="color: var(--text-secondary); font-size: 0.84rem; margin-bottom: 1.25rem;">
+          This category contains explicit 18+ content. Please enter the password to view these channels.
+        </p>
+
+        <form onsubmit="submitAdultPassword(event)">
+          <div style="display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 0.85rem;">
+            <input 
+              type="password" 
+              id="adultPasswordInput" 
+              placeholder="Enter password..." 
+              autocomplete="off"
+              style="flex: 1; padding: 0.75rem 1rem; background: #0b0e14; border: 2px solid #4a576a; border-radius: var(--radius-md); color: #ffffff; font-size: 1.05rem; letter-spacing: 0.15em; text-align: center; outline: none;"
+            >
+            <button type="submit" class="btn btn-vlc" style="padding: 0 1.25rem; font-weight: 700;">
+              Unlock
+            </button>
+          </div>
+          <div id="adultPasswordError" style="color: #f87171; font-size: 0.8rem; font-weight: 600; display: none;">
+            Incorrect password. Please try again.
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer" style="justify-content: space-between; background: #12151c;">
+        <button class="btn btn-outline" onclick="closeAdultModal()">Cancel</button>
+        <span style="font-size: 0.75rem; color: var(--text-muted);">Protected Area</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toastNotification">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastMsg">Copied stream URL to clipboard!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="US_All_Channels.m3u8" download="US_All_Channels.m3u8" title="Download Master M3U8 for VLC">Master M3U8 Playlist</a>
+      <a href="US_All_Channels.xspf" download="US_All_Channels.xspf" title="Download Master XSPF for VLC">Master XSPF Playlist</a>
+      <a href="#" onclick="openGuideModal(); return false;">Setup Guide</a>
+      <a href="#" onclick="openShortcutsModal(); return false;" title="Keyboard shortcuts cheat sheet">⌨️ Shortcuts (?)</a>
+    </div>
+    <div>Built for live in-browser preview and VLC Media Player with legal public broadcasts and IPTV streams.</div>
+  </footer>
+
+  <script>
+    // Application State
+    let allChannels = [];
+    let currentCategory = 'all';
+    let searchQuery = '';
+    let qualityFilter = 'all';
+    let langFilter = 'all';
+    let sortBy = 'name-asc';
+    let viewMode = 'table';
+    let hlsInstance = null;
+    let currentModalChannel = null;
+    let adultUnlocked = false; // Requires password 'xxx' to view adult channels
+
+    const CATEGORY_ORDER = [
+      { id: 'all', label: 'All Channels', icon: '🌟' },
+      { id: 'News', label: 'News & Weather', icon: '📰' },
+      { id: 'Movies', label: 'Movies & Cinema', icon: '🎬' },
+      { id: 'Sports', label: 'Sports & Outdoors', icon: '🏈' },
+      { id: 'Entertainment', label: 'Entertainment & Series', icon: '🍿' },
+      { id: 'Adult & XXX', label: 'Adult & XXX', icon: '🔞' },
+      { id: 'Kids & Family', label: 'Kids & Family', icon: '🧒' },
+      { id: 'Documentary', label: 'Documentary & Science', icon: '🔬' },
+      { id: 'Music', label: 'Music & Radio', icon: '🎵' },
+      { id: 'Local Broadcast', label: 'Local Broadcast', icon: '📡' },
+      { id: 'Public & Government', label: 'Public & Government', icon: '🏛️' },
+      { id: 'Religious', label: 'Faith & Religious', icon: '🕊️' },
+      { id: 'General & Regional', label: 'General & Regional', icon: '🌐' }
+    ];
+
+    const LANG_LABELS = {
+      'eng': 'English',
+      'spa': 'Spanish',
+      'fra': 'French',
+      'ara': 'Arabic',
+      'rus': 'Russian',
+      'zho': 'Chinese',
+      'ita': 'Italian',
+      'deu': 'German',
+      'por': 'Portuguese',
+      'jpn': 'Japanese',
+      'kor': 'Korean',
+      'hin': 'Hindi',
+      'heb': 'Hebrew',
+      'tur': 'Turkish',
+      'pol': 'Polish',
+      'ukr': 'Ukrainian',
+      'vie': 'Vietnamese',
+      'fas': 'Persian'
+    };
+
+    function getLanguageBadge(lang) {
+      if (!lang || lang === 'eng') return '';
+      if (lang === 'spa') {
+        return `<span class="badge-lang badge-lang-spa">🇪🇸 Spanish</span>`;
+      }
+      if (lang === 'fra') return `<span class="badge-lang">🇫🇷 French</span>`;
+      if (lang === 'ara') return `<span class="badge-lang">🇸🇦 Arabic</span>`;
+      if (lang === 'rus') return `<span class="badge-lang">🇷🇺 Russian</span>`;
+      if (lang === 'zho') return `<span class="badge-lang">🇨🇳 Chinese</span>`;
+      if (lang === 'ita') return `<span class="badge-lang">🇮🇹 Italian</span>`;
+      if (lang === 'deu') return `<span class="badge-lang">🇩🇪 German</span>`;
+      if (lang === 'por') return `<span class="badge-lang">🇵🇹 Portuguese</span>`;
+      if (lang === 'jpn') return `<span class="badge-lang">🇯🇵 Japanese</span>`;
+      if (lang === 'kor') return `<span class="badge-lang">🇰🇷 Korean</span>`;
+      const name = LANG_LABELS[lang] || lang.toUpperCase();
+      return `<span class="badge-lang">🌐 ${escapeHtml(name)}</span>`;
+    }
+
+    // Initialize
+    async function init() {
+      if (window.CHANNELS_DATA && window.CHANNELS_DATA.channels) {
+        loadData(window.CHANNELS_DATA);
+      } else {
+        try {
+          const resp = await fetch('channels_data.json');
+          const data = await resp.json();
+          loadData(data);
+        } catch (e) {
+          console.error("Could not load data:", e);
+        }
+      }
+    }
+
+    function loadData(data) {
+      allChannels = data.channels || [];
+      document.getElementById('stat-total').textContent = allChannels.length.toLocaleString();
+      document.getElementById('totalCount').textContent = allChannels.length.toLocaleString();
+
+      // Counts per category
+      const counts = {};
+      allChannels.forEach(c => {
+        counts[c.category] = (counts[c.category] || 0) + 1;
+      });
+
+      renderCategoryTabs(counts);
+      setViewMode(viewMode);
+      renderChannels();
+    }
+
+    function renderCategoryTabs(counts) {
+      const container = document.getElementById('categoriesBar');
+      container.innerHTML = '';
+
+      CATEGORY_ORDER.forEach(cat => {
+        const count = cat.id === 'all' ? allChannels.length : (counts[cat.id] || 0);
+        if (cat.id !== 'all' && count === 0) return;
+
+        const isAdult = cat.id === 'Adult & XXX';
+        const lockIcon = (isAdult && !adultUnlocked) ? ' 🔒' : '';
+        const btn = document.createElement('button');
+        btn.className = `cat-btn ${cat.id === currentCategory ? 'active' : ''}`;
+        btn.innerHTML = `<span>${cat.icon}</span> <span>${cat.label}${lockIcon}</span> <span class="cat-badge">${count}</span>`;
+        btn.onclick = () => setCategory(cat.id);
+        container.appendChild(btn);
+      });
+    }
+
+    function setCategory(catId) {
+      if (catId === 'Adult & XXX' && !adultUnlocked) {
+        openAdultModal();
+        return;
+      }
+
+      currentCategory = catId;
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        const isMatch = (catId === 'all' && btn.innerText.includes('All Channels')) ||
+                        (btn.innerText.includes(catId));
+        btn.classList.toggle('active', isMatch);
+      });
+      renderChannels();
+    }
+
+    // Adult Section Passcode Logic (password: xxx)
+    function openAdultModal() {
+      const modal = document.getElementById('adultPasswordModal');
+      const input = document.getElementById('adultPasswordInput');
+      const err = document.getElementById('adultPasswordError');
+      if (err) err.style.display = 'none';
+      if (input) input.value = '';
+      modal.style.display = 'flex';
+      setTimeout(() => input && input.focus(), 80);
+    }
+
+    function closeAdultModal() {
+      const modal = document.getElementById('adultPasswordModal');
+      modal.style.display = 'none';
+    }
+
+    function handleAdultModalClick(e) {
+      if (e.target.id === 'adultPasswordModal') {
+        closeAdultModal();
+      }
+    }
+
+    function submitAdultPassword(e) {
+      if (e) e.preventDefault();
+      const input = document.getElementById('adultPasswordInput');
+      const err = document.getElementById('adultPasswordError');
+      const val = (input ? input.value : '').trim();
+
+      if (val === 'xxx') {
+        adultUnlocked = true;
+        closeAdultModal();
+        showToast('🔓 Adult & XXX section unlocked!');
+        // Refresh tabs with unlocked state
+        const counts = {};
+        allChannels.forEach(c => counts[c.category] = (counts[c.category] || 0) + 1);
+        renderCategoryTabs(counts);
+        setCategory('Adult & XXX');
+      } else {
+        if (err) err.style.display = 'block';
+        if (input) {
+          input.value = '';
+          input.focus();
+        }
+      }
+    }
+
+    function handleSearch() {
+      const input = document.getElementById('searchInput');
+      searchQuery = input.value.trim().toLowerCase();
+      document.getElementById('searchClearBtn').style.display = searchQuery ? 'block' : 'none';
+      const kbdHint = document.getElementById('searchKbdHint');
+      if (kbdHint) kbdHint.style.display = searchQuery ? 'none' : 'flex';
+      renderChannels();
+    }
+
+    function clearSearch() {
+      const input = document.getElementById('searchInput');
+      input.value = '';
+      searchQuery = '';
+      document.getElementById('searchClearBtn').style.display = 'none';
+      const kbdHint = document.getElementById('searchKbdHint');
+      if (kbdHint) kbdHint.style.display = 'flex';
+      renderChannels();
+    }
+
+    function handleFilterChange() {
+      qualityFilter = document.getElementById('qualityFilter').value;
+      sortBy = document.getElementById('sortFilter').value;
+      langFilter = document.getElementById('langFilter').value;
+      document.getElementById('btnEnglishOnly').classList.toggle('active', langFilter === 'eng');
+      renderChannels();
+    }
+
+    function toggleEnglishOnly() {
+      if (langFilter === 'eng') {
+        langFilter = 'all';
+      } else {
+        langFilter = 'eng';
+      }
+      document.getElementById('langFilter').value = langFilter;
+      document.getElementById('btnEnglishOnly').classList.toggle('active', langFilter === 'eng');
+      renderChannels();
+    }
+
+    function filterEnglishAndCloseModal() {
+      langFilter = 'eng';
+      document.getElementById('langFilter').value = 'eng';
+      document.getElementById('btnEnglishOnly').classList.add('active');
+      renderChannels();
+      closeTranslateGuideModal();
+      showToast('Filtered guide to 1,282 English channels!');
+    }
+
+    function resetFilters() {
+      clearSearch();
+      document.getElementById('qualityFilter').value = 'all';
+      document.getElementById('langFilter').value = 'all';
+      qualityFilter = 'all';
+      langFilter = 'all';
+      document.getElementById('btnEnglishOnly').classList.remove('active');
+      setCategory('all');
+    }
+
+    function setViewMode(mode) {
+      viewMode = mode;
+      document.getElementById('btnViewGrid').classList.toggle('active', mode === 'grid');
+      document.getElementById('btnViewTable').classList.toggle('active', mode === 'table');
+      document.getElementById('channelsGrid').style.display = mode === 'grid' ? 'grid' : 'none';
+      document.getElementById('channelsTableContainer').style.display = mode === 'table' ? 'block' : 'none';
+    }
+
+    function getFilteredChannels() {
+      return allChannels.filter(ch => {
+        // Adult section password lock
+        if (ch.category === 'Adult & XXX' && !adultUnlocked) {
+          return false;
+        }
+
+        // Category filter
+        if (currentCategory !== 'all' && ch.category !== currentCategory) {
+          return false;
+        }
+
+        // Quality filter
+        if (qualityFilter !== 'all') {
+          if (qualityFilter === '1080p' && !ch.quality.includes('1080p')) return false;
+          if (qualityFilter === '720p' && !ch.quality.includes('720p')) return false;
+          if (qualityFilter === '480p' && !ch.quality.includes('480p') && !ch.quality.includes('SD')) return false;
+        }
+
+        // Language filter
+        if (langFilter !== 'all') {
+          const pLang = ch.primary_lang || 'eng';
+          if (langFilter === 'eng' && pLang !== 'eng') return false;
+          if (langFilter === 'spa' && pLang !== 'spa') return false;
+          if (langFilter === 'other' && (pLang === 'eng' || pLang === 'spa')) return false;
+        }
+
+        // Search filter
+        if (searchQuery) {
+          const matchName = ch.name.toLowerCase().includes(searchQuery);
+          const matchCat = ch.category.toLowerCase().includes(searchQuery);
+          const matchNet = (ch.network || '').toLowerCase().includes(searchQuery);
+          const matchDesc = (ch.description || '').toLowerCase().includes(searchQuery);
+          const matchLang = (ch.primary_lang || '').toLowerCase().includes(searchQuery) ||
+                            (LANG_LABELS[ch.primary_lang] || '').toLowerCase().includes(searchQuery);
+          if (!matchName && !matchCat && !matchNet && !matchDesc && !matchLang) return false;
+        }
+
+        return true;
+      }).sort((a, b) => {
+        if (sortBy === 'name-asc') return a.name.localeCompare(b.name);
+        if (sortBy === 'name-desc') return b.name.localeCompare(a.name);
+        if (sortBy === 'category') return a.category.localeCompare(b.category) || a.name.localeCompare(b.name);
+        return 0;
+      });
+    }
+
+    function renderChannels() {
+      const filtered = getFilteredChannels();
+      document.getElementById('visibleCount').textContent = filtered.length.toLocaleString();
+
+      const emptyEl = document.getElementById('emptyState');
+      const gridEl = document.getElementById('channelsGrid');
+      const tableBody = document.getElementById('channelsTableBody');
+
+      if (filtered.length === 0) {
+        emptyEl.style.display = 'block';
+        gridEl.innerHTML = '';
+        tableBody.innerHTML = '';
+        return;
+      }
+      emptyEl.style.display = 'none';
+
+      // Render Grid
+      gridEl.innerHTML = filtered.map(ch => renderCardHTML(ch)).join('');
+
+      // Render Table
+      tableBody.innerHTML = filtered.map((ch, idx) => renderTableRowHTML(ch, idx)).join('');
+    }
+
+    function getQualityBadgeClass(quality) {
+      if (quality.includes('1080p')) return 'badge-quality badge-1080p';
+      if (quality.includes('720p')) return 'badge-quality badge-720p';
+      return 'badge-quality badge-sd';
+    }
+
+    function renderCardHTML(ch) {
+      const logoHtml = ch.logo
+        ? `<img src="${ch.logo}" alt="${escapeHtml(ch.name)}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="logo-fallback" style="display:none;">📺</span>`
+        : `<span class="logo-fallback">📺</span>`;
+
+      const watermarkStyle = ch.logo
+        ? `background-image: url('${escapeAttr(ch.logo)}');`
+        : '';
+
+      const langBadge = getLanguageBadge(ch.primary_lang);
+
+      return `
+        <div class="channel-card">
+          <div class="channel-card-watermark" style="${watermarkStyle}"></div>
+          <div class="channel-card-top">
+            <div class="logo-container">
+              ${logoHtml}
+            </div>
+            <div class="channel-info">
+              <div class="channel-name" title="${escapeHtml(ch.name)}">${escapeHtml(ch.name)}</div>
+              <div class="channel-badges">
+                <span class="badge-cat">${escapeHtml(ch.category)}</span>
+                <span class="${getQualityBadgeClass(ch.quality)}">${ch.quality}</span>
+                ${langBadge}
+                ${ch.network ? `<span style="font-size:0.68rem; color:var(--text-muted); align-self:center; margin-left:2px;">${escapeHtml(ch.network)}</span>` : ''}
+              </div>
+            </div>
+          </div>
+          <div class="channel-desc" title="${escapeHtml(ch.description || '')}">
+            ${escapeHtml(ch.description || '')}
+          </div>
+          <div class="channel-actions">
+            <button class="btn-action btn-play-web" onclick="openPlayerModal('${escapeAttr(ch.name)}', '${escapeAttr(ch.url)}', '${escapeAttr(ch.logo)}')" title="Preview live broadcast">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Watch</span>
+            </button>
+            <button class="btn-action btn-vlc-action" onclick="openInVlc('${escapeAttr(ch.name)}', '${escapeAttr(ch.url)}')" title="Launch in VLC Media Player">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>VLC</span>
+            </button>
+            <button class="btn-action" onclick="copyStreamUrl('${escapeAttr(ch.url)}', '${escapeAttr(ch.name)}')" title="Copy stream URL">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span>Copy</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderTableRowHTML(ch, idx) {
+      const chNumber = `CH ${String(idx + 1).padStart(3, '0')}`;
+      const logoHtml = ch.logo
+        ? `<img src="${ch.logo}" alt="${escapeHtml(ch.name)}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="logo-fallback" style="display:none; font-size:1.3rem;">📺</span>`
+        : `<span class="logo-fallback" style="font-size:1.3rem;">📺</span>`;
+
+      const langBadge = getLanguageBadge(ch.primary_lang);
+      const networkText = ch.network ? escapeHtml(ch.network) : 'Public Broadcast';
+      const descText = ch.description || 'Continuous live broadcast feed.';
+
+      return `
+        <tr>
+          <td style="text-align: center; width: 75px;">
+            <span class="cable-ch-number">${chNumber}</span>
+          </td>
+          <td>
+            <div class="cable-station-cell">
+              <div class="cable-logo-frame">
+                ${logoHtml}
+              </div>
+              <div class="cable-station-meta">
+                <div class="cable-station-name" title="${escapeHtml(ch.name)}">${escapeHtml(ch.name)}</div>
+                <div class="cable-sub-badges">
+                  <span class="${getQualityBadgeClass(ch.quality)}">${ch.quality}</span>
+                  ${langBadge}
+                  <span style="font-size:0.75rem; color:#8fa2b7;">${networkText}</span>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td style="width: 150px;">
+            <span class="badge-cat">${escapeHtml(ch.category)}</span>
+          </td>
+          <td>
+            <div class="cable-epg-cell">
+              <div class="cable-live-status">
+                <span class="cable-live-dot"></span>
+                <span>LIVE FEED</span>
+              </div>
+              <div class="cable-synopsis" title="${escapeHtml(descText)}">
+                ${escapeHtml(descText)}
+              </div>
+            </div>
+          </td>
+          <td style="text-align: right; width: 230px;">
+            <div style="display:inline-flex; gap:0.4rem; justify-content: flex-end;">
+              <button class="btn-action btn-play-web" style="flex:initial; padding:0.42rem 0.75rem;" onclick="openPlayerModal('${escapeAttr(ch.name)}', '${escapeAttr(ch.url)}', '${escapeAttr(ch.logo)}')" title="Preview live broadcast">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                <span>Watch</span>
+              </button>
+              <button class="btn-action btn-vlc-action" style="flex:initial; padding:0.42rem 0.75rem;" onclick="openInVlc('${escapeAttr(ch.name)}', '${escapeAttr(ch.url)}')" title="Launch in VLC Media Player">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                <span>VLC</span>
+              </button>
+              <button class="btn-action" style="flex:initial; padding:0.42rem 0.6rem;" onclick="copyStreamUrl('${escapeAttr(ch.url)}', '${escapeAttr(ch.name)}')" title="Copy stream URL">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span>Copy</span>
+              </button>
+            </div>
+          </td>
+        </tr>
+      `;
+    }
+
+    // Open in VLC with multiple fallback mechanisms
+    function openInVlc(name, url) {
+      // 1. Copy stream URL to clipboard
+      navigator.clipboard.writeText(url).catch(() => {});
+
+      // 2. Trigger native vlc:// protocol handler (launches VLC directly)
+      // We encode the URL as Base64 so Chrome/Edge will not strip the colon or mangle slashes!
+      try {
+        const b64Url = btoa(unescape(encodeURIComponent(url)));
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = 'vlc://b64/' + b64Url;
+        document.body.appendChild(iframe);
+        setTimeout(() => iframe.remove(), 2500);
+      } catch (e) {
+        console.warn('Protocol handler:', e);
+      }
+
+      // 3. Generate instant single-channel .m3u8 playlist file
+      // Clicking the downloaded file in your browser download bar opens it directly in VLC!
+      try {
+        const cleanName = name.replace(/[\/\\:*?"<>|]/g, '').trim() || 'Channel';
+        const m3u8Content = `#EXTM3U\n#EXTINF:-1,${cleanName}\n#EXTVLCOPT:network-caching=1500\n${url}\n`;
+        const blob = new Blob([m3u8Content], { type: 'audio/x-mpegurl;charset=utf-8' });
+        const blobUrl = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = blobUrl;
+        link.download = `${cleanName}.m3u8`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        setTimeout(() => URL.revokeObjectURL(blobUrl), 3000);
+      } catch (e) {
+        console.warn('File download:', e);
+      }
+
+      // 4. Show friendly toast
+      showToast(`🚀 Launching "${name}" in VLC! (URL copied & channel playlist saved)`);
+    }
+
+    function openModalInVlc() {
+      if (currentModalChannel) {
+        openInVlc(currentModalChannel.name, currentModalChannel.url);
+      }
+    }
+
+    let currentEpgFetchAbort = null;
+
+    let currentSubtitleTrack = -1; // -1 = off
+    let availableSubtitleTracks = [];
+    let currentAudioTrack = -1;
+    let availableAudioTracks = [];
+
+    // Modal & Video Player
+    function openPlayerModal(name, url, logo) {
+      const ch = allChannels.find(c => c.url === url || c.name === name) || { name, url, logo };
+      currentModalChannel = ch;
+
+      document.getElementById('playerChannelTitle').textContent = ch.name;
+      document.getElementById('playerStreamUrl').textContent = ch.url;
+
+      const logoWrap = document.getElementById('playerChannelLogoWrap');
+      if (ch.logo) {
+        logoWrap.innerHTML = `<img src="${ch.logo}" style="width:28px; height:28px; object-fit:contain; margin-right:8px; border-radius:4px;">`;
+      } else {
+        logoWrap.innerHTML = '';
+      }
+
+      // Populate Channel Meta in Modal
+      document.getElementById('playerChannelDesc').textContent = ch.description || 'Live stream broadcast.';
+      const tagsEl = document.getElementById('playerChannelTags');
+      tagsEl.innerHTML = `
+        <span class="badge-cat">${escapeHtml(ch.category || 'General')}</span>
+        <span class="${getQualityBadgeClass(ch.quality || 'SD')}">${ch.quality || 'SD'}</span>
+        ${getLanguageBadge(ch.primary_lang)}
+        ${ch.network ? `<span style="font-size:0.75rem; color:var(--text-muted); margin-left:0.25rem;">Network: <strong style="color:#cbd5e1;">${escapeHtml(ch.network)}</strong></span>` : ''}
+      `;
+
+      // Reset subtitles & audio track state
+      currentSubtitleTrack = -1;
+      availableSubtitleTracks = [];
+      currentAudioTrack = -1;
+      availableAudioTracks = [];
+      updateSubtitleBtnState();
+      updateAudioBtnState();
+
+      // Cancel previous EPG fetch if any
+      if (currentEpgFetchAbort) {
+        currentEpgFetchAbort.abort();
+        currentEpgFetchAbort = null;
+      }
+
+      // Fetch or setup Live Program EPG
+      loadModalEpg(ch);
+
+      const video = document.getElementById('liveVideo');
+      const statusText = document.getElementById('playerStatusText');
+      statusText.textContent = 'Connecting...';
+
+      if (hlsInstance) {
+        hlsInstance.destroy();
+        hlsInstance = null;
+      }
+
+      if (Hls.isSupported() && url.includes('.m3u8')) {
+        hlsInstance = new Hls({
+          enableWorker: true,
+          lowLatencyMode: true
+        });
+        hlsInstance.loadSource(url);
+        hlsInstance.attachMedia(video);
+
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+          statusText.textContent = 'Live Broadcast';
+          video.play().catch(e => console.log('Autoplay prevented:', e));
+        });
+
+        // Listen for subtitle tracks from HLS stream (e.g. CEA-608/708 or WebVTT)
+        hlsInstance.on(Hls.Events.SUBTITLE_TRACKS_UPDATED, (event, data) => {
+          availableSubtitleTracks = data.subtitleTracks || [];
+          updateSubtitleBtnState();
+        });
+
+        // Listen for alternative audio tracks (e.g. English SAP / Dual Audio)
+        hlsInstance.on(Hls.Events.AUDIO_TRACKS_UPDATED, (event, data) => {
+          availableAudioTracks = data.audioTracks || [];
+          updateAudioBtnState();
+        });
+
+        hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+          if (data.fatal) {
+            statusText.textContent = 'Stream Offline / Restricted (Open in VLC)';
+          }
+        });
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+        statusText.textContent = 'Live Broadcast';
+        video.play().catch(e => console.log('Autoplay prevented:', e));
+      } else {
+        video.src = url;
+      }
+
+      document.getElementById('playerModal').style.display = 'flex';
+    }
+
+    // Toggle Closed Captions / Subtitles
+    function toggleSubtitles() {
+      const video = document.getElementById('liveVideo');
+      
+      if (hlsInstance && availableSubtitleTracks.length > 0) {
+        // Cycle: -1 (off) -> 0 -> 1 -> ... -> -1
+        currentSubtitleTrack++;
+        if (currentSubtitleTrack >= availableSubtitleTracks.length) {
+          currentSubtitleTrack = -1;
+        }
+        hlsInstance.subtitleTrack = currentSubtitleTrack;
+        updateSubtitleBtnState();
+        if (currentSubtitleTrack >= 0) {
+          const track = availableSubtitleTracks[currentSubtitleTrack];
+          showToast(`Subtitles ON: ${track.name || track.lang || 'Track ' + (currentSubtitleTrack + 1)}`);
+        } else {
+          showToast('Subtitles OFF');
+        }
+        return;
+      }
+
+      // Check native textTracks (Safari or WebVTT HTML5 tracks)
+      if (video.textTracks && video.textTracks.length > 0) {
+        let anyShowing = false;
+        for (let i = 0; i < video.textTracks.length; i++) {
+          if (video.textTracks[i].mode === 'showing') {
+            anyShowing = true;
+            break;
+          }
+        }
+        for (let i = 0; i < video.textTracks.length; i++) {
+          video.textTracks[i].mode = anyShowing ? 'disabled' : 'showing';
+        }
+        const active = !anyShowing;
+        const btn = document.getElementById('btnToggleSubtitles');
+        btn.classList.toggle('active', active);
+        showToast(active ? 'Subtitles enabled' : 'Subtitles disabled');
+        return;
+      }
+
+      // No embedded subtitles detected in stream header: prompt guide
+      showToast('No embedded captions track in this stream. Opening Live Translate & VLC guide...');
+      openTranslateGuideModal();
+    }
+
+    function updateSubtitleBtnState() {
+      const btn = document.getElementById('btnToggleSubtitles');
+      const text = document.getElementById('subtitleBtnText');
+      if (currentSubtitleTrack >= 0 && availableSubtitleTracks[currentSubtitleTrack]) {
+        const track = availableSubtitleTracks[currentSubtitleTrack];
+        btn.classList.add('active');
+        text.textContent = `CC: ${track.name || track.lang || 'ON'}`;
+      } else {
+        btn.classList.remove('active');
+        text.textContent = availableSubtitleTracks.length > 0 
+          ? `CC (${availableSubtitleTracks.length} available)` 
+          : 'Subtitles / CC';
+      }
+    }
+
+    // Cycle Audio Track (e.g. English SAP / Dual Audio)
+    function cycleAudioTrack() {
+      if (!hlsInstance || availableAudioTracks.length <= 1) return;
+      currentAudioTrack = (currentAudioTrack + 1) % availableAudioTracks.length;
+      hlsInstance.audioTrack = currentAudioTrack;
+      updateAudioBtnState();
+      const track = availableAudioTracks[currentAudioTrack];
+      showToast(`Audio Track: ${track.name || track.lang || 'Track ' + (currentAudioTrack + 1)}`);
+    }
+
+    function updateAudioBtnState() {
+      const btn = document.getElementById('btnAudioTrack');
+      const text = document.getElementById('audioTrackBtnText');
+      if (availableAudioTracks.length > 1) {
+        btn.style.display = 'inline-flex';
+        const current = availableAudioTracks[currentAudioTrack] || availableAudioTracks[0];
+        text.textContent = `Audio: ${current.name || current.lang || ('Track ' + (currentAudioTrack + 1))}`;
+      } else {
+        btn.style.display = 'none';
+      }
+    }
+
+    // Translation Guide Modal
+    function openTranslateGuideModal() {
+      document.getElementById('translateGuideModal').style.display = 'flex';
+    }
+
+    function closeTranslateGuideModal() {
+      document.getElementById('translateGuideModal').style.display = 'none';
+    }
+
+    function handleTranslateModalClick(e) {
+      if (e.target.id === 'translateGuideModal') {
+        closeTranslateGuideModal();
+      }
+    }
+
+    async function loadModalEpg(ch) {
+      const epgBadge = document.getElementById('playerEpgBadgeText');
+      const epgTime = document.getElementById('playerEpgTime');
+      const epgTitle = document.getElementById('playerEpgTitle');
+      const epgDesc = document.getElementById('playerEpgDesc');
+      const progressWrap = document.getElementById('playerEpgProgressWrap');
+      const progressBar = document.getElementById('playerEpgProgressBar');
+
+      // Check if channel is from Pluto TV FAST network
+      const plutoMatch = (ch.url || '').match(/plu-([a-f0-9]{24})/i);
+      if (plutoMatch) {
+        const plutoId = plutoMatch[1];
+        epgBadge.textContent = 'NOW PLAYING (LIVE GUIDE)';
+        epgTime.textContent = 'Fetching Schedule...';
+        epgTitle.textContent = 'Checking Live Guide...';
+        epgDesc.textContent = 'Loading episode synopsis from live programming guide...';
+        progressWrap.style.display = 'none';
+
+        const abortController = new AbortController();
+        currentEpgFetchAbort = abortController;
+
+        try {
+          const now = new Date();
+          const startIso = new Date(now.getTime() - 2 * 60 * 60 * 1000).toISOString();
+          const stopIso = new Date(now.getTime() + 4 * 60 * 60 * 1000).toISOString();
+          const apiUrl = `https://api.pluto.tv/v2/channels?id=${plutoId}&start=${startIso}&stop=${stopIso}`;
+
+          const res = await fetch(apiUrl, { signal: abortController.signal });
+          const data = await res.json();
+          const chanObj = Array.isArray(data) ? (data.find(d => d._id === plutoId) || data[0]) : data;
+          const timelines = chanObj?.timelines || [];
+          const nowMs = Date.now();
+          const curTimeline = timelines.find(t => {
+            const s = new Date(t.start).getTime();
+            const e = new Date(t.stop).getTime();
+            return nowMs >= s && nowMs <= e;
+          }) || timelines[0];
+
+          if (curTimeline) {
+            const startD = new Date(curTimeline.start);
+            const stopD = new Date(curTimeline.stop);
+            const timeOpts = { hour: 'numeric', minute: '2-digit' };
+            const timeStr = `${startD.toLocaleTimeString([], timeOpts)} – ${stopD.toLocaleTimeString([], timeOpts)}`;
+            
+            const startMs = startD.getTime();
+            const stopMs = stopD.getTime();
+            const durationMs = Math.max(1, stopMs - startMs);
+            const elapsedPct = Math.min(100, Math.max(0, ((nowMs - startMs) / durationMs) * 100));
+
+            epgTime.textContent = timeStr;
+            let fullTitle = curTimeline.title || ch.name;
+            if (curTimeline.episode?.name && curTimeline.episode.name !== curTimeline.title) {
+              fullTitle += ` — "${curTimeline.episode.name}"`;
+            }
+            epgTitle.textContent = fullTitle;
+            epgDesc.textContent = curTimeline.episode?.description || curTimeline.description || ch.description || 'Live episode broadcast.';
+
+            progressWrap.style.display = 'block';
+            progressBar.style.width = `${elapsedPct.toFixed(1)}%`;
+            return;
+          }
+        } catch (err) {
+          if (err.name === 'AbortError') return;
+          console.warn('Could not fetch live schedule:', err);
+        }
+      }
+
+      // Default Live Guide for other channels
+      epgBadge.textContent = 'LIVE BROADCAST';
+      epgTime.textContent = '24/7 Live Stream';
+      epgTitle.textContent = `${ch.name} — Current Broadcast`;
+      epgDesc.textContent = `${ch.description || 'Continuous live television broadcast.'} For full interactive TV guide grid in VLC Media Player, press Shift + G (Tools > Program Guide).`;
+      progressWrap.style.display = 'none';
+    }
+
+    function closePlayerModal() {
+      if (currentEpgFetchAbort) {
+        currentEpgFetchAbort.abort();
+        currentEpgFetchAbort = null;
+      }
+      const video = document.getElementById('liveVideo');
+      video.pause();
+      video.src = '';
+      if (hlsInstance) {
+        hlsInstance.destroy();
+        hlsInstance = null;
+      }
+      currentSubtitleTrack = -1;
+      availableSubtitleTracks = [];
+      currentAudioTrack = -1;
+      availableAudioTracks = [];
+      updateSubtitleBtnState();
+      updateAudioBtnState();
+      document.getElementById('playerModal').style.display = 'none';
+    }
+
+    function handleModalClick(e) {
+      if (e.target.id === 'playerModal') {
+        closePlayerModal();
+      }
+    }
+
+    function copyModalUrl() {
+      if (currentModalChannel) {
+        copyStreamUrl(currentModalChannel.url, currentModalChannel.name);
+      }
+    }
+
+    // Guide Modal
+    function openGuideModal() {
+      document.getElementById('guideModal').style.display = 'flex';
+    }
+
+    function closeGuideModal() {
+      document.getElementById('guideModal').style.display = 'none';
+    }
+
+    function handleGuideModalClick(e) {
+      if (e.target.id === 'guideModal') {
+        closeGuideModal();
+      }
+    }
+
+    // Clipboard Toast
+    function copyStreamUrl(url, name) {
+      navigator.clipboard.writeText(url).then(() => {
+        showToast(`Copied stream URL for "${name}"!`);
+      }).catch(() => {
+        showToast('Stream URL copied!');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastNotification');
+      document.getElementById('toastMsg').textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2600);
+    }
+
+    // Escaper utilities
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str).replace(/[&<>"']/g, m => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[m]));
+    }
+
+    function escapeAttr(str) {
+      if (!str) return '';
+      return String(str).replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    }
+
+    // Shortcuts Modal
+    function openShortcutsModal() {
+      document.getElementById('shortcutsModal').style.display = 'flex';
+    }
+
+    function closeShortcutsModal() {
+      document.getElementById('shortcutsModal').style.display = 'none';
+    }
+
+    function handleShortcutsModalClick(e) {
+      if (e.target.id === 'shortcutsModal') {
+        closeShortcutsModal();
+      }
+    }
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      const activeEl = document.activeElement;
+      const isInput = activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'SELECT' || activeEl.tagName === 'TEXTAREA');
+
+      if (e.key === 'Escape') {
+        closePlayerModal();
+        closeGuideModal();
+        closeTranslateGuideModal();
+        closeShortcutsModal();
+        closeAdultModal();
+        return;
+      }
+
+      // If user is actively typing in a form input, don't trigger global shortcuts
+      if (isInput) return;
+
+      // '?' opens keyboard shortcuts modal
+      if (e.key === '?') {
+        e.preventDefault();
+        openShortcutsModal();
+        return;
+      }
+
+      // '/' jumps to search input
+      if (e.key === '/') {
+        e.preventDefault();
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+          searchInput.focus();
+          searchInput.select();
+        }
+        return;
+      }
+
+      // While web player modal is open:
+      const playerOpen = document.getElementById('playerModal').style.display === 'flex';
+      if (playerOpen) {
+        if (e.key.toLowerCase() === 'c' || e.key.toLowerCase() === 'v') {
+          e.preventDefault();
+          toggleSubtitles();
+          return;
+        }
+        if (e.key === ' ') {
+          e.preventDefault();
+          const video = document.getElementById('liveVideo');
+          if (video) {
+            if (video.paused) {
+              video.play().catch(() => {});
+            } else {
+              video.pause();
+            }
+          }
+          return;
+        }
+      }
+    });
+
+    // Start
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

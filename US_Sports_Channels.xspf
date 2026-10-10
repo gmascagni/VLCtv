@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+  <title>US Sports &amp; Outdoors Channels</title>
+  <trackList>
+    <track>
+      <location>https://30a-tv.com/darcizzle.m3u8</location>
+      <title>30A Darcizzle Offshore (720p)</title>
+      <image>https://i.imgur.com/Q4l2uao.png</image>
+      <annotation>Sport fishing adventures, offshore saltwater angling, and boating lifestyle.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>0</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://30a-tv.com/feeds/vidaa/golf.m3u8</location>
+      <title>30A Golf Kingdom (720p)</title>
+      <image>https://i.imgur.com/Lv53nh4.png</image>
+      <annotation>Live golf tournaments, player profiles, instructional lessons, and course tours.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>1</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://30a-tv.com/feeds/vidaa/cars.m3u8</location>
+      <title>30A We Love Cars (720p)</title>
+      <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxroqfE_hvEApKMQx03sSYXPeEh4ClaF5QSa8XfRwJW_So3vfSN0CjqzxN30H-qEBswqU&amp;usqp=CAU</image>
+      <annotation>Motorsports racing, high-octane automotive builds, and vehicle performance tests.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>2</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://raycom-accdn-firetv.amagi.tv/playlist.m3u8</location>
+      <title>ACC Digital Network (1080p)</title>
+      <image>https://i.imgur.com/V6Kaqha.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>3</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.239.31.26:8989/accnetwork/index.m3u8</location>
+      <title>ACC Network (720p)</title>
+      <image>https://i.imgur.com/TpCkbkT.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>4</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8</location>
+      <title>AKC TV (1080p)</title>
+      <image>https://i.imgur.com/XRTfoSp.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>5</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8</location>
+      <title>AKC TV Meet the Breeds</title>
+      <image>https://i.imgur.com/66avgdk.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>6</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8</location>
+      <title>AKC TV Puppies</title>
+      <image>https://i.imgur.com/2nzRS60.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>7</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://bein-xtra-bein.amagi.tv/playlist.m3u8</location>
+      <title>beIN SPORTS XTRA (1080p)</title>
+      <image>https://i.ibb.co/HT49GPmB/XTRA-2.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>8</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://201.190.41.246:9060/play/a03y/index.m3u8</location>
+      <title>beIN SPORTS XTRA en Espanol (1080p)</title>
+      <image>https://i.imgur.com/V562tpO.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>9</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8</location>
+      <title>BEK Sports West (720p)</title>
+      <image>https://i.imgur.com/1l3t5jd.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>10</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8</location>
+      <title>Bellator MMA</title>
+      <image>https://i.imgur.com/VBKoLHk.png</image>
+      <annotation>Action-packed combat sports, mixed martial arts, professional wrestling, and bout archives.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>11</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_BTN/index.m3u8</location>
+      <title>Big Ten Network (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/960px-Big_Ten_Network_Logo.svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>12</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pb-wm04vonaerv0k.akamaized.net/billi.m3u8</location>
+      <title>Billiard TV (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/BZijfKh.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>13</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8</location>
+      <title>CBS Sports Golazo Network (720p)</title>
+      <image>https://i.imgur.com/eMjutHS.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>14</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8</location>
+      <title>CBS Sports HQ (720p)</title>
+      <image>https://i.imgur.com/q8BENJg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>15</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-11.frequency.stream/dist/glewedtv/11/hls/master/playlist.m3u8</location>
+      <title>Choppertown (720p)</title>
+      <image>https://i.imgur.com/U6cu5Ms.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>16</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://41.205.93.154/ESPNNEWS/index.m3u8</location>
+      <title>Discovery Turbo (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>17</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8</location>
+      <title>DraftKings Network (1080p)</title>
+      <image>https://i.imgur.com/SFYhgrt.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>18</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8</location>
+      <title>Duck Hunting TV (1080p)</title>
+      <image>https://image.roku.com/developer_channels/prod/b2a80f0a20fc338f22a8289f23d20d19d958470ff1b8df3845c57cbc54ec1245.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>19</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://168.228.44.241:9998/play/a0dz/index.m3u8</location>
+      <title>ESPN Deportes HD (720p)</title>
+      <image>https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>20</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_ESPNU/index.m3u8</location>
+      <title>ESPNU (720p)</title>
+      <image>https://i.imgur.com/HiBrysh.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>21</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8</location>
+      <title>ESPNU HD (720p)</title>
+      <image>https://i.imgur.com/HiBrysh.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>22</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>F1 Channel (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/cjXzWsI.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>23</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://45.70.201.81:8000/play/a00x/index.m3u8</location>
+      <title>Fierro a Fondo TV (1080p)</title>
+      <image>https://pbs.twimg.com/profile_images/1903618079696773120/maQJpd9__400x400.jpg</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>24</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8</location>
+      <title>FIFA+ United States (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>25</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8</location>
+      <title>FITE 24/7 (1080p)</title>
+      <image>https://i.imgur.com/ESV6qgH.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>26</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8</location>
+      <title>Fox Deportes (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>27</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8</location>
+      <title>Fox Sports 1 (720p)</title>
+      <image>https://i.imgur.com/O9BapV9.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>28</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8</location>
+      <title>FTF Sports (720p)</title>
+      <image>https://i.imgur.com/yvUjOI3.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>29</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dnf08l6u6uxnz.cloudfront.net/master.m3u8</location>
+      <title>Fubo Sports Network (1080p)</title>
+      <image>https://i.imgur.com/qFNRJLb.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>30</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978</location>
+      <title>Fun Roads (720p)</title>
+      <image>https://i.imgur.com/2Q6TENm.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>31</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8</location>
+      <title>Golazo Network (720p)</title>
+      <image>https://images.pluto.tv/channels/63a0e33a45264d000850ed7e/colorLogoPNG_1731835813404.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>32</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8</location>
+      <title>Lacrosse TV (720p)</title>
+      <image>https://yt3.googleusercontent.com/ytc/AIdro_m_xSJFydxZ9QBU-85OuchjmzS0Bo0_Tukmk7to8hBfyl8=s512-c-k-c0x00ffffff-no-rj</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>33</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8</location>
+      <title>MLB (720p)</title>
+      <image>https://i.imgur.com/ym3su2J.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>34</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8</location>
+      <title>MLB Strike Zone (720p)</title>
+      <image>https://i.imgur.com/uMI1ySO.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>35</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://31.148.48.15/M1_Global/index.m3u8</location>
+      <title>MMA TV (576p)</title>
+      <image>https://i.imgur.com/Qxco1eW.png</image>
+      <annotation>Action-packed combat sports, mixed martial arts, professional wrestling, and bout archives.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>36</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_MSG/index.m3u8</location>
+      <title>MSG (720p)</title>
+      <image>https://i.imgur.com/SEQFh0P.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>37</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_NBA/index.m3u8</location>
+      <title>NBA TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>38</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008</location>
+      <title>NBC Sports NOW (1080p)</title>
+      <image>https://i.imgur.com/EzNf2Yx.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>39</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8</location>
+      <title>NFL Channel (720p)</title>
+      <image>https://i.imgur.com/mPGtwAP.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>40</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://nhl-firetv.amagi.tv/playlist.m3u8</location>
+      <title>NHL Network (1080p)</title>
+      <image>https://i.imgur.com/UNZ8bef.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>41</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d265y4sk8257lt.cloudfront.net/nh.m3u8</location>
+      <title>NHRA TV (1080p)</title>
+      <image>https://i.imgur.com/jZgcm4k.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>42</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1e354daam8g5r.cloudfront.net/playlist.m3u8</location>
+      <title>Outdoor America (1080p)</title>
+      <image>https://i.imgur.com/UKfimFD.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>43</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8</location>
+      <title>Outdoor Channel (1080p)</title>
+      <image>https://i.imgur.com/Kh4MWaY.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>44</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_OUTDOOR/index.m3u8</location>
+      <title>Outdoor Channel HD (720p)</title>
+      <image>https://i.imgur.com/Kh4MWaY.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>45</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://outsidetv-firetv.amagi.tv/playlist.m3u8</location>
+      <title>Outside TV (1080p)</title>
+      <image>https://www.cynopsis.com/wp-content/uploads/2018/02/outside-tv.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>46</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8</location>
+      <title>Overtime (1080p)</title>
+      <image>https://i.imgur.com/9S9k4IK.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>47</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pac12-firetv.amagi.tv/playlist.m3u8</location>
+      <title>Pac-12 Insider (1080p)</title>
+      <image>https://i.imgur.com/736QREy.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>48</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60d39387706fe50007fda8e8.m3u8</location>
+      <title>PBR RidePass (720p)</title>
+      <image>https://i.imgur.com/gUxH97E.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>49</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8</location>
+      <title>PGA Tour (1080p)</title>
+      <image>https://i.imgur.com/J0TY9dG.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>50</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-69d7ebb726eeec84158e28cb.m3u8</location>
+      <title>Pluto TV Adventure</title>
+      <image>https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>51</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8</location>
+      <title>Pluto TV Cars</title>
+      <image>https://images.pluto.tv/channels/69c592dff0f1a7d732dc6e36/colorLogoPNG_1774557827331.png</image>
+      <annotation>Motorsports racing, high-octane automotive builds, and vehicle performance tests.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>52</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-603fde9026ecbf0007752c2c.m3u8</location>
+      <title>Pluto TV Competition</title>
+      <image>https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>53</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5fc54366b04b2300072e31af.m3u8</location>
+      <title>PokerGo</title>
+      <image>https://i.imgur.com/1603HED.png</image>
+      <annotation>Championship poker tournaments, high-stakes cash games, and poker strategy.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>54</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01258-raycomsports-powernationau-samsungau-18bwc.amagi.tv/playlist.m3u8</location>
+      <title>PowerNation TV (1080p)</title>
+      <image>https://i.imgur.com/jguTO8E.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>55</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://a-cdn.klowdtv.com/live3/pursuit_720p/playlist.m3u8</location>
+      <title>Pursuit Channel (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/d/d6/Pursuit_Channel_logo.png</image>
+      <annotation>Hunting, fishing, wilderness survival, and outdoor shooting sports.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>56</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1p1siomv3cm7b.cloudfront.net/playlist.m3u8</location>
+      <title>PursuitUP (1080p)</title>
+      <image>https://i.imgur.com/5Vzwqts.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>57</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8</location>
+      <title>Rally TV (1080p)</title>
+      <image>https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>58</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8</location>
+      <title>Red Bull TV US (1080p)</title>
+      <image>https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png</image>
+      <annotation>Action sports, extreme sports competitions, motorsports, and adventure culture.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>59</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://freecast-lukentvlive.vgcdn.net/out/v1/a4f31f297fc5440f814bd2cffd77e689/index.m3u8</location>
+      <title>REV'N Action (720p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/xsm8mMd.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>60</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8</location>
+      <title>Right Now TV (720p)</title>
+      <image>https://i.imgur.com/u8zXUOg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>61</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241</location>
+      <title>Slopes TV (720p)</title>
+      <image>https://i.imgur.com/8bzAfgK.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>62</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5c393cad2de254456f7ef8c2.m3u8</location>
+      <title>Spike Outdoors</title>
+      <image>https://i.imgur.com/cdCD2A2.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>63</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://sportsgrid-tribal.amagi.tv/playlist.m3u8</location>
+      <title>SportsGrid (1080p)</title>
+      <image>https://i.imgur.com/ulGKX30.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>64</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8</location>
+      <title>Stadium (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png</image>
+      <annotation>Live collegiate sports games, studio highlights, insider analysis, and athletics.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>65</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8</location>
+      <title>Swamiji TV American (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/nrLcuzs.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>66</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8</location>
+      <title>Swerve Combat (1080p)</title>
+      <image>https://i.imgur.com/eFZh7aG.png</image>
+      <annotation>Action-packed combat sports, mixed martial arts, professional wrestling, and bout archives.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>67</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8</location>
+      <title>Swerve Sports (720p)</title>
+      <image>https://i.imgur.com/GT0Yi2T.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>68</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8</location>
+      <title>Tennis Channel 2 (1080p)</title>
+      <image>https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>69</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8</location>
+      <title>Tennis Channel (1080p)</title>
+      <image>https://i.imgur.com/tsljAnY.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>70</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8</location>
+      <title>Tennis Channel +2 (720p)</title>
+      <image>https://i.imgur.com/tsljAnY.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>71</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8</location>
+      <title>TVS Bowling Network (720p)</title>
+      <image>https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>72</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8</location>
+      <title>TVS Boxing (360p)</title>
+      <image>https://i.imgur.com/30ZoF75.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>73</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8</location>
+      <title>TVS Classic Sports (360p)</title>
+      <image>https://i.imgur.com/auR0Mi6.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>74</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8</location>
+      <title>TVS Sports (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/Lwwq62E.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>75</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8</location>
+      <title>TVS Sports Bureau (720p)</title>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>76</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8</location>
+      <title>TVS Turbo (360p)</title>
+      <image>https://i.imgur.com/7zYIbU1.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>77</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8</location>
+      <title>TVS Women Sports (720p)</title>
+      <image>https://i.imgur.com/8hC4PfF.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>78</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://45.170.130.224:8000/play/a020/index.m3u8</location>
+      <title>TyC Sports USA</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>79</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8</location>
+      <title>Unbeaten (1080p)</title>
+      <image>https://i.imgur.com/LmkNt3v.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>80</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.197.41.183/USA_NETWORK/index.m3u8</location>
+      <title>USA Network (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>81</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8</location>
+      <title>Waypoint TV (1080p)</title>
+      <image>https://i.imgur.com/9vvlJN9.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>82</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://tvsen5.aynascope.net/willowhd/index.m3u8</location>
+      <title>Willow (720p)</title>
+      <image>https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>83</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8</location>
+      <title>Willow Sports (1080p)</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>84</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8</location>
+      <title>Women's Sports Network (1080p)</title>
+      <image>https://i.imgur.com/rhIwUcQ.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>85</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8</location>
+      <title>World Poker Tour (1080p)</title>
+      <image>https://i.imgur.com/98kLMjj.png</image>
+      <annotation>Championship poker tournaments, high-stakes cash games, and poker strategy.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>86</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://103.151.60.162:2122/play/a00p/index.m3u8?hls</location>
+      <title>WWE Network (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/500px-WWE_Network_logo.svg.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>87</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247</location>
+      <title>XFC TV (720p)</title>
+      <image>https://i.imgur.com/LcfzmG0.png</image>
+      <annotation>Live sports events, tournament highlights, athletic competitions, and sports talk.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>88</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+  </trackList>
+</playlist>

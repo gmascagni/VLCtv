@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+  <title>US Entertainment &amp; Series Channels</title>
+  <trackList>
+    <track>
+      <location>https://30a-tv.com/feeds/vidaa/luxelife.m3u8</location>
+      <title>30A Luxe Life Discovered (720p)</title>
+      <image>https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>0</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://30a-tv.com/feeds/720p/63.m3u8</location>
+      <title>30A Ridiculous TV (720p)</title>
+      <image>https://30a.media/wp-content/uploads/2023/08/pzaz-30atv-2-230x366-ridiculous.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>1</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://30a-tv.com/sidewalks.m3u8</location>
+      <title>30A Sidewalks (720p)</title>
+      <image>https://i.imgur.com/HSdwqZN.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>2</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://30a-tv.com/feeds/masters/30atv.m3u8</location>
+      <title>30A Television Channel (720p)</title>
+      <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHiYfIB01K44LIBG81aEGAmDuIWw8MA0f2w&amp;s</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>3</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://30a-tv.com/beachy.m3u8</location>
+      <title>30A The Beach Show (720p)</title>
+      <image>https://i.imgur.com/0j5Aget.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>4</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8</location>
+      <title>48 Hours (1080p)</title>
+      <image>https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>5</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.239.31.26:8989/aande/index.m3u8</location>
+      <title>A&amp;E (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>6</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8</location>
+      <title>Absolute Reality by WE TV</title>
+      <image>https://i.imgur.com/Gtwk8ic.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>7</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8</location>
+      <title>Acapulco Shore US</title>
+      <image>https://images.pluto.tv/channels/61a52615cbef2500072876e2/colorLogoPNG_1756972226445.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>8</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://c.streamhoster.com/link/hls/W5s3fS/inLo5pcsHjo/iqg9wps0m1x_5/playlist.m3u8</location>
+      <title>Ace TV (480p)</title>
+      <image>https://i.imgur.com/KtXQeeZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>9</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-1.streamhoster.com/pl_154/amlst:205432-2055980/playlist.m3u8</location>
+      <title>Ace TV KCKS-LD (720p)</title>
+      <image>https://i.imgur.com/KtXQeeZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>10</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://alt-al.otteravision.com/alt/al/al.m3u8</location>
+      <title>AfroLandTV (1080p)</title>
+      <image>https://i.imgur.com/jvnkrEF.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>11</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8</location>
+      <title>AFV (720p)</title>
+      <image>https://i.imgur.com/TOB9vmW.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>12</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.m3u8</location>
+      <title>AFV Espanol (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/HUK4WXC.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>13</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8</location>
+      <title>All Reality by WE tv (720p)</title>
+      <image>https://i.imgur.com/HZTz5HJ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>14</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8</location>
+      <title>All Weddings WE tv</title>
+      <image>https://i.imgur.com/OjLCew5.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>15</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://df1zke3zj042m.cloudfront.net/playlist.m3u8</location>
+      <title>ALLBLK Gems (720p)</title>
+      <image>https://i.imgur.com/gnkepQJ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>16</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d24l3uppudokci.cloudfront.net/playlist.m3u8</location>
+      <title>Always Funny Videos (720p)</title>
+      <image>https://i.imgur.com/vfdN5Xl.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>17</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-68757c45759366af05b3b199.m3u8</location>
+      <title>America's Next Top Model</title>
+      <image>https://images.pluto.tv/channels/68679fc6bb46d0bdd38ac9a4/colorLogoPNG_1756466390265.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>18</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e84f54a82f05300080e6746.m3u8</location>
+      <title>America's Test Kitchen (720p)</title>
+      <image>https://i.imgur.com/prMkTsZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>19</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8</location>
+      <title>AMP 2 (720p)</title>
+      <image>https://i.imgur.com/nfur3FR.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>20</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00353-lionsgatestudio-angermgmt-samsungau-o9jg9.amagi.tv/playlist/amg00353-lionsgatestudio-angermgmt-samsungau/playlist.m3u8</location>
+      <title>Anger Management Channel (1080p)</title>
+      <image>https://i.imgur.com/VXZgrNy.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>21</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8</location>
+      <title>Antiques Road Trip (1080p)</title>
+      <image>https://i.imgur.com/kkm7VqV.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>22</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://bbc-antiquesroadshowuk-1-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>Antiques Roadshow UK (1080p)</title>
+      <image>https://i.imgur.com/rKWLv48.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>23</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8</location>
+      <title>Are We There Yet? (1080p)</title>
+      <image>https://i.imgur.com/3BJQiHP.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>24</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-900.frequency.stream/dist/cineverse/900/hls/master/playlist.m3u8</location>
+      <title>AsianCrush (1080p)</title>
+      <image>https://i.imgur.com/hW6z1RG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>25</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://uptv-aspiretvlife-klowdtv.amagi.tv/playlist.m3u8</location>
+      <title>Aspire TV Life (1080p)</title>
+      <image>https://press.upentertainment.com/wp-content/uploads/2022/03/aspire-tv-life-logo.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>26</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1ik2p49apxqjf.cloudfront.net/playlist.m3u8</location>
+      <title>At Home with Family Handyman (720p)</title>
+      <image>https://i.imgur.com/WfKlGbX.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>27</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8</location>
+      <title>Autentic Travel (1080p)</title>
+      <image>https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>28</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60a3d889a5b3690008dc7fe8.m3u8</location>
+      <title>Bar Rescue</title>
+      <image>https://images.pluto.tv/channels/655f2ee6c0fc88000877d26c/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>29</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://bbb-barkt-streamstak.otteravision.com/bbb/barkt/barkt.m3u8</location>
+      <title>Bark TV (1080p)</title>
+      <image>https://images.squarespace-cdn.com/content/v1/6a233007201fda6808a47ff9/f4f45cba-d340-4963-860a-37edaf91bc7f/BarkTV_Horizontal_Color.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>30</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8</location>
+      <title>Baywatch (1080p)</title>
+      <image>https://i.imgur.com/c2esKHg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>31</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.239.31.26:8989/bbcamerica/index.m3u8</location>
+      <title>BBC America (720p)</title>
+      <image>https://i.imgur.com/pTiiPz0.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>32</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8</location>
+      <title>BBC Food (1080p)</title>
+      <image>https://i.imgur.com/kcmHcSx.png</image>
+      <annotation>Culinary masters, gourmet recipes, cooking competitions, and delicious dining tours.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>33</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d11r33s5i066xh.cloudfront.net/playlist.m3u8</location>
+      <title>BBC Home &amp; Garden (1080p)</title>
+      <image>https://i.imgur.com/rC0pi1D.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>34</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8</location>
+      <title>Beach TV Florida &amp; Alabama (720p)</title>
+      <image>https://i.imgur.com/weypM9C.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>35</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://5ed325193d4e1.streamlock.net:444/LiveTV/KTVHD/playlist.m3u8</location>
+      <title>Beach TV Key West &amp; Florida Keys (720p)</title>
+      <image>https://i.imgur.com/XhDBdff.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>36</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8</location>
+      <title>Beach TV Myrtle Beach &amp; The Grand Strand (720p)</title>
+      <image>https://i.imgur.com/aLYz7Bv.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>37</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8</location>
+      <title>Beach TV Panama City (720p)</title>
+      <image>https://i.imgur.com/HCQDvEe.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>38</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-666815f24b9fb400083f7e31.m3u8</location>
+      <title>Best of Dr Phil</title>
+      <image>https://i.imgur.com/Jj0wTFQ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>39</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60f85644a9493e0007a1f035.m3u8</location>
+      <title>BET Classics Pluto TV</title>
+      <image>https://images.pluto.tv/channels/60f85644a9493e0007a1f035/colorLogoPNG_1759339662769.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>40</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ca670f6593a5d78f0e85aed.m3u8</location>
+      <title>BET Pluto TV</title>
+      <image>https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>41</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-61326275b3c86a00078e4833.m3u8</location>
+      <title>BET Throwbacks</title>
+      <image>https://images.pluto.tv/channels/61326275b3c86a00078e4833/colorLogoPNG_1759340015358.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>42</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tgn.bozztv.com/betterlife/betterhealth/betterhealth/index.m3u8</location>
+      <title>Better Health TV (480p)</title>
+      <image>https://i.imgur.com/qnwJiji.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>43</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f4d83e0a382c00007bc02e7.m3u8</location>
+      <title>Beverly Hills 90210</title>
+      <image>https://images.pluto.tv/channels/5f4d83e0a382c00007bc02e7/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>44</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-687ff00ff6bc08130f16ab81.m3u8</location>
+      <title>Beyond the Gates</title>
+      <image>https://images.pluto.tv/channels/687ff00ff6bc08130f16ab81/colorLogoPNG_1755074273752.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>45</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8</location>
+      <title>Big Brother</title>
+      <image>https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>46</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8</location>
+      <title>Biz TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/0/05/A_logo_for_BizTV.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>47</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-686d61503484d6073283059d.m3u8</location>
+      <title>Black Family Sitcoms</title>
+      <image>https://images.pluto.tv/channels/686d61503484d6073283059d/colorLogoPNG_1752619670829.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>48</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d51e2bceca5b4b2c0e06c50.m3u8</location>
+      <title>Black Ink Crew</title>
+      <image>https://i.imgur.com/QnuIVB6.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>49</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-61b3b8c645b45d0007a9bb8d.m3u8</location>
+      <title>Blue Bloods</title>
+      <image>https://images.pluto.tv/channels/61b3b8c645b45d0007a9bb8d/colorLogoSVG.svg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>50</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://bonappetit-samsung.amagi.tv/playlist.m3u8</location>
+      <title>bon appetit (1080p)</title>
+      <image>https://i.imgur.com/YhFFxlE.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>51</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8</location>
+      <title>Bounce XL (1080p)</title>
+      <image>https://i.imgur.com/GzxgSkc.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>52</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_BUZZR/index.m3u8</location>
+      <title>Buzzr (1080p)</title>
+      <image>https://static.wikia.nocookie.net/logopedia/images/1/12/0mk7F5ao.png/revision/latest/scale-to-width-down/512</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>53</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8</location>
+      <title>BX Arts (720p)</title>
+      <image>https://i.imgur.com/PF71rdZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>54</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8</location>
+      <title>BX Culture (720p)</title>
+      <image>https://i.imgur.com/PF71rdZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>55</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-camerasmile/index.m3u8</location>
+      <title>Camera Smile TV (480p)</title>
+      <image>https://i.imgur.com/V5h4R83.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>56</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8</location>
+      <title>Canela TV (1080p)</title>
+      <image>https://i.imgur.com/8Hllkpk.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>57</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-65244c403fd33c0008ffff31.m3u8</location>
+      <title>Car Chase (United States) (720p)</title>
+      <image>https://images.pluto.tv/channels/65244c403fd33c0008ffff31/colorLogoPNG.png</image>
+      <annotation>Motorsports racing, high-octane automotive builds, and vehicle performance tests.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>58</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00353-amg00353c19-xumo-us-2608.playouts.now.amagi.tv/lionsgate-clbng/playlist.m3u8</location>
+      <title>Celebrity Name Game (1080p) [Geo-blocked]</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/773232e1-5c36-490b-922e-e5be8ec12eb2/celebrityd5796a3e14bf45513f7b3071b90d030.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>59</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-66ba495ffe11e5000881f049.m3u8</location>
+      <title>Cheers + Frasier</title>
+      <image>https://images.pluto.tv/channels/66ba495ffe11e5000881f049/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>60</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-chefchampion/index.m3u8</location>
+      <title>Chef Champion (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/15a9pG9.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>61</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-chefrock/index.m3u8</location>
+      <title>Chef Roc Show (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/vhVnAzE.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>62</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60fb2f47c133270007327375.m3u8</location>
+      <title>Cine aventura</title>
+      <image>https://images.pluto.tv/channels/60fb2f47c133270007327375/colorLogoPNG_1757954279063.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>63</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5cf96b1c4f1ca3f0629f4bf0.m3u8</location>
+      <title>Cine en espanol</title>
+      <image>https://images.pluto.tv/channels/5cf96b1c4f1ca3f0629f4bf0/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>64</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2223</location>
+      <title>CinePride (720p)</title>
+      <image>https://i.imgur.com/Y4Wgq8I.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>65</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://circle-roku.amagi.tv/playlist.m3u8</location>
+      <title>Circle (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>66</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f15e32b297f96000768f928.m3u8</location>
+      <title>Classic TV Comedy</title>
+      <image>https://i.imgur.com/wg5I5Fb.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>67</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/1e764712-0649-4946-bd7e-f1bbba3be6fa/playlist.m3u8</location>
+      <title>Cold Case Files (1080p)</title>
+      <image>https://i.imgur.com/mowSfj6.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>68</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5cf96dad1652631e36d43320.m3u8</location>
+      <title>Comedy Central en Espanol</title>
+      <image>https://i.imgur.com/6xTD3G8.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>69</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8</location>
+      <title>Comedy Central Pluto TV</title>
+      <image>https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>70</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://comedydynamics-plex-ingest.cinedigm.com/playlist.m3u8</location>
+      <title>Comedy Dynamics (1080p)</title>
+      <image>https://i.imgur.com/1lEvUOa.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>71</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://fast-channels.sinclairstoryline.com/COMET/index.m3u8</location>
+      <title>Comet (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/960px-Comet_logo.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>72</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_COOKING/index.m3u8</location>
+      <title>Cooking Channel (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cooking_Channel.svg/960px-Cooking_Channel.svg.png</image>
+      <annotation>Culinary masters, gourmet recipes, cooking competitions, and delicious dining tours.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>73</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46</location>
+      <title>Cooking Panda (576p)</title>
+      <image>https://i.imgur.com/bhY0Zcs.png</image>
+      <annotation>Culinary masters, gourmet recipes, cooking competitions, and delicious dining tours.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>74</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://langleyproductions-cops-2-eu.rakuten.wurl.tv/playlist.m3u8</location>
+      <title>Cops (720p)</title>
+      <image>https://i.imgur.com/J3XO6V2.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>75</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8</location>
+      <title>Crime + Investigation (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>76</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5efbd29e4aa26700076c0d06.m3u8</location>
+      <title>CSI (United States)</title>
+      <image>https://i.imgur.com/xLLNEfA.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>77</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-62f54c11b3af68000702c304.m3u8</location>
+      <title>CSI: Miami</title>
+      <image>https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>78</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-632b5950b515b000079e6b81.m3u8</location>
+      <title>CSI: Miami en espanol</title>
+      <image>https://images.pluto.tv/channels/632b5950b515b000079e6b81/colorLogoPNG_1731837336190.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>79</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-62f54c6439183b000769fb8f.m3u8</location>
+      <title>CSI: NY</title>
+      <image>https://images.pluto.tv/channels/62f54c6439183b000769fb8f/colorLogoPNG_1731837277521.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>80</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-632b606e12a67b0007c9e371.m3u8</location>
+      <title>CSI: NY en espanol</title>
+      <image>https://images.pluto.tv/channels/632b606e12a67b0007c9e371/colorLogoPNG_1731837281479.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>81</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tricoast-tv-dark-matter-01-us.ono.wurl.tv/playlist.m3u8</location>
+      <title>Dark Matter TV (720p)</title>
+      <image>https://i.imgur.com/9K8T3ND.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>82</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-651f239d9c7aeb0008286823.m3u8</location>
+      <title>Dating Disasters</title>
+      <image>https://images.pluto.tv/channels/651f239d9c7aeb0008286823/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>83</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d40855b3fb0855028c99b6f.m3u8</location>
+      <title>DCC: Making the Team</title>
+      <image>https://images.pluto.tv/channels/5d40855b3fb0855028c99b6f/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>84</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungau/playlist.m3u8</location>
+      <title>Deal or No Deal (1080p)</title>
+      <image>https://i.imgur.com/lZvNXA1.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>85</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3537vnymvfque.cloudfront.net/playlist.m3u8</location>
+      <title>Degrassi (720p)</title>
+      <image>https://i.imgur.com/vhSzfDC.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>86</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00353-amg00353c40-xumo-us-4839.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>Designated Survivor (1080p) [Geo-blocked]</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/6f31f52b-2b65-49eb-91e5-52e07edd1927/DesignatedSurvivor_Plex_1500x1000_Logo_Dark.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>87</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8</location>
+      <title>Destination America (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Destination_America_logo.svg/960px-Destination_America_logo.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>88</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://bbc-classicdrwho-1-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>Doctor Who Classic (1080p)</title>
+      <image>https://i.imgur.com/JIqJQQM.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>89</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/ff0ad399-75ed-42ba-8c60-75bb6cb8c929/playlist.m3u8</location>
+      <title>Dog the Bounty Hunter (1080p)</title>
+      <image>https://i.imgur.com/lMICupK.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>90</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00426-lds-amg00426c15-samsung-au-3684.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>Don't Tell The Bride (1080p)</title>
+      <image>https://i.imgur.com/h0bc3Fa.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>91</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://drybar-drybarcomedy-1-au.samsung.wurl.tv/playlist.m3u8</location>
+      <title>Dry Bar Comedy+ (720p)</title>
+      <image>https://i.imgur.com/3N2C60N.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>92</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-64d1606b4c5ed80008e3b8b9.m3u8</location>
+      <title>Dynasty</title>
+      <image>https://images.pluto.tv/channels/62e919ca865c590007ecd0bd/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>93</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_E/index.m3u8</location>
+      <title>E! (United States) East (1080p)</title>
+      <image>https://i.imgur.com/TWFDkap.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>94</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8</location>
+      <title>E! Keeping Up (1080p)</title>
+      <image>https://i.imgur.com/9F7VYDM.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>95</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream.ads.ottera.tv/playlist.m3u8?network_id=1544</location>
+      <title>El Rey</title>
+      <image>https://i.imgur.com/u8hbbij.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>96</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01705-amg01705c1-amgplt0095.playout.now3.amagi.tv/playlist.m3u8</location>
+      <title>Electric Now (720p)</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/7685b801-1ef6-4098-947a-4ccada912e33/Electric_Now_Logo_For_Dark_Background_EN.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>97</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://estrellatv-oando.amagi.tv/playlist.m3u8</location>
+      <title>Estrella TV (1080p)</title>
+      <image>https://i.imgur.com/IZxjnyp.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>98</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://d029dcec.kazmazpaz.ru/iptv/GVR4V8HYAGBS5V/1098/manifest.m3u8</location>
+      <title>Estrella TV WMBC-TV (720p)</title>
+      <image>https://i.imgur.com/IZxjnyp.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>99</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8</location>
+      <title>FailArmy (720p)</title>
+      <image>https://i.imgur.com/VIpQJxL.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>100</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f77939a630f530007dde654.m3u8</location>
+      <title>Family Ties (United States)</title>
+      <image>https://i.imgur.com/WJEkKCb.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>101</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-699c1b4c9c3b075ecd513139.m3u8</location>
+      <title>Farscape</title>
+      <image>https://i.imgur.com/2WH4lSc.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>102</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8</location>
+      <title>Fashion Finds (720p)</title>
+      <image>https://i.imgur.com/GvDRZgq.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>103</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungau/playlist.m3u8</location>
+      <title>Fear Factor (1080p)</title>
+      <image>https://i.imgur.com/CIYnLWz.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>104</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-65775af3b3801200084a3aa4.m3u8</location>
+      <title>Feel Good Drama</title>
+      <image>https://images.pluto.tv/channels/65775af3b3801200084a3aa4/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>105</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8</location>
+      <title>Flowers TV USA</title>
+      <image>https://upload.wikimedia.org/wikipedia/ml/1/1c/Flowers-Onam.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>106</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://fnx.lls.pbs.org/index.m3u8</location>
+      <title>FNX (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>107</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/live/ch1/video.m3u8</location>
+      <title>FNX KVCR-DT [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>108</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8</location>
+      <title>Food Network (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png</image>
+      <annotation>Culinary masters, gourmet recipes, cooking competitions, and delicious dining tours.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>109</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1h1d6qoy9vnra.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Freebie-Plex/187.m3u8</location>
+      <title>Freebie TV (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/KbmXdjm.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>110</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8</location>
+      <title>Funny AF</title>
+      <image>https://i.imgur.com/UCwjdtQ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>111</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_FUSE/index.m3u8</location>
+      <title>Fuse (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>112</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8</location>
+      <title>Gagsnetwork (576p)</title>
+      <image>https://i.imgur.com/ENj5GIp.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>113</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2230</location>
+      <title>Galxy TV (720p)</title>
+      <image>https://i.imgur.com/7gZlQDn.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>114</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8</location>
+      <title>Game Show Central (720p)</title>
+      <image>https://i.imgur.com/Uuc5h1s.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>115</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8</location>
+      <title>Game Show Network (720p) [Not 24/7]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Game_Show_Network_2018.svg/960px-Game_Show_Network_2018.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>116</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8</location>
+      <title>Gem Shopping Network (720p)</title>
+      <image>https://i.imgur.com/WlHEpAu.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>117</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8</location>
+      <title>Global Fashion Channel (1080p)</title>
+      <image>https://i.imgur.com/s4eGYEP.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>118</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://media.streambrothers.com:1936/8052/8052/playlist.m3u8</location>
+      <title>GlobalWorldTV (720p)</title>
+      <image>https://i.imgur.com/2u33Ayy.jpeg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>119</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8</location>
+      <title>Gordon Ramsay's Hell's Kitchen (720p)</title>
+      <image>https://i.imgur.com/WgN4T18.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>120</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg09501-amg09501c1-klowdtv-us-2398.playouts.now.amagi.tv/playlist/amg09501-quester-gotraveler-klowdtvus/playlist.m3u8</location>
+      <title>GoTraveler (720p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/IaRcN1G.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>121</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8</location>
+      <title>Great Entertainment Television (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/f/fb/Get_TV_2023.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>122</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8</location>
+      <title>Grit Xtra (1080p)</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/dbbb9bca-0b08-43b5-a0e7-715df9a6dbfd/_ChannelLogo_1500x1000.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>123</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8</location>
+      <title>Gunsmoke</title>
+      <image>https://images.pluto.tv/channels/62e916affb29c60007211c8a/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>124</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f7794162a4559000781fc12.m3u8</location>
+      <title>Happy Days (United States)</title>
+      <image>https://images.pluto.tv/channels/62e917b5e354cf0007b97a67/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>125</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8</location>
+      <title>HarPal Geo (360p)</title>
+      <image>https://i.imgur.com/NX3vvAX.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>126</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8</location>
+      <title>HauntTV (1080p)</title>
+      <image>https://images.pluto.tv/channels/63934c218ef524000757b122/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>127</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8</location>
+      <title>Heartland (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/b/ba/Heartland_TV_logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>128</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-61f07513227feb00073ee6bc.m3u8</location>
+      <title>Heartland Web</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/b/ba/Heartland_TV_logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>129</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8</location>
+      <title>Hi-YAH! (1080p)</title>
+      <image>https://i.imgur.com/sOYAnTB.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>130</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8</location>
+      <title>Hmong Star TV (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/dRsacao.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>131</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livefta.malimarcdn.com/ftaedge00/cvabroadcasting.stream/playlist.m3u8</location>
+      <title>Hmong TV Network (720p)</title>
+      <image>https://yt3.googleusercontent.com/aj3kdBQTgfxP-bDnleou4m1ykjPRFexvfTZZuvWlNc75Hn9-NTqXYEdEJ_KOcTSsbKj24K1B9BM=s512-c-k-c0x00ffffff-no-rj</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>132</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5dc1cb279c91420009db261d.m3u8</location>
+      <title>Home.Made.Nation (720p)</title>
+      <image>https://i.imgur.com/IdGNIoB.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>133</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6036e6e7ac69c400072afca2.m3u8</location>
+      <title>Hot Bench (720p)</title>
+      <image>https://images.pluto.tv/channels/6036e6e7ac69c400072afca2/colorLogoPNG_1731835667408.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>134</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8</location>
+      <title>HSN2 (720p)</title>
+      <image>https://i.imgur.com/uXBPJHZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>135</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8</location>
+      <title>HSN (720p)</title>
+      <image>https://m.media-amazon.com/images/I/419RyCp4+WL.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>136</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8</location>
+      <title>HSN West (720p)</title>
+      <image>https://m.media-amazon.com/images/I/419RyCp4+WL.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>137</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8?ads.vf=3I7CXmxz7vK</location>
+      <title>like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Comedy",Humor Mill (1080p)</title>
+      <image>https://i.imgur.com/e5W91v2.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>138</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+        <vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dos35knl8v49a.cloudfront.net/v1/food/samsungheadend_us/latest/main/hls/playlist.m3u8</location>
+      <title>Hungry (720p)</title>
+      <image>https://i.imgur.com/MIUDYh0.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>139</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6450209d939a5900084dba1d.m3u8</location>
+      <title>iCarly (United States) SD</title>
+      <image>https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png</image>
+      <annotation>Motorsports racing, high-octane automotive builds, and vehicle performance tests.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>140</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://edge1.lifestreamcdn.com/live/impactroku1/index.m3u8</location>
+      <title>Impact Network (720p)</title>
+      <image>https://i.imgur.com/57NH9sS.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>141</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://bbc-impossible-1-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>Impossible Quiz Show (1080p)</title>
+      <image>https://i.imgur.com/9EWffqx.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>142</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8</location>
+      <title>In the Kitchen (720p)</title>
+      <image>https://i.imgur.com/HrRUd6r.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>143</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8</location>
+      <title>INFAST (1080p)</title>
+      <image>https://i.imgur.com/VwAMqA7.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>144</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60549e98061b5f000776866a.m3u8</location>
+      <title>Instant Saga</title>
+      <image>https://i.imgur.com/PMpwaQN.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>145</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5cf96b8f4f1ca3f0629f4bf1.m3u8</location>
+      <title>Investiga US</title>
+      <image>https://images.pluto.tv/channels/5cf96b8f4f1ca3f0629f4bf1/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>146</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6582f8dadfed030008e5a93d.m3u8</location>
+      <title>Iron Chef</title>
+      <image>https://i.imgur.com/rk7fMNe.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>147</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-609bfa51fbecc1000733152e.m3u8</location>
+      <title>Jersey Shore (United States)</title>
+      <image>https://i.imgur.com/SssCaj1.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>148</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn.jwplayer.com/live/broadcast/0rrJ3kkM.m3u8</location>
+      <title>Jewelry TV 2 (720p)</title>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>149</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.jwplatform.com/live/broadcast/oe7UD7Ag.m3u8</location>
+      <title>Jewelry TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/5/50/Jewelry_television_logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>150</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/475550ae-8708-46a5-a7c3-54acb3d91480/playlist.m3u8</location>
+      <title>Johnny Carson TV (720p)</title>
+      <image>https://i.imgur.com/KBTqpJ7.png</image>
+      <annotation>Motorsports racing, high-octane automotive builds, and vehicle performance tests.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>151</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3s3a5c7f101eb.cloudfront.net/playlist.m3u8</location>
+      <title>Journy (720p)</title>
+      <image>https://i.imgur.com/1JNrLxq.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>152</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8</location>
+      <title>Judge Nosey (1080p)</title>
+      <image>https://i.imgur.com/S4r98AB.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>153</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://103.154.3.101:5001/live/960.m3u8</location>
+      <title>Jus Hindi (1080p)</title>
+      <image>https://i.imgur.com/5GI7Nh7.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>154</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://103.154.3.101:5001/live/961.m3u8</location>
+      <title>Jus One (1080p)</title>
+      <image>https://i.imgur.com/8NutGr2.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>155</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://103.154.3.101:5001/live/959.m3u8</location>
+      <title>Jus Punjabi (1080p)</title>
+      <image>https://jiotvimages.cdn.jio.com/dare_images/images/JUSPunjabi.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>156</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streams2.sofast.tv/ptnr-yupptv/title-JUST_FOR_LAUGHS_GAGS_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2790d143-5874-4146-bf91-9063c52b2f15/manifest.m3u8</location>
+      <title>Just for Laughs Gags (1080p)</title>
+      <image>https://i.imgur.com/HjVEVMJ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>157</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d2q0mzb9bm4w5z.cloudfront.net/68fee8e1_605a_437b_b968_244c3c0d5f24/hls/playlist.m3u8</location>
+      <title>K-Content by CJ ENM (1080p)</title>
+      <image>https://i.imgur.com/lRy231d.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>158</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://video1.getstreamhosting.com:1936/8055/8055/playlist.m3u8</location>
+      <title>Kajou TV (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/2XzghdT.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>159</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8</location>
+      <title>Kaloopy TV (1080p)</title>
+      <image>https://vcz-kapang-tv.b-cdn.net/files/thumbs/2026/05/06/1778037346ayAfpsWIMj-300x300-square.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>160</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1kt53vrikzr5o.cloudfront.net/v1/lol_lolnetwork_5/samsungheadend_us/latest/main/hls/playlist.m3u8</location>
+      <title>Kevin Hart's LOL! Network (720p)</title>
+      <image>https://i.imgur.com/Tiy3Ur2.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>161</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://livestream.usatv.com/hls/master-iUSATVLIVENET.m3u8</location>
+      <title>KIIO-LD 10.1</title>
+      <image>https://i.imgur.com/wkzwXFO.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>162</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8</location>
+      <title>KIIO-LD 10.4 (480p)</title>
+      <image>https://i.imgur.com/Spu4s89.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>163</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8</location>
+      <title>KMCT-TV 39.1</title>
+      <image>https://upload.wikimedia.org/wikipedia/en/d/d9/KMCT_Monroe%27s_Christian_Television_logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>164</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/kninohdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD</location>
+      <title>KNino (1080p)</title>
+      <image>https://ipuntotv.com/IMAGES/Knino-logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>165</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8</location>
+      <title>KNOV-CD 41.1 (720p)</title>
+      <image>https://i.imgur.com/D7Lzqyl.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>166</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-somos.smil/playlist.m3u8</location>
+      <title>KRGV-TV 5.2 [Geo-blocked]</title>
+      <image>https://i.imgur.com/kTh2jgF.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>167</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://tvsen7.aynascope.net/laff/index.m3u8</location>
+      <title>Laff (576p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/LAFF_logo.png/960px-LAFF_logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>168</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00779-latv-amg00779c1-cineverse-us-1746.playouts.now.amagi.tv/playlist/amg00779-latvnetworkllc-latv-cineverseus/playlist.m3u8</location>
+      <title>LATV (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/Vr9LLc5.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>169</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dnmfq3sh1jipj.cloudfront.net/DisneyLocalish.m3u8</location>
+      <title>Localish (1080p)</title>
+      <image>https://i.imgur.com/ACEbGD5.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>170</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ce5a8954311f992edbe1da2.m3u8</location>
+      <title>Logo Pluto TV</title>
+      <image>https://i.imgur.com/GtNgJ28.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>171</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8</location>
+      <title>Logos TV Salud (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/qkHrttj.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>172</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://lonestar-rakuten.amagi.tv/playlist.m3u8</location>
+      <title>Lone Star (1080p)</title>
+      <image>https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>173</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d51ddf0369acdb278dfb05e.m3u8</location>
+      <title>Love &amp; Hip Hop</title>
+      <image>https://i.imgur.com/rhGyebf.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>174</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-mwg/index.m3u8</location>
+      <title>Mad Dog and Merrill (540p) [Not 24/7]</title>
+      <image>https://i.imgur.com/5QQy3aW.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>175</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.197.41.183/MAGNOLIA_NETWORK/index.m3u8</location>
+      <title>Magnolia Network (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Magnolia_Network.svg/960px-Magnolia_Network.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>176</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-687fea9a4fa995eff284a1c8.m3u8</location>
+      <title>Mas adrenalina</title>
+      <image>https://images.pluto.tv/channels/687fea9a4fa995eff284a1c8/colorLogoPNG_1755151031497.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>177</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8</location>
+      <title>Matlock (United States)</title>
+      <image>https://images.pluto.tv/channels/63da365f60bc8f0008a50f44/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>178</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8</location>
+      <title>MBC Drama USA (1080p)</title>
+      <image>https://i.imgur.com/g5PWnqp.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>179</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MAIN.smil/Playlist.m3u8</location>
+      <title>MCN6 Main Channel (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/j6IiysJ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>180</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d9069ugodwkju.cloudfront.net/Merit_Street.m3u8</location>
+      <title>Merit Street (1080p)</title>
+      <image>https://static.wikia.nocookie.net/logopedia/images/1/1d/Merit_Street_Media_2024_1.svg/revision/latest/scale-to-width-down/512</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>181</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8</location>
+      <title>MeTV (720p)</title>
+      <image>https://play-lh.googleusercontent.com/PO0C2_-FdOtMVn1rw_Q0_iystfcf6Ab8h1Q37P8fEgSLuAkQJBCI9kax_FIkUgXppgs4</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>182</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8</location>
+      <title>Midnight Pulp (1080p)</title>
+      <image>https://provider-static.plex.tv/a/epg/channels/logos/gracenote/a1a2cdc3d6f0714c586e9959732580c7.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>183</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8</location>
+      <title>Midpen Media Center Channel 30 (720p)</title>
+      <image>https://i.imgur.com/RPJiolQ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>184</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8</location>
+      <title>Midpen Media Center Channel 75 (720p)</title>
+      <image>https://i.imgur.com/RPJiolQ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>185</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://all3media-midsomer-1-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>Midsomer Murders (1080p)</title>
+      <image>https://i.imgur.com/VFqfyfY.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>186</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f77977bd924d80007eee60c.m3u8</location>
+      <title>Mission Impossible (United States)</title>
+      <image>https://images.pluto.tv/channels/62ea43aa0c43540007f2db96/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>187</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f610042272f68000867685b.m3u8</location>
+      <title>Misterios sin resolver</title>
+      <image>https://i.imgur.com/8mnvubb.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>188</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6532e6a9bdf3cf000887ab29.m3u8</location>
+      <title>More True Crime</title>
+      <image>https://images.pluto.tv/channels/6532e6a9bdf3cf000887ab29/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>189</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-613260e4bdb71c00070d63fa.m3u8</location>
+      <title>More TV Drama</title>
+      <image>https://i.imgur.com/Tw3rTxP.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>190</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8</location>
+      <title>More TV Sitcoms</title>
+      <image>https://i.imgur.com/4mbhOEo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>191</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://mst3k-roku.amagi.tv/playlist.m3u8</location>
+      <title>MST3K (1080p)</title>
+      <image>https://i.imgur.com/2LSdcga.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>192</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-666021cccb3ea10008406866.m3u8</location>
+      <title>Nash Bridges (720p)</title>
+      <image>https://images.pluto.tv/channels/666021cccb3ea10008406866/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>193</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8</location>
+      <title>NBCLX (1080p)</title>
+      <image>https://i.imgur.com/5iT7hEa.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>194</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://nosey-intl-1-samsungau.amagi.tv/playlist.m3u8</location>
+      <title>Nosey (1080p)</title>
+      <image>https://i.imgur.com/i5doCQK.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>195</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://138.59.177.78:9999/play/a0gg/index.m3u8</location>
+      <title>Novelisima (1080p)</title>
+      <image>https://i.imgur.com/8dUS3Ih.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>196</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8</location>
+      <title>NYXT (1080p)</title>
+      <image>https://i.imgur.com/7kuluji.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>197</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8</location>
+      <title>Olelo 53 (720p)</title>
+      <image>https://i.imgur.com/xDuUrj9.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>198</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_013/playlist.m3u8</location>
+      <title>Olelo 55 (720p)</title>
+      <image>https://i.imgur.com/0qe2R8b.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>199</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://oitnhls.wns.live/hls/stream.m3u8</location>
+      <title>Omid e Iran TV</title>
+      <image>https://i.imgur.com/CeMf68L.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>200</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stirr.b-cdn.net/stirr/playlist.m3u8</location>
+      <title>OnTV4U (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/yaCK1Mh.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>201</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8</location>
+      <title>Outlaw WGGS-TV (720p)</title>
+      <image>https://i.imgur.com/tSNwL8W.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>202</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_OWN/index.m3u8</location>
+      <title>OWN (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/OWN_2011_logo.svg/960px-OWN_2011_logo.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>203</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://live.feed.thepalmbeaches.tv/index.m3u8</location>
+      <title>Palm Beaches TV (720p)</title>
+      <image>https://i.imgur.com/kBol4Pf.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>204</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8</location>
+      <title>People Are Awesome (1080p)</title>
+      <image>https://i.imgur.com/MsIx7Ax.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>205</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6197086891ddd4000739941a.m3u8</location>
+      <title>Perry Mason</title>
+      <image>https://images.pluto.tv/channels/63e20bd160bc8f0008b4c949/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>206</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8</location>
+      <title>Pluto TV Comedy</title>
+      <image>https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>207</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f9992c685a2a80007fa414a.m3u8</location>
+      <title>Pluto TV Dog el cazarrecompensas</title>
+      <image>https://i.imgur.com/h3kSZLc.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>208</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8</location>
+      <title>Pluto TV Fantastic</title>
+      <image>https://i.imgur.com/MCu7YTA.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>209</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6036e7c385749f00075dbd3b.m3u8</location>
+      <title>Pluto TV Game Shows</title>
+      <image>https://i.imgur.com/JXZEg2e.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>210</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-69d6c7befde57cd5ba0160c3.m3u8</location>
+      <title>Pluto TV Hometown Drama</title>
+      <image>https://images.pluto.tv/channels/69d6c7befde57cd5ba0160c3/colorLogoPNG_1777488284970.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>211</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d8beeb39b5d5d5f8c672530.m3u8</location>
+      <title>Pluto TV Lives</title>
+      <image>https://i.imgur.com/laupYwG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>212</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5bb3fea0f711fd76340eebff.m3u8</location>
+      <title>Pluto TV Military</title>
+      <image>https://i.imgur.com/O8VXZB4.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>213</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e46e64dc73db400094b5f0b.m3u8</location>
+      <title>Pluto TV Minuto Para Ganar</title>
+      <image>https://i.imgur.com/go5o1gB.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>214</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f230e416b68ff00075b0139.m3u8</location>
+      <title>Pluto TV Misterios Medicos</title>
+      <image>https://i.imgur.com/1WDFKF0.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>215</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5cf96c0222df39f1a338d163.m3u8</location>
+      <title>Pluto TV Novelas</title>
+      <image>https://images.pluto.tv/channels/5f512365abe1f50007d3ff56/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>216</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-69fa3faab9c0f0d444e64de3.m3u8</location>
+      <title>Pluto TV Reality (United States)</title>
+      <image>https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>217</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-63eb57d6c111bc0008fe2658.m3u8</location>
+      <title>Pluto TV Sanctuary</title>
+      <image>https://i.imgur.com/Fu2jn2t.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>218</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6887aaf4e3703b7d42b71a1e.m3u8</location>
+      <title>Pluto TV Storage Wars (720p)</title>
+      <image>https://i.imgur.com/mnHRLlg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>219</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6909e5c3a3a4b49706b8373b.m3u8</location>
+      <title>Pluto TV Wipeout</title>
+      <image>https://i.imgur.com/KVTNBFr.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>220</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dfoiz3dv1euv7.cloudfront.net/ptnlive-s3/live1.m3u8</location>
+      <title>Pocono Television Network (1080p)</title>
+      <image>https://i.imgur.com/et6giFo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>221</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8</location>
+      <title>Popstar! TV (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/d4xEiXX.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>222</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8</location>
+      <title>QVC2 (720p)</title>
+      <image>https://static.wikia.nocookie.net/logopedia/images/a/ab/QVC2_%282017%29.svg/revision/latest/scale-to-width-down/512</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>223</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8</location>
+      <title>QVC3 (1080p)</title>
+      <image>https://i.imgur.com/edswdOO.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>224</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8</location>
+      <title>QVC (United States) (720p)</title>
+      <image>https://play-lh.googleusercontent.com/58IEgCECrId5YdLMZWL9ohHzyZCY1lNduLVxK9QF1P5EZuSIJScTWEMaw2efd88zMkc</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>225</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-43.frequency.stream/dist/24i/43/hls/master/playlist.m3u8</location>
+      <title>Revry (1080p)</title>
+      <image>https://i.imgur.com/XuTUaq4.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>226</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-142.frequency.stream/dist/24i/142/hls/master/playlist.m3u8</location>
+      <title>Revry LatinX (720p)</title>
+      <image>https://admin.worldlivetv.stream/upload/files/thumbnail/vuth_1676133370_91639_20154.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>227</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-43.frequency.stream/dist/galxy/43/hls/master/playlist.m3u8</location>
+      <title>Revry Queer (720p)</title>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>228</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6996296087742204bff43147.m3u8</location>
+      <title>Ridiculousness (United States)</title>
+      <image>https://images.pluto.tv/channels/6996296087742204bff43147/colorLogoPNG_1772645176417.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>229</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://wurlrifftrax.global.transmit.live/hls/68222b9cbe836edbe6f39e74/playlist.m3u8</location>
+      <title>RiffTrax (720p)</title>
+      <image>https://i.imgur.com/hM4yKMn.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>230</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://fast-channels.sinclairstoryline.com/TBD/index.m3u8</location>
+      <title>Roar (1080p)</title>
+      <image>https://iili.io/FxYNwOB.md.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>231</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8</location>
+      <title>Roar KCWX (720p) [Not 24/7]</title>
+      <image>https://iili.io/FxYNwOB.md.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>232</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-kokibreaking-ono/playlist.m3u8</location>
+      <title>Roar KOKI-TV (1080p)</title>
+      <image>https://iili.io/FxYNwOB.md.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>233</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-690.frequency.stream/dist/stirr/690/hls/master/playlist.m3u8</location>
+      <title>Roar WKEF (1080p)</title>
+      <image>https://iili.io/FxYNwOB.md.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>234</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-693.frequency.stream/dist/stirr/693/hls/master/playlist.m3u8</location>
+      <title>Roar WSBT-TV (1080p)</title>
+      <image>https://iili.io/FxYNwOB.md.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>235</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2240</location>
+      <title>Screen Dreams (720p)</title>
+      <image>https://i.imgur.com/AHIo9oz.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>236</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://sh7hls.wns.live/hls/stream.m3u8</location>
+      <title>Shabakeh 7</title>
+      <image>https://i.imgur.com/oHmh5Jb.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>237</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd</location>
+      <title>Shop LC (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/6/69/ShopHQ_2019_Logo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>238</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-633354b63df9700007f6a1b7.m3u8</location>
+      <title>Sitcom Legends</title>
+      <image>https://images.pluto.tv/channels/633354b63df9700007f6a1b7/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>239</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-67882c1c7b11714b795c2008.m3u8</location>
+      <title>Sketchy AF</title>
+      <image>https://images.pluto.tv/channels/67882c1c7b11714b795c2008/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>240</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://brightstar-sls-pull-secure.akamaized.net/brightstarsls/stream.m3u8</location>
+      <title>Smart LifeStyle TV (720p)</title>
+      <image>https://i.imgur.com/kHFlTEy.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>241</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d4whmvwm0rdvi.cloudfront.net/10007/99993017/hls/master.m3u8?ads.xumo_channelId=99993017</location>
+      <title>SNL Vault (1080p)</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/712dae9e-9111-4bbc-8ea4-242e891ab5b3/snl-vault-fclogo-72-dpi-1500-x-1000-3-2-channel-logo-dark-plex-1.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>242</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8</location>
+      <title>Star Channel International (720p)</title>
+      <image>https://i.imgur.com/6NUpxhr.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>243</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5efbd39f8c4ce900075d7698.m3u8</location>
+      <title>Star Trek US</title>
+      <image>https://images.pluto.tv/channels/5efbd39f8c4ce900075d7698/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>244</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8</location>
+      <title>Starz Comedy (1080p)</title>
+      <image>https://i.imgur.com/JpKvjZe.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>245</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f24662bebe0f0000767de32.m3u8</location>
+      <title>Supernatural Drama</title>
+      <image>https://images.pluto.tv/channels/5f24662bebe0f0000767de32/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>246</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8</location>
+      <title>Survivor (1080p)</title>
+      <image>https://i.imgur.com/Zz9SgY8.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>247</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-1.streamhoster.com/pl_122/206338-3120682-1/playlist.m3u8</location>
+      <title>Talkin Live Classics TV (480p)</title>
+      <image>https://play-lh.googleusercontent.com/qt4POaxei89y6DP7sRJlRNv-yo4jlG3HuVO2Jb54Rf6T7aJ-j7RLG2z4aY9YrU5d0Q=w240-h480-rw</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>248</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8</location>
+      <title>Tastemade (1080p)</title>
+      <image>https://i.imgur.com/xP7Ehn8.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>249</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8</location>
+      <title>Tastemade Travel (1080p)</title>
+      <image>https://i.imgur.com/8s6aRwv.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>250</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8</location>
+      <title>Tele Boston (480p)</title>
+      <image>https://i.imgur.com/xeTtup8.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>251</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://haititivi.com/haiti/telemix1/index.m3u8</location>
+      <title>TeleMIX (720p)</title>
+      <image>https://i.ibb.co/HpX99Ks/unnamed.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>252</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d81607ab737153ea3c1c80e.m3u8</location>
+      <title>The Addams Family</title>
+      <image>https://i.imgur.com/Bl8X7EW.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>253</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5f21e8a6e2f12b000755afdb.m3u8</location>
+      <title>The Amazing Race</title>
+      <image>https://i.imgur.com/5yzPhRo.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>254</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d1i3g4v4xlfhad.cloudfront.net/The_Asylum.m3u8</location>
+      <title>The Asylum (1080p)</title>
+      <image>https://i.imgur.com/dx9tt1B.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>255</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8</location>
+      <title>The Bob Ross Channel (720p)</title>
+      <image>https://i.imgur.com/gFHKCbZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>256</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d48685da7e9f476aa8a1888.m3u8</location>
+      <title>The Challenge</title>
+      <image>https://images.pluto.tv/channels/64f8a22a3efb510008245df0/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>257</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8</location>
+      <title>The Chat Show Channel (1080p)</title>
+      <image>https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>258</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-66e2a94d167a8b000813485d.m3u8</location>
+      <title>The Conners</title>
+      <image>https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>259</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>The Design Network (1080p)</title>
+      <image>https://i.imgur.com/J5YJ3r3.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>260</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8</location>
+      <title>The Doctors (720p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/2sAz8dZ.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>261</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>The Graham Norton Show (1080p)</title>
+      <image>https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>262</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3i68hpvh19xjd.cloudfront.net/JamieOliver_GB.m3u8</location>
+      <title>The Jamie Oliver Channel (1080p)</title>
+      <image>https://i.imgur.com/4v93XUB.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>263</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6283d51144ad8f0007fa382d.m3u8</location>
+      <title>The Judge Judy Channel (720p)</title>
+      <image>https://images.pluto.tv/channels/62e92e536f28870007fa9b3a/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>264</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5aea40b35126c2157123aa64.m3u8</location>
+      <title>The New Detectives (United States)</title>
+      <image>https://images.pluto.tv/channels/62bdabbc5611f2000761ca30/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>265</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-643f035d5a0cd50008361534.m3u8</location>
+      <title>The Price Is Right</title>
+      <image>https://images.pluto.tv/channels/64c2214c2a7f2200089a0c4b/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>266</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-64c220e15dc1660008a79c96.m3u8</location>
+      <title>The Price Is Right: The Barker Era (720p)</title>
+      <image>https://i.imgur.com/LuE8Wl4.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>267</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5e825550e758c700077b0aef.m3u8</location>
+      <title>The Rifleman</title>
+      <image>https://i.imgur.com/60YejJs.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>268</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-62fa8176b9884200074ef5ae.m3u8</location>
+      <title>The Walking Dead Universe (720p)</title>
+      <image>https://i.imgur.com/IwJ5Pnc.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>269</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://thisoldhouse-2-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>This Old House (1080p)</title>
+      <image>https://i.imgur.com/nrVLyE6.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>270</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ef3977e5d773400077de284.m3u8</location>
+      <title>Three's Company</title>
+      <image>https://images.pluto.tv/channels/64ca723a2bc49300081a8966/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>271</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8</location>
+      <title>Tin TV (720p)</title>
+      <image>https://i.imgur.com/hMqGs94.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>272</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6540ff4f7312a40008297b59.m3u8</location>
+      <title>Tiny House Nation (720p)</title>
+      <image>https://i.imgur.com/ai1P06C.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>273</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/57c1fa3c-566b-4998-b6de-d6de67031d99/index.m3u8</location>
+      <title>TMZ (720p)</title>
+      <image>https://i.imgur.com/eLIe7Va.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>274</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8</location>
+      <title>like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",TNT International SD (480p)</title>
+      <image>https://i.imgur.com/l0RGbRI.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>275</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+        <vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5dae084727c8af0009fe40a4.m3u8</location>
+      <title>Tosh.0 (United States)</title>
+      <image>https://i.imgur.com/sXkluxg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>276</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-65c69bf23ef47d0008583967.m3u8</location>
+      <title>Tough Jobs</title>
+      <image>https://images.pluto.tv/channels/65c69bf23ef47d0008583967/colorLogoPNG.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>277</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>True Crime Network (1080p) [Geo-blocked]</title>
+      <image>https://www.truecrimenetworktv.com/sites/all/themes/jntheme/images/tcnetwork-logo-main.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>278</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/c2e3094d-ad56-4c5f-9655-cd80df71fbab/playlist.m3u8</location>
+      <title>True Crime Network WCVB-TV (720p)</title>
+      <image>https://www.truecrimenetworktv.com/sites/all/themes/jntheme/images/tcnetwork-logo-main.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>279</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8</location>
+      <title>Turismo HD (720p)</title>
+      <image>https://gia.tv/streams/pptv/208343.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>280</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5c2d64ffbdf11b71587184b8.m3u8</location>
+      <title>TV Land Sitcoms</title>
+      <image>https://i.imgur.com/phHHs7l.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>281</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8</location>
+      <title>TVS Comedy Network (720p)</title>
+      <image>https://i.imgur.com/rXORbti.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>282</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-ConsumerDirect/index.m3u8</location>
+      <title>TVS Consumer Direct (720p)</title>
+      <image>https://www.watchyour.tv/channels/logo/tvs-consumer-direct.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>283</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-TVSFlashback/index.m3u8</location>
+      <title>TVS Flashback Network (360p)</title>
+      <image>https://www.watchyour.tv/channels/logo/tvs-flashback-network.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>284</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8</location>
+      <title>TVS Travel Network (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/vSFf5Ce.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>285</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-tvsvintage/index.m3u8</location>
+      <title>TVS Vintage Network (360p)</title>
+      <image>https://www.watchyour.tv/channels/logo/tvs-vintage-network.jpg</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>286</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcrime/playlist.m3u8</location>
+      <title>like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Series",Universal Crime (1080p)</title>
+      <image>https://i.imgur.com/OwSlGMu.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>287</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+        <vlc:option>http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d31z96rdrmwfsp.cloudfront.net/master.m3u8</location>
+      <title>Unsolved Mysteries (720p)</title>
+      <image>https://i.imgur.com/De3khrX.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>288</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_WE_TV/index.m3u8</location>
+      <title>We TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/We_TV_logo_2014.svg/960px-We_TV_logo_2014.svg.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>289</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-688a44cf5d73ec0a3f49718b.m3u8</location>
+      <title>Weeds &amp; Nurse Jackie (720p)</title>
+      <image>https://images.pluto.tv/channels/688a44cf5d73ec0a3f49718b/colorLogoPNG_1756145413989.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>290</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8</location>
+      <title>Wipeout Xtra (1080p)</title>
+      <image>https://i.imgur.com/UDeCRW1.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>291</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tv2.fastcast4u.com:3943/stream/play.m3u8</location>
+      <title>WWON-TV Channel 48</title>
+      <image>https://i.imgur.com/l4qHAq6.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>292</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8</location>
+      <title>Xplore TV (1080p)</title>
+      <image>https://i.imgur.com/WaGRlFO.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>293</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8</location>
+      <title>Young Hollywood (720p)</title>
+      <image>https://i.imgur.com/X27MGHd.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>294</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8</location>
+      <title>Youtoo America KVVB-LD (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/IXC8PXf.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>295</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16767</location>
+      <title>YTA TV (720p)</title>
+      <image>https://i.imgur.com/UDpDJ7v.png</image>
+      <annotation>Popular television series, comedy, reality entertainment, and lifestyle shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>296</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+  </trackList>
+</playlist>

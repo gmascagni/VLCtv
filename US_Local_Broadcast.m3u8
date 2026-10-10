@@ -1,0 +1,582 @@
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us.xml"
+#EXTINF:-1 tvg-id="ABC.us@KAAL" tvg-name="ABC KAAL (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KAAL (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KEROTV" tvg-name="ABC KERO-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KERO-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/69c4e4f9-84fa-43eb-b38e-6d1f9464ca73/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KGTV" tvg-name="ABC KGTV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KGTV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KGUNTV" tvg-name="ABC KGUN-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KGUN-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/a53514a7-f2aa-4d34-802e-c2b5594fc0d7/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KITV" tvg-name="ABC KITV (720p)" tvg-logo="https://i.imgur.com/pj0O5nu.png" group-title="Local Broadcast",ABC KITV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KMGHTV" tvg-name="ABC KMGH-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KMGH-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KOATTV" tvg-name="ABC KOAT-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KOAT-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/2dba5dd9-4097-45e3-b169-56735cc48476/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KRGVTV" tvg-name="ABC KRGV-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KRGV-TV
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KSTPTV" tvg-name="ABC KSTP-TV (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KSTP-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://amg01942-amg01942c2-stirr-us-10173.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KXXV" tvg-name="ABC KXXV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC KXXV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WBBJTV" tvg-name="ABC WBBJ-TV (432p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WBBJ-TV (432p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WBRZTV" tvg-name="ABC WBRZ-TV (480p)" tvg-logo="https://i.imgur.com/n057TgX.png" group-title="Local Broadcast",ABC WBRZ-TV (480p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WDIODT" tvg-name="ABC WDIO-DT (1080p)" tvg-logo="https://i.imgur.com/ZQ5uRhr.png" group-title="Local Broadcast",ABC WDIO-DT (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://amg01942-amg01942c3-stirr-us-10196.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WFTV" tvg-name="ABC WFTV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WFTV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WISNTV" tvg-name="ABC WISN-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WISN-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/ec903a48-3638-4d0b-ac89-813e147bca58/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WJLATV" tvg-name="ABC WJLA-TV (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WJLA-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WLOS" tvg-name="ABC WLOS (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WLOS (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-695.frequency.stream/dist/stirr/695/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WMARTV" tvg-name="ABC WMAR-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WMAR-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/c28d1ca8-9467-4798-81dc-09c1d6e90be1/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WMURTV" tvg-name="ABC WMUR-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WMUR-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/b77ffe96-c5d1-43a7-8687-306ff244d725/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WPDETV" tvg-name="ABC WPDE-TV (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WPDE-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WSOCTV" tvg-name="ABC WSOC-TV (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WSOC-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WSYX" tvg-name="ABC WSYX (1080p)" tvg-logo="https://i.imgur.com/Lv6HuCT.png" group-title="Local Broadcast",ABC WSYX (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-689.frequency.stream/dist/stirr/689/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WTNH" tvg-name="ABC WTNH (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WTNH (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://tkx.mp.lura.live/rest/v2/mcp/video/11135425.m3u8?anvack=pDKqMLyG9pVqMkSYRJHWu3XROjAlvR6z&eud=1iqQ+zazzEobWIhmmj6bA8STRJm4HceYQApO7QYBvy9BTps0KI7LuXGD4KK7RLtBTyO8KsbFw40vgX8hrw+xqw==
+#EXTINF:-1 tvg-id="ABC.us@WTVQDT" tvg-name="ABC WTVQ-DT (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WTVQ-DT (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://townnews.g-mana.live/media/14d1fd2c-0548-4803-80ad-6657831a7981/main.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WTXLTV" tvg-name="ABC WTXL-TV (720p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WTXL-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WWAY" tvg-name="ABC WWAY" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="Local Broadcast",ABC WWAY
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KCCI" tvg-name="CBS KCCI (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS KCCI (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KIROTV" tvg-name="CBS KIRO-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS KIRO-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KUTV" tvg-name="CBS KUTV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS KUTV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-707.frequency.stream/dist/stirr/707/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KWTVDT" tvg-name="CBS KWTV-DT (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS KWTV-DT (720p) [Not 24/7]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://fuel-streaming-prod01.fuelmedia.io/v1/sem/e48409e7-672d-42f2-b5e0-ebb6744b0425.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KZTV" tvg-name="CBS KZTV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS KZTV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WCBITV" tvg-name="CBS WCBI-TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WCBI-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://townnews.g-mana.live/media/4efc62fa-ad0b-445c-a839-4d1e7636988e/main.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WDEFTV" tvg-name="CBS WDEF-TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WDEF-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://townnews.g-mana.live/media/a54a6409-5e91-46f0-9fee-06904c1fd094/main.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WHIOTV" tvg-name="CBS WHIO-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WHIO-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-whiobreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WJAXTV" tvg-name="CBS WJAX-TV (1080p)" tvg-logo="https://i.imgur.com/TBjVU9L.png" group-title="Local Broadcast",CBS WJAX-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WKRCTV" tvg-name="CBS WKRC-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WKRC-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-691.frequency.stream/dist/stirr/691/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WPEC" tvg-name="CBS WPEC (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WPEC (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-692.frequency.stream/dist/stirr/692/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WTVRTV" tvg-name="CBS WTVR-TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WTVR-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/d8fc1d6c-fd55-45c8-973b-b7327ee1a6e0/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us@WWMT" tvg-name="CBS WWMT (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="Local Broadcast",CBS WWMT (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-701.frequency.stream/dist/stirr/701/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="CBSenespanol.us@SD" tvg-name="CBS en espanol" tvg-logo="https://images.pluto.tv/channels/668c5cb4f01dbe0008dd4082/colorLogoPNG.png" group-title="Local Broadcast",CBS en espanol
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-668c5cb4f01dbe0008dd4082.m3u8
+#EXTINF:-1 tvg-id="Fox.us@East" tvg-name="Fox (United States) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://stream.cammonitorplus.net/1752/index.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KBSI" tvg-name="Fox (United States) KBSI (720p) [Not 24/7]" tvg-logo="https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png" group-title="Local Broadcast",Fox (United States) KBSI (720p) [Not 24/7]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://live.field59.com/kbsi/kbsi1/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KCPQ" tvg-name="Fox (United States) KCPQ (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KCPQ (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KDFW" tvg-name="Fox (United States) KDFW (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KDFW (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KMPHTV" tvg-name="Fox (United States) KMPH-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KMPH-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-711.frequency.stream/dist/stirr/711/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KOKHTV" tvg-name="Fox (United States) KOKH-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KOKH-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KRIV" tvg-name="Fox (United States) KRIV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KRIV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KSAZTV" tvg-name="Fox (United States) KSAZ-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KSAZ-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KTBC" tvg-name="Fox (United States) KTBC (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KTBC (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KTTV" tvg-name="Fox (United States) KTTV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) KTTV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WBFF" tvg-name="Fox (United States) WBFF (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WBFF (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-688.frequency.stream/dist/stirr/688/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@West" tvg-name="Fox (United States) West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) West (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://stream.cammonitorplus.net/1799/index.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WFTXTV" tvg-name="Fox (United States) WFTX-TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WFTX-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WFXT" tvg-name="Fox (United States) WFXT (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WFXT (1080p) [Geo-blocked]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://pubads.g.doubleclick.net/ssai/event/1kItNgwtQUe54NjjBiiTGg/master.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WHBQTV" tvg-name="Fox (United States) WHBQ-TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WHBQ-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WITI" tvg-name="Fox (United States) WITI (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WITI (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WJBK" tvg-name="Fox (United States) WJBK (1080p)" tvg-logo="https://i.imgur.com/EL9Bwtf.png" group-title="Local Broadcast",Fox (United States) WJBK (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WNYW" tvg-name="Fox (United States) WNYW (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WNYW (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WSVN" tvg-name="Fox (United States) WSVN (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WSVN (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://190.197.41.183/Fox/index.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTTG" tvg-name="Fox (United States) WTTG (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WTTG (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTVT" tvg-name="Fox (United States) WTVT (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WTVT (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTXFTV" tvg-name="Fox (United States) WTXF-TV (1080p)" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="Local Broadcast",Fox (United States) WTXF-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WXXVTV" tvg-name="Fox (United States) WXXV-TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Local Broadcast",Fox (United States) WXXV-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://townnews.g-mana.live/media/c8c354e0-672f-4368-a17d-a862ee98af4a/main.m3u8
+#EXTINF:-1 tvg-id="FoxSoul.us@SD" tvg-name="Fox Soul (1080p)" tvg-logo="https://i.imgur.com/YIamDGn.png" group-title="Local Broadcast",Fox Soul (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://foxsoul-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus (1080p)" tvg-logo="https://i.imgur.com/1dgCvNE.png" group-title="Local Broadcast",ION Plus (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Regional broadcast television featuring local community news, weather, and syndicated programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="IONTV.us@East" tvg-name="ION TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png" group-title="Local Broadcast",ION TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Regional broadcast television featuring local community news, weather, and syndicated programming.
+#EXTVLCOPT:network-caching=1500
+http://23.237.104.106:8080/USA_ION/index.m3u8
+#EXTINF:-1 tvg-id="NBC.us@East" tvg-name="NBC (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@KNTV" tvg-name="NBC KNTV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KNTV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/11603/88889711/hls/master.m3u8?ads.xumo_channelId=88889711a&ads.xumo_ifaType=&ads.xumo_providerId=3822&ads.xumo_providerName=NBCNBA
+#EXTINF:-1 tvg-id="NBC.us@KRISTV" tvg-name="NBC KRIS-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KRIS-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/e72660594b7a4182982af1690609683d.m3u8
+#EXTINF:-1 tvg-id="NBC.us@KSBW" tvg-name="NBC KSBW (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KSBW (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/8e6af50d-76df-4208-ab8d-3ff8f512cd38/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@KSBY" tvg-name="NBC KSBY (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KSBY (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/d5f0543d-5f83-4a69-ba01-c5a68f0c09a1/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@KSHBTV" tvg-name="NBC KSHB-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KSHB-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/50d0fa1b042945a3a4f550f9b8412c83.m3u8
+#EXTINF:-1 tvg-id="NBC.us@KSNV" tvg-name="NBC KSNV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KSNV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-708.frequency.stream/dist/stirr/708/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@KXASTV" tvg-name="NBC KXAS-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC KXAS-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/11603/88889706/hls/master.m3u8?ads.xumo_channelId=88889706a&ads.xumo_ifaType=&ads.xumo_providerId=3831&ads.xumo_providerName=NBCNDAL
+#EXTINF:-1 tvg-id="NBC.us@WBALTV" tvg-name="NBC WBAL-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WBAL-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/888aedca-93fb-4aed-bb92-4beb8f1323c6/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WBTSCD" tvg-name="NBC WBTS-CD (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WBTS-CD (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/11603/88889713/hls/master.m3u8?ads.xumo_channelId=88889713a&ads.xumo_ifaType=&ads.xumo_providerId=3820&ads.xumo_providerName=NBCNBOS
+#EXTINF:-1 tvg-id="NBC.us@West" tvg-name="NBC West (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC West (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://stream.cammonitorplus.net/1800/index.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WGAL" tvg-name="NBC WGAL (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WGAL (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/5d314174-0110-42af-8811-feaae073ea1e/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WGBATV" tvg-name="NBC WGBA-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WGBA-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/b32c0573-4add-4b47-b826-24412d952164/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WHECTV" tvg-name="NBC WHEC-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WHEC-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://amg01942-amg01942c4-stirr-us-10190.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WJACTV" tvg-name="NBC WJAC-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WJAC-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-698.frequency.stream/dist/stirr/698/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WJAR" tvg-name="NBC WJAR (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WJAR (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://pubads.g.doubleclick.net/ssai/event/kpannrCBQ5KwdV3Hag3Wog/master.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WLIO" tvg-name="NBC WLIO (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WLIO (720p) [Not 24/7]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://live.field59.com/wlio/wlio1/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WMAQTV" tvg-name="NBC WMAQ-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WMAQ-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI
+#EXTINF:-1 tvg-id="NBC.us@WMGTTV" tvg-name="NBC WMGT-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WMGT-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://townnews.g-mana.live/media/e6909128-cd42-4690-8340-4b8a49455666/main.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WNYT" tvg-name="NBC WNYT (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WNYT (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://amg01942-amg01942c5-stirr-us-10184.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WOAITV" tvg-name="NBC WOAI-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WOAI-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-703.frequency.stream/dist/stirr/703/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WPTVTV" tvg-name="NBC WPTV-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WPTV-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WPXI" tvg-name="NBC WPXI (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WPXI (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wpxibreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WRDELD" tvg-name="NBC WRDE-LD (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WRDE-LD (720p) [Not 24/7]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://live.field59.com/wrde/wrde1/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WTLV" tvg-name="NBC WTLV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WTLV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://190.197.41.183/NBC/index.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WTMJTV" tvg-name="NBC WTMJ-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WTMJ-TV (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://aegis-cloudfront-1.tubi.video/d4d923f2-17de-4371-b86d-43490499bcdb/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WTOVTV" tvg-name="NBC WTOV-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WTOV-TV (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://linear-699.frequency.stream/dist/stirr/699/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WTVJ" tvg-name="NBC WTVJ (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WTVJ (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WVIT" tvg-name="NBC WVIT (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Local Broadcast",NBC WVIT (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/11603/88889707/hls/master.m3u8?ads.xumo_channelId=88889707a&ads.xumo_ifaType=&ads.xumo_providerId=3832&ads.xumo_providerName=NBCNCT
+#EXTINF:-1 tvg-id="NBCComedyVault.us@SD" tvg-name="NBC Comedy Vault (1080p)" tvg-logo="https://i.imgur.com/nydZWwg.png" group-title="Local Broadcast",NBC Comedy Vault (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="NBCLXHome.us@HD" tvg-name="NBC LX Home (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg" group-title="Local Broadcast",NBC LX Home (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8
+#EXTINF:-1 tvg-id="NBCUniverso.us@West" tvg-name="NBC Universo West (720p)" tvg-logo="https://i.imgur.com/RZ8pIKe.png" group-title="Local Broadcast",NBC Universo West (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.
+#EXTVLCOPT:network-caching=1500
+http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSAntiquesRoadshow.us@SD" tvg-name="PBS Antiques Roadshow (1080p)" tvg-logo="https://i.imgur.com/U9CYaok.png" group-title="Local Broadcast",PBS Antiques Roadshow (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Public Broadcasting Service affiliate presenting educational, cultural, and community programming.
+#EXTVLCOPT:network-caching=1500
+https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-name="PBS Travel (1080p)" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Local Broadcast",PBS Travel (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Public Broadcasting Service affiliate presenting educational, cultural, and community programming.
+#EXTVLCOPT:network-caching=1500
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@East" tvg-name="Telemundo (720p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Local Broadcast",Telemundo (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@EastHD" tvg-name="Telemundo East HD (1080p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Local Broadcast",Telemundo East HD (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@KNSD" tvg-name="Telemundo KNSD (1080p) [Not 24/7]" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Local Broadcast",Telemundo KNSD (1080p) [Not 24/7]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@WCAU" tvg-name="Telemundo WCAU (1080p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Local Broadcast",Telemundo WCAU (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/11603/88889705/hls/master.m3u8?ads.xumo_channelId=88889705a&ads.xumo_ifaType=&ads.xumo_providerId=3819&ads.xumo_providerName=NBCNPHI
+#EXTINF:-1 tvg-id="Telemundo.us@West" tvg-name="Telemundo West (2160p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Local Broadcast",Telemundo West (2160p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+http://168.228.44.241:9997/play/a07g/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@WTMOCD" tvg-name="Telemundo WTMO-CD (720p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Local Broadcast",Telemundo WTMO-CD (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/adcee832-5511-4ed1-bcef-58616c0f530f/4.m3u8
+#EXTINF:-1 tvg-id="TelemundoAlDia.us@HD" tvg-name="Telemundo Al Dia (720p)" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-white/telemundo_al_dia_1000x1500_2x3_logo_300dpi_vertical_full_color_logo_xumo-3-copy.png" group-title="Local Broadcast",Telemundo Al Dia (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_channelId=88814573
+#EXTINF:-1 tvg-id="TelemundoCorpusChristi.us@SD" tvg-name="Telemundo Corpus Christi (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png" group-title="Local Broadcast",Telemundo Corpus Christi (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
+#EXTINF:-1 tvg-id="TelemundoTelenovelasClasicas.us@SD" tvg-name="Telemundo Telenovelas Clasicas" tvg-logo="https://i.imgur.com/9bPcYIN.png" group-title="Local Broadcast",Telemundo Telenovelas Clasicas
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.
+#EXTVLCOPT:network-caching=1500
+https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
+#EXTINF:-1 tvg-id="Univision.us@East" tvg-name="Univision (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png" group-title="Local Broadcast",Univision (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+http://190.197.41.183/Univision/index.m3u8
+#EXTINF:-1 tvg-id="Univision.us@EastHD" tvg-name="Univision East HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png" group-title="Local Broadcast",Univision East HD (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+http://45.190.13.8/UnivisionHD/index.m3u8
+#EXTINF:-1 tvg-id="Univision.us@KMEXDT" tvg-name="Univision KMEX-DT [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png" group-title="Local Broadcast",Univision KMEX-DT [Geo-blocked]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+https://streaming-live-fcdn.api.prd.univisionnow.com/kmex/kmex.isml/hls/kmex.m3u8
+#EXTINF:-1 tvg-id="Univision.us@West" tvg-name="Univision West (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png" group-title="Local Broadcast",Univision West (1080p) [Geo-blocked]
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+https://streaming-live-fcdn.api.prd.univisionnow.com/uniwest/uniwest.isml/hls/uniwest.m3u8
+#EXTINF:-1 tvg-id="Univision.us@WGBODT" tvg-name="Univision WGBO-DT (2160p)" tvg-logo="https://i.imgur.com/5RIEi99.png" group-title="Local Broadcast",Univision WGBO-DT (2160p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+#EXTVLCOPT:http-referrer=http://tv.univision.com/player/channel/univision-chicago
+https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null
+#EXTINF:-1 tvg-id="Univision.us@WLTVDT" tvg-name="Univision WLTV-DT (720p)" tvg-logo="https://i.imgur.com/Sr3EoK5.png" group-title="Local Broadcast",Univision WLTV-DT (720p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+http://168.228.44.241:9997/play/a09d/index.m3u8
+#EXTINF:-1 tvg-id="UnivisionTlnovelas.us@SD" tvg-name="Univision Tlnovelas (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Univision_tlnovelas_%282019%29.svg/960px-Univision_tlnovelas_%282019%29.svg.png" group-title="Local Broadcast",Univision Tlnovelas (1080p)
+#EXTGRP:Local Broadcast
+#EXTREM:Description: Spanish-language news, sports, drama, and entertainment broadcasting.
+#EXTVLCOPT:network-caching=1500
+http://45.6.4.35/TELENOVELAS/index.m3u8

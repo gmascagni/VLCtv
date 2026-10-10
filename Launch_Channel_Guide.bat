@@ -1,0 +1,3 @@
+@echo off
+echo Launching Interactive VLC Channel Guide in your web browser...
+start "" "%~dp0index.html"

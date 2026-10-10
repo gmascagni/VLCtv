@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+  <title>US Kids &amp; Family Channels</title>
+  <trackList>
+    <track>
+      <location>https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8</location>
+      <title>3ABN Kids</title>
+      <image>https://i.imgur.com/z3npqO1.png</image>
+      <annotation>Faith-based children's animation, Christian stories, and family values.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>0</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6452c814939a590008567a3b.m3u8</location>
+      <title>90's Kids</title>
+      <image>https://images.pluto.tv/channels/6452c814939a590008567a3b/colorLogoPNG_1731836283044.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>1</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6452c77ed3fdde00080eb3a8.m3u8</location>
+      <title>90s Kids TV 2</title>
+      <image>https://images.pluto.tv/channels/6452c77ed3fdde00080eb3a8/colorLogoPNG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>2</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8</location>
+      <title>AMG TV (1080p)</title>
+      <image>https://i.imgur.com/m5Anun9.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>3</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8</location>
+      <title>Animation+ (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/OIFK6JB.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>4</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8</location>
+      <title>Anime x HIDIVE</title>
+      <image>https://i.imgur.com/v0BlxCa.png</image>
+      <annotation>Japanese anime series, animation features, and fan favorites.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>5</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>Baby Shark TV (1080p)</title>
+      <image>https://i.imgur.com/SbBKr8L.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>6</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8</location>
+      <title>BabyFirst (720p)</title>
+      <image>https://i.imgur.com/WxLHBwu.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>7</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://168.196.127.137:6001/play/a06j/index.m3u8</location>
+      <title>BabyFirst Spanish (1080p)</title>
+      <image>https://i.imgur.com/WxLHBwu.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>8</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://38.44.109.41:8003/play/a0eh</location>
+      <title>BabyTV Latin America (1080p)</title>
+      <image>https://i.imgur.com/4BDJ5FT.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>9</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8</location>
+      <title>BBC Kids (720p)</title>
+      <image>https://i.imgur.com/vKUD64a.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>10</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04072b68-dc6a-4d5e-98af-f356ba8d5063/playlist.m3u8</location>
+      <title>Brat TV (1080p)</title>
+      <image>https://i.imgur.com/Kkcp9Bk.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>11</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream.ads.ottera.tv/playlist.m3u8?network_id=269</location>
+      <title>Camp Spoopy (576p)</title>
+      <image>https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>12</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8</location>
+      <title>Christian Youth Channel CYC (1080p)</title>
+      <image>https://i.imgur.com/61eV77C.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>13</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8</location>
+      <title>Comedy Central Animation</title>
+      <image>https://i.imgur.com/uENch0P.png</image>
+      <annotation>Stand-up comedy, hilarious sitcoms, sketch entertainment, and comedy specials.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>14</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8</location>
+      <title>Crunchyroll (720p)</title>
+      <image>https://i.imgur.com/2FlIQUO.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>15</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://212.5.144.156/disney/index.m3u8</location>
+      <title>Disney Channel (United States) (720p) [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>16</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://tvsen5.aynascope.net/disney/index.m3u8</location>
+      <title>Disney Junior (United States) (480p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>17</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8</location>
+      <title>Disney XD (United States) (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>18</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8</location>
+      <title>Dove Channel (1080p)</title>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>19</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://estrella-games-oando.amagi.tv/playlist.m3u8</location>
+      <title>Estrella Games (1080p)</title>
+      <image>https://i.imgur.com/Z52nEnH.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>20</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8</location>
+      <title>Forever Kids</title>
+      <image>https://i.imgur.com/deeQqYZ.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>21</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-677f927554f43dad4b3258aa.m3u8</location>
+      <title>Garfield and Friends</title>
+      <image>https://i.imgur.com/evzfe9C.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>22</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tvsen6.aynaott.com/ytv/index.m3u8</location>
+      <title>Giggle Mug (576p)</title>
+      <image>https://i.imgur.com/NbNHJXo.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>23</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dil9xdvretp0f.cloudfront.net/index.m3u8</location>
+      <title>HappyKids (1080p)</title>
+      <image>https://i.imgur.com/cPrUCFw.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>24</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg02713-amg02713c11-amgplt0852.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg02713-amg02713c11-amgplt0852/playlist.m3u8</location>
+      <title>Hasbro Legends (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/JDM9rEV.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>25</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8</location>
+      <title>Kartoon Channel! (1080p)</title>
+      <image>https://i.imgur.com/1luzP3T.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>26</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8</location>
+      <title>Ketchup TV (720p)</title>
+      <image>https://i.imgur.com/XRGioQX.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>27</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://15.204.246.24:8080/KidooHD/index.m3u8</location>
+      <title>KidOO (1080p) [Geo-blocked]</title>
+      <image>https://digitaltv.prensariozone.com/wp-content/uploads/2022/11/Logo-KidOO.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>28</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dltiqboxjw21d.cloudfront.net/index.m3u8</location>
+      <title>Lego Channel (1080p)</title>
+      <image>https://i.imgur.com/xePwW13.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>29</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60fb01a24795a6000762fe83.m3u8</location>
+      <title>LEGO Kids TV</title>
+      <image>https://i.imgur.com/tMfEsVr.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>30</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-51c75f7bb6f26ba1cd00002f.m3u8</location>
+      <title>Little Stars Universe</title>
+      <image>https://i.imgur.com/RasrA0s.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>31</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8</location>
+      <title>Logos TV Kids (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/Kr3U3Ub.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>32</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8</location>
+      <title>MBC 3 USA (1080p) [Geo-blocked]</title>
+      <image>https://i.imgur.com/PVt8OPN.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>33</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8</location>
+      <title>MCN6 Music Channel (1080p) [Not 24/7]</title>
+      <image>https://i.imgur.com/j6IiysJ.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>34</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>Mr Bean Animated (1080p)</title>
+      <image>https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>35</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8</location>
+      <title>Naruto (1080p)</title>
+      <image>https://i.imgur.com/M8X3Kvc.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>36</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8</location>
+      <title>Naruto en espanol</title>
+      <image>https://i.imgur.com/hG8F0RY.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>37</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://reflect-npa.cablecast.tv/live-9/live/live.m3u8</location>
+      <title>NCM Educational &amp; Kids Channel</title>
+      <image>https://i.imgur.com/3YPvfPn.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>38</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8</location>
+      <title>New Channel (480p)</title>
+      <image>https://videocdn.bamboo-cloud.com/p/11294/sp/1129400/thumbnail/entry_id/0_hd6fo6eq/version/100002/width/1920</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>39</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8</location>
+      <title>New Channel Pop! (480p)</title>
+      <image>https://videocdn.bamboo-cloud.com/p/11294/sp/1129400/thumbnail/entry_id/0_vjhh0bly/version/100012/width/1920</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>40</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://212.5.144.156:8080/nickjr/index.m3u8</location>
+      <title>Nick Jr. (United States) (720p)</title>
+      <image>https://i.imgur.com/KT4tdQs.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>41</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://107.167.16.138/nickjr/index.m3u8?token=test</location>
+      <title>Nick Jr. (United States) East HD (720p)</title>
+      <image>https://i.imgur.com/KT4tdQs.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>42</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8</location>
+      <title>Nick Jr. Pluto TV (720p)</title>
+      <image>https://images.pluto.tv/channels/62bdb75c3afd1200079146a6/colorLogoPNG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>43</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://198.58.104.90:8989/nickelodeon/index.m3u8</location>
+      <title>Nickelodeon (United States) (720p)</title>
+      <image>https://i.imgur.com/E84jnP8.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>44</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8</location>
+      <title>Nickelodeon en espanol</title>
+      <image>https://images.pluto.tv/channels/5d8d08395f39465da6fb3ec4/colorLogoPNG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>45</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8</location>
+      <title>Nickelodeon Pluto TV (720p)</title>
+      <image>https://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>46</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://41.205.93.154/NICKTOONS/index.m3u8</location>
+      <title>Nicktoons (United States) (720p)</title>
+      <image>https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>47</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8</location>
+      <title>Ninja Kidz TV (720p)</title>
+      <image>https://i.imgur.com/7EngqUi.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>48</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-69affcad8940750a23a7231a.m3u8</location>
+      <title>One Piece</title>
+      <image>https://images.pluto.tv/channels/5f7790b3ed0c88000720b241/colorLogoPNG_1731837233662.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>49</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8</location>
+      <title>PBS Kids (720p)</title>
+      <image>https://i.imgur.com/fg8c9WK.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>50</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8</location>
+      <title>PBS Kids Alaska (1080p)</title>
+      <image>https://i.imgur.com/ambc9le.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>51</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8</location>
+      <title>PBS Kids Eastern/Central (720p)</title>
+      <image>https://i.imgur.com/ambc9le.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>52</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8</location>
+      <title>PBS Kids Hawaii (720p)</title>
+      <image>https://i.imgur.com/ambc9le.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>53</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8</location>
+      <title>PBS Kids Mountain (1080p)</title>
+      <image>https://i.imgur.com/ambc9le.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>54</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8</location>
+      <title>PBS Kids Pacific (1080p)</title>
+      <image>https://i.imgur.com/ambc9le.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>55</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d14fb6c84dd37df3b4290c5.m3u8</location>
+      <title>Peppa Pig</title>
+      <image>https://images.pluto.tv/channels/5d14fb6c84dd37df3b4290c5/colorLogoPNG_1730733871298.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>56</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://toy.vcdn.fyi/placid/index.m3u8</location>
+      <title>Placid (1080p) [Not 24/7]</title>
+      <image>https://static.wikitide.net/indietvwiki/0/03/Placid_(2026).svg</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>57</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8</location>
+      <title>Pluto TV Anime</title>
+      <image>https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png</image>
+      <annotation>Japanese anime series, animation features, and fan favorites.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>58</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dl74gpgmnb7i8.cloudfront.net/pocketwatch_GameOn.m3u8</location>
+      <title>pocket.watch (1080p)</title>
+      <image>https://i.imgur.com/T0V90Lz.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>59</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/.m3u8</location>
+      <title>Positiv TV (1080p)</title>
+      <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VIzSua00Fkp3YfEiAsIKjZ6qSysSCEp8Ng&amp;s</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>60</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8</location>
+      <title>Ryan and Friends (1080p)</title>
+      <image>https://i.imgur.com/jcIprmt.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>61</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://vodcdn.bamboo-cloud.com/livehls/6a9f89be0630445532152563/master.m3u8</location>
+      <title>S Corby TV (480p)</title>
+      <image>https://i.postimg.cc/432q9g12/In-Shot-20260908-063951605.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>62</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://vodcdn.bamboo-cloud.com/livehls/6a9f929f0630443af52c7162/master.m3u8</location>
+      <title>S Play Event (1080p)</title>
+      <image>https://i.postimg.cc/5y6t70Mz/In-Shot-20260908-113231556.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>63</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8</location>
+      <title>Showtime Family Zone (720p)</title>
+      <image>https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Showtime_Family_Zone.svg/960px-Showtime_Family_Zone.svg.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>64</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71</location>
+      <title>Skwad Play (1080p)</title>
+      <image>https://i.imgur.com/cP56PrG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>65</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065</location>
+      <title>Smurf TV (480p)</title>
+      <image>https://img.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/EJIyYyBMkbW5UntSCAkGp-uLla7Z8KWHvDjyEqoOf3k.jpg</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>66</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260</location>
+      <title>Sonic TV (720p)</title>
+      <image>https://i.imgur.com/TKhRlrR.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>67</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8</location>
+      <title>Starz Kids &amp; Family (1080p)</title>
+      <image>https://i.imgur.com/eE9FzEP.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>68</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8</location>
+      <title>Super Simple Songs (1080p)</title>
+      <image>https://i.imgur.com/3k4F7O9.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>69</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://tvsen7.aynascope.net/teennick/index.m3u8</location>
+      <title>TeenNick (United States) (432p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>70</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8</location>
+      <title>TG Junior (720p)</title>
+      <image>https://i.imgur.com/aqane40.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>71</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://the-pet-collective-international-dk.samsung.wurl.tv/playlist.m3u8</location>
+      <title>The Pet Collective (720p)</title>
+      <image>https://i.imgur.com/yH7n2dF.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>72</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8</location>
+      <title>Tom And Jerry (720p)</title>
+      <image>https://gia.tv/streams/pptv/208314.jpg?1750373428</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>73</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://api.toonamiaftermath.com:3000/est/playlist.m3u8</location>
+      <title>Toonami Aftermath (480p)</title>
+      <image>https://i.imgur.com/aSjhZK7.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>74</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://api.toonamiaftermath.com:3000/pst/playlist.m3u8</location>
+      <title>Toonami Aftermath West (480p)</title>
+      <image>https://i.imgur.com/aSjhZK7.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>75</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://38.134.250.110:8000/play/a01t/index.m3u8</location>
+      <title>Tooncast (1080p)</title>
+      <image>https://i.imgur.com/3yXRbQy.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>76</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8</location>
+      <title>ToonGoggles (720p)</title>
+      <image>https://i.imgur.com/JMnxswq.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>77</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5d0c16d686454ead733d08f8.m3u8</location>
+      <title>Totally Turtles (United States)</title>
+      <image>https://images.pluto.tv/channels/62e95265c9fd030007268fb9/colorLogoPNG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>78</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8</location>
+      <title>Transformers TV (720p)</title>
+      <image>https://images.pluto.tv/channels/63da36dea995710008727d4d/colorLogoPNG.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>79</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-TVSFamilyChannel/index.m3u8</location>
+      <title>TVS Family Channel (360p)</title>
+      <image>https://i.imgur.com/Y3EV3DL.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>80</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8</location>
+      <title>TVS Hi Tops (720p)</title>
+      <image>https://i.imgur.com/RiWg1IA.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>81</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8</location>
+      <title>TVS Pinball Network (480p)</title>
+      <image>https://i.imgur.com/HHmc14i.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>82</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2245</location>
+      <title>Watch it KID! (720p)</title>
+      <image>https://i.imgur.com/YNx0j1b.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>83</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8</location>
+      <title>Yu-Gi-Oh! (1080p)</title>
+      <image>https://i.imgur.com/Tl6aW2u.png</image>
+      <annotation>Animated adventures, family-friendly series, cartoons, and children's entertainment.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>84</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+  </trackList>
+</playlist>

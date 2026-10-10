@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+  <title>US Local Broadcast Networks Channels</title>
+  <trackList>
+    <track>
+      <location>https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>ABC KAAL (1080p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>0</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/69c4e4f9-84fa-43eb-b38e-6d1f9464ca73/playlist.m3u8</location>
+      <title>ABC KERO-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>1</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8</location>
+      <title>ABC KGTV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>2</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/a53514a7-f2aa-4d34-802e-c2b5594fc0d7/playlist.m3u8</location>
+      <title>ABC KGUN-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>3</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8</location>
+      <title>ABC KITV (720p)</title>
+      <image>https://i.imgur.com/pj0O5nu.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>4</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8</location>
+      <title>ABC KMGH-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>5</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/2dba5dd9-4097-45e3-b169-56735cc48476/playlist.m3u8</location>
+      <title>ABC KOAT-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>6</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8</location>
+      <title>ABC KRGV-TV</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>7</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01942-amg01942c2-stirr-us-10173.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>ABC KSTP-TV (1080p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>8</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8</location>
+      <title>ABC KXXV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>9</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8</location>
+      <title>ABC WBBJ-TV (432p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>10</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8</location>
+      <title>ABC WBRZ-TV (480p)</title>
+      <image>https://i.imgur.com/n057TgX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>11</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01942-amg01942c3-stirr-us-10196.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>ABC WDIO-DT (1080p)</title>
+      <image>https://i.imgur.com/ZQ5uRhr.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>12</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8</location>
+      <title>ABC WFTV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>13</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/ec903a48-3638-4d0b-ac89-813e147bca58/playlist.m3u8</location>
+      <title>ABC WISN-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>14</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8</location>
+      <title>ABC WJLA-TV (1080p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>15</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-695.frequency.stream/dist/stirr/695/hls/master/playlist.m3u8</location>
+      <title>ABC WLOS (1080p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>16</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/c28d1ca8-9467-4798-81dc-09c1d6e90be1/playlist.m3u8</location>
+      <title>ABC WMAR-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>17</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/b77ffe96-c5d1-43a7-8687-306ff244d725/playlist.m3u8</location>
+      <title>ABC WMUR-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>18</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8</location>
+      <title>ABC WPDE-TV (1080p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>19</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8</location>
+      <title>ABC WSOC-TV (1080p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>20</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-689.frequency.stream/dist/stirr/689/hls/master/playlist.m3u8</location>
+      <title>ABC WSYX (1080p)</title>
+      <image>https://i.imgur.com/Lv6HuCT.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>21</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://tkx.mp.lura.live/rest/v2/mcp/video/11135425.m3u8?anvack=pDKqMLyG9pVqMkSYRJHWu3XROjAlvR6z&amp;eud=1iqQ+zazzEobWIhmmj6bA8STRJm4HceYQApO7QYBvy9BTps0KI7LuXGD4KK7RLtBTyO8KsbFw40vgX8hrw+xqw==</location>
+      <title>ABC WTNH (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>22</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://townnews.g-mana.live/media/14d1fd2c-0548-4803-80ad-6657831a7981/main.m3u8</location>
+      <title>ABC WTVQ-DT (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>23</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8</location>
+      <title>ABC WTXL-TV (720p)</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>24</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8</location>
+      <title>ABC WWAY</title>
+      <image>https://i.imgur.com/pvXZ8DX.png</image>
+      <annotation>Local ABC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>25</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playlist.m3u8</location>
+      <title>CBS KCCI (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>26</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8</location>
+      <title>CBS KIRO-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>27</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-707.frequency.stream/dist/stirr/707/hls/master/playlist.m3u8</location>
+      <title>CBS KUTV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>28</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://fuel-streaming-prod01.fuelmedia.io/v1/sem/e48409e7-672d-42f2-b5e0-ebb6744b0425.m3u8</location>
+      <title>CBS KWTV-DT (720p) [Not 24/7]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>29</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8</location>
+      <title>CBS KZTV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>30</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://townnews.g-mana.live/media/4efc62fa-ad0b-445c-a839-4d1e7636988e/main.m3u8</location>
+      <title>CBS WCBI-TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>31</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://townnews.g-mana.live/media/a54a6409-5e91-46f0-9fee-06904c1fd094/main.m3u8</location>
+      <title>CBS WDEF-TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>32</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-whiobreaking-ono/playlist.m3u8</location>
+      <title>CBS WHIO-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>33</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8</location>
+      <title>CBS WJAX-TV (1080p)</title>
+      <image>https://i.imgur.com/TBjVU9L.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>34</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-691.frequency.stream/dist/stirr/691/hls/master/playlist.m3u8</location>
+      <title>CBS WKRC-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>35</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-692.frequency.stream/dist/stirr/692/hls/master/playlist.m3u8</location>
+      <title>CBS WPEC (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>36</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/d8fc1d6c-fd55-45c8-973b-b7327ee1a6e0/playlist.m3u8</location>
+      <title>CBS WTVR-TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>37</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-701.frequency.stream/dist/stirr/701/hls/master/playlist.m3u8</location>
+      <title>CBS WWMT (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>38</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-668c5cb4f01dbe0008dd4082.m3u8</location>
+      <title>CBS en espanol</title>
+      <image>https://images.pluto.tv/channels/668c5cb4f01dbe0008dd4082/colorLogoPNG.png</image>
+      <annotation>Local CBS affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>39</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://stream.cammonitorplus.net/1752/index.m3u8</location>
+      <title>Fox (United States) (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>40</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://live.field59.com/kbsi/kbsi1/playlist.m3u8</location>
+      <title>Fox (United States) KBSI (720p) [Not 24/7]</title>
+      <image>https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>41</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8</location>
+      <title>Fox (United States) KCPQ (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>42</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8</location>
+      <title>Fox (United States) KDFW (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>43</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-711.frequency.stream/dist/stirr/711/hls/master/playlist.m3u8</location>
+      <title>Fox (United States) KMPH-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>44</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8</location>
+      <title>Fox (United States) KOKH-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>45</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8</location>
+      <title>Fox (United States) KRIV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>46</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8</location>
+      <title>Fox (United States) KSAZ-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>47</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8</location>
+      <title>Fox (United States) KTBC (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>48</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8</location>
+      <title>Fox (United States) KTTV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>49</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-688.frequency.stream/dist/stirr/688/hls/master/playlist.m3u8</location>
+      <title>Fox (United States) WBFF (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>50</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://stream.cammonitorplus.net/1799/index.m3u8</location>
+      <title>Fox (United States) West (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>51</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8</location>
+      <title>Fox (United States) WFTX-TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>52</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pubads.g.doubleclick.net/ssai/event/1kItNgwtQUe54NjjBiiTGg/master.m3u8</location>
+      <title>Fox (United States) WFXT (1080p) [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>53</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8</location>
+      <title>Fox (United States) WHBQ-TV (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>54</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8</location>
+      <title>Fox (United States) WITI (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>55</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8</location>
+      <title>Fox (United States) WJBK (1080p)</title>
+      <image>https://i.imgur.com/EL9Bwtf.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>56</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8</location>
+      <title>Fox (United States) WNYW (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>57</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.197.41.183/Fox/index.m3u8</location>
+      <title>Fox (United States) WSVN (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>58</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8</location>
+      <title>Fox (United States) WTTG (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>59</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8</location>
+      <title>Fox (United States) WTVT (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>60</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8</location>
+      <title>Fox (United States) WTXF-TV (1080p)</title>
+      <image>https://i.imgur.com/fRjmk5r.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>61</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://townnews.g-mana.live/media/c8c354e0-672f-4368-a17d-a862ee98af4a/main.m3u8</location>
+      <title>Fox (United States) WXXV-TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>62</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://foxsoul-vizio.amagi.tv/playlist.m3u8</location>
+      <title>Fox Soul (1080p)</title>
+      <image>https://i.imgur.com/YIamDGn.png</image>
+      <annotation>Local FOX affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>63</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8</location>
+      <title>ION Plus (1080p)</title>
+      <image>https://i.imgur.com/1dgCvNE.png</image>
+      <annotation>Regional broadcast television featuring local community news, weather, and syndicated programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>64</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://23.237.104.106:8080/USA_ION/index.m3u8</location>
+      <title>ION TV (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png</image>
+      <annotation>Regional broadcast television featuring local community news, weather, and syndicated programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>65</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8</location>
+      <title>NBC (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>66</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/11603/88889711/hls/master.m3u8?ads.xumo_channelId=88889711a&amp;ads.xumo_ifaType=&amp;ads.xumo_providerId=3822&amp;ads.xumo_providerName=NBCNBA</location>
+      <title>NBC KNTV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>67</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/e72660594b7a4182982af1690609683d.m3u8</location>
+      <title>NBC KRIS-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>68</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/8e6af50d-76df-4208-ab8d-3ff8f512cd38/playlist.m3u8</location>
+      <title>NBC KSBW (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>69</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/d5f0543d-5f83-4a69-ba01-c5a68f0c09a1/playlist.m3u8</location>
+      <title>NBC KSBY (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>70</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/50d0fa1b042945a3a4f550f9b8412c83.m3u8</location>
+      <title>NBC KSHB-TV (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>71</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-708.frequency.stream/dist/stirr/708/hls/master/playlist.m3u8</location>
+      <title>NBC KSNV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>72</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/11603/88889706/hls/master.m3u8?ads.xumo_channelId=88889706a&amp;ads.xumo_ifaType=&amp;ads.xumo_providerId=3831&amp;ads.xumo_providerName=NBCNDAL</location>
+      <title>NBC KXAS-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>73</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/888aedca-93fb-4aed-bb92-4beb8f1323c6/playlist.m3u8</location>
+      <title>NBC WBAL-TV (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>74</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/11603/88889713/hls/master.m3u8?ads.xumo_channelId=88889713a&amp;ads.xumo_ifaType=&amp;ads.xumo_providerId=3820&amp;ads.xumo_providerName=NBCNBOS</location>
+      <title>NBC WBTS-CD (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>75</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://stream.cammonitorplus.net/1800/index.m3u8</location>
+      <title>NBC West (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>76</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/5d314174-0110-42af-8811-feaae073ea1e/playlist.m3u8</location>
+      <title>NBC WGAL (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>77</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/b32c0573-4add-4b47-b826-24412d952164/playlist.m3u8</location>
+      <title>NBC WGBA-TV (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>78</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01942-amg01942c4-stirr-us-10190.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>NBC WHEC-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>79</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-698.frequency.stream/dist/stirr/698/hls/master/playlist.m3u8</location>
+      <title>NBC WJAC-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>80</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://pubads.g.doubleclick.net/ssai/event/kpannrCBQ5KwdV3Hag3Wog/master.m3u8</location>
+      <title>NBC WJAR (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>81</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://live.field59.com/wlio/wlio1/playlist.m3u8</location>
+      <title>NBC WLIO (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>82</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&amp;ads.xumo_ifaType=&amp;ads.xumo_providerId=3818&amp;ads.xumo_providerName=NBCNCHI</location>
+      <title>NBC WMAQ-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>83</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://townnews.g-mana.live/media/e6909128-cd42-4690-8340-4b8a49455666/main.m3u8</location>
+      <title>NBC WMGT-TV (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>84</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg01942-amg01942c5-stirr-us-10184.playouts.now.amagi.tv/playlist.m3u8</location>
+      <title>NBC WNYT (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>85</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-703.frequency.stream/dist/stirr/703/hls/master/playlist.m3u8</location>
+      <title>NBC WOAI-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>86</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8</location>
+      <title>NBC WPTV-TV (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>87</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wpxibreaking-ono/playlist.m3u8</location>
+      <title>NBC WPXI (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>88</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://live.field59.com/wrde/wrde1/playlist.m3u8</location>
+      <title>NBC WRDE-LD (720p) [Not 24/7]</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>89</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.197.41.183/NBC/index.m3u8</location>
+      <title>NBC WTLV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>90</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://aegis-cloudfront-1.tubi.video/d4d923f2-17de-4371-b86d-43490499bcdb/playlist.m3u8</location>
+      <title>NBC WTMJ-TV (720p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>91</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://linear-699.frequency.stream/dist/stirr/699/hls/master/playlist.m3u8</location>
+      <title>NBC WTOV-TV (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>92</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8</location>
+      <title>NBC WTVJ (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>93</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/11603/88889707/hls/master.m3u8?ads.xumo_channelId=88889707a&amp;ads.xumo_ifaType=&amp;ads.xumo_providerId=3832&amp;ads.xumo_providerName=NBCNCT</location>
+      <title>NBC WVIT (1080p)</title>
+      <image>https://i.imgur.com/nxY84W5.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>94</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8</location>
+      <title>NBC Comedy Vault (1080p)</title>
+      <image>https://i.imgur.com/nydZWwg.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>95</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8</location>
+      <title>NBC LX Home (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>96</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.11.225.124:5000/live/universo_hd/playlist.m3u8</location>
+      <title>NBC Universo West (720p)</title>
+      <image>https://i.imgur.com/RZ8pIKe.png</image>
+      <annotation>Local NBC affiliate broadcast featuring regional news, weather, sports, and network programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>97</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8</location>
+      <title>PBS Antiques Roadshow (1080p)</title>
+      <image>https://i.imgur.com/U9CYaok.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>98</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8</location>
+      <title>PBS Travel (1080p)</title>
+      <image>https://i.imgur.com/A6GXhta.png</image>
+      <annotation>Public Broadcasting Service affiliate presenting educational, cultural, and community programming.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>99</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8</location>
+      <title>Telemundo (720p)</title>
+      <image>https://imgx.fubo.tv/station_logos/telemundo_c.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>100</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8</location>
+      <title>Telemundo East HD (1080p)</title>
+      <image>https://imgx.fubo.tv/station_logos/telemundo_c.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>101</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8</location>
+      <title>Telemundo KNSD (1080p) [Not 24/7]</title>
+      <image>https://imgx.fubo.tv/station_logos/telemundo_c.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>102</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/11603/88889705/hls/master.m3u8?ads.xumo_channelId=88889705a&amp;ads.xumo_ifaType=&amp;ads.xumo_providerId=3819&amp;ads.xumo_providerName=NBCNPHI</location>
+      <title>Telemundo WCAU (1080p)</title>
+      <image>https://imgx.fubo.tv/station_logos/telemundo_c.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>103</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://168.228.44.241:9997/play/a07g/index.m3u8</location>
+      <title>Telemundo West (2160p)</title>
+      <image>https://imgx.fubo.tv/station_logos/telemundo_c.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>104</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/adcee832-5511-4ed1-bcef-58616c0f530f/4.m3u8</location>
+      <title>Telemundo WTMO-CD (720p)</title>
+      <image>https://imgx.fubo.tv/station_logos/telemundo_c.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>105</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_channelId=88814573</location>
+      <title>Telemundo Al Dia (720p)</title>
+      <image>https://images.fubo.tv/channel-config-ui/station-logos/on-white/telemundo_al_dia_1000x1500_2x3_logo_300dpi_vertical_full_color_logo_xumo-3-copy.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>106</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8</location>
+      <title>Telemundo Corpus Christi (720p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>107</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8</location>
+      <title>Telemundo Telenovelas Clasicas</title>
+      <image>https://i.imgur.com/9bPcYIN.png</image>
+      <annotation>Spanish-language broadcast network featuring telenovelas, news, sports, and variety shows.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>108</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://190.197.41.183/Univision/index.m3u8</location>
+      <title>Univision (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>109</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://45.190.13.8/UnivisionHD/index.m3u8</location>
+      <title>Univision East HD (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>110</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streaming-live-fcdn.api.prd.univisionnow.com/kmex/kmex.isml/hls/kmex.m3u8</location>
+      <title>Univision KMEX-DT [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>111</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://streaming-live-fcdn.api.prd.univisionnow.com/uniwest/uniwest.isml/hls/uniwest.m3u8</location>
+      <title>Univision West (1080p) [Geo-blocked]</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>112</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null</location>
+      <title>Univision WGBO-DT (2160p)</title>
+      <image>https://i.imgur.com/5RIEi99.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>113</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://168.228.44.241:9997/play/a09d/index.m3u8</location>
+      <title>Univision WLTV-DT (720p)</title>
+      <image>https://i.imgur.com/Sr3EoK5.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>114</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+    <track>
+      <location>http://45.6.4.35/TELENOVELAS/index.m3u8</location>
+      <title>Univision Tlnovelas (1080p)</title>
+      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Univision_tlnovelas_%282019%29.svg/960px-Univision_tlnovelas_%282019%29.svg.png</image>
+      <annotation>Spanish-language news, sports, drama, and entertainment broadcasting.</annotation>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>115</vlc:id>
+        <vlc:option>network-caching=1500</vlc:option>
+      </extension>
+    </track>
+  </trackList>
+</playlist>
