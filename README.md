@@ -1,6 +1,6 @@
 # 📺 VLC US Channel Guide
 
-A complete, high-performance **VLC Media Player Channel Guide** featuring **1,493 free, legal, and publicly broadcast US TV channels**, categorized by **News & Weather**, **Documentary & Science (including NASA TV)**, **Movies**, **Sports**, **Entertainment**, **Kids**, **Local Broadcast**, and **All US Channels**.
+A complete, high-performance **VLC Media Player Channel Guide** featuring **1,379 free, legal, and publicly broadcast US TV channels**, categorized by **News & Weather**, **Documentary & Science (including NASA TV)**, **Movies**, **Sports**, **Entertainment**, **Kids**, **Local Broadcast**, and **All US Channels**.
 
 Styled with **Brushed Aluminum Bezels, Embossed Metallic Rows & Cards**, and subtle **Watermark Channel Logos**.
 
@@ -28,18 +28,18 @@ Double-click any of the provided Windows `.bat` launchers in this folder to open
 | Launcher File | Description | Channels |
 | :--- | :--- | :--- |
 | **`Enable_VLC_OneClick.bat`** | **Run once** to enable 1-click "Open in VLC" buttons in your browser | *Setup* |
-| **`Open_All_In_VLC.bat`** | Opens **All US Channels** in VLC with category folders | **1,493** |
+| **`Open_All_In_VLC.bat`** | Opens **All US Channels** in VLC with category folders | **1,379** |
 | **`Open_News_In_VLC.bat`** | Opens **News, Financial, Weather & Emergency Channels** | **118** |
 | **`Open_Movies_In_VLC.bat`** | Opens **Movies & Cinema Channels** | **139** |
 | **`Open_Sports_In_VLC.bat`** | Opens **Sports, Racing & Outdoor Channels** | **89** |
 | **`Open_Adult_In_VLC.bat`** | Opens **Adult Live Channels** | **24** |
-| **`Launch_Channel_Guide.bat`** | Launches the **Interactive Web TV Guide** in your browser | **1,493** |
+| **`Launch_Channel_Guide.bat`** | Launches the **Interactive Web TV Guide** in your browser | **1,379** |
 
 ---
 
 ## 🚗 Portable Road Trip Application (`VLC_Channel_Guide_Portable.zip`)
 
-For travel and road trips, everything needed to filter and launch all 1,493 channels is packaged into a self-contained portable bundle:
+For travel and road trips, everything needed to filter and launch all 1,379 channels is packaged into a self-contained portable bundle:
 * **Direct Launcher**: Double-click `Launch_Channel_Guide.bat` on any laptop or Windows tablet.
 * **100% In-Browser Filtering**: Filter by any category, resolution, or language without needing separate files.
 * **Cable TV Guide Layout**: Familiar linear guide row view with channel numbers (`CH 001`), station logos, and live feeds.
@@ -53,7 +53,7 @@ Both standard **M3U8** (with extended EPG and VLC tags) and native **XSPF** (XML
 
 ### 1. Main Requested Playlists
 - **`US_All_Channels.m3u8`** & **`US_All_Channels.xspf`**
-  - Complete guide with all 1,493 channels.
+  - Complete guide with all 1,379 channels.
   - Tagged with `#EXTGRP` so VLC organizes channels into collapsible category folders in the playlist sidebar.
 - **`US_News_Channels.m3u8`** & **`US_News_Channels.xspf`**
   - 118 News channels (ABC News Live, CBS News, Bloomberg Originals, Cheddar, Newsmax, Law & Crime, Court TV, Scripps News, Weather Channel / Fox Weather, etc.).
@@ -71,7 +71,6 @@ Both standard **M3U8** (with extended EPG and VLC tags) and native **XSPF** (XML
 - **`US_Music_Channels.m3u8`** & **`.xspf`** (72 channels — MTV feeds, Vevo, Country, Rock, Live Concerts)
 - **`US_Local_Broadcast.m3u8`** & **`.xspf`** (116 channels — Network affiliates across the US: ABC, CBS, NBC, FOX, PBS)
 - **`US_Public_Government_Channels.m3u8`** & **`.xspf`** (99 channels — C-SPAN style, City Council, State Legislature)
-- **`US_Religious_Channels.m3u8`** & **`.xspf`** (114 channels — Faith & Religious broadcasting)
 
 ---
 

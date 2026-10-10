@@ -85,13 +85,6 @@ CATEGORY_DEFINITIONS = [
                      "atxn", "actv", "cmap", "bhtv", "batv"]
     },
     {
-        "id": "religious",
-        "name": "Faith & Religious",
-        "filename": "US_Religious_Channels",
-        "keywords": ["religious", "3abn", "church", "faith", "gospel", "christian", "bible", 
-                     "ministry", "catholic", "islamic", "jewish", "hope channel"]
-    },
-    {
         "id": "adult",
         "name": "Adult",
         "filename": "Adult_XXX_Channels",
@@ -529,7 +522,6 @@ def build_description(name, category, network=""):
         "Music": f"Curated music videos, artist spotlights, concerts, and continuous music streaming{net_str}.",
         "Local Broadcast": "Regional broadcast television featuring local community news, weather, and syndicated programming.",
         "Public & Government": "Public access programming, municipal council meetings, and civic government coverage.",
-        "Religious": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
         "Adult": "Adult entertainment programming and adult video streams.",
         "General & Regional": f"Community television, regional broadcasts, and general entertainment programming{net_str}."
     }
@@ -619,10 +611,7 @@ def parse_m3u(m3u_text, api_map, feeds_map):
         # 8. Legislative & Public
         elif "legislative" in combined_meta or any(k in name_l for k in ["legislative", "city council", "accessvision", "public access", "government", "atxn"]):
             assigned_cat = "Public & Government"
-        # 9. Religious
-        elif "religious" in combined_meta or any(k in name_l for k in ["religious", "3abn", "church", "faith", "gospel", "christian", "bible", "ministry", "catholic"]):
-            assigned_cat = "Religious"
-        # 10. Entertainment
+        # 9. Entertainment
         elif any(k in combined_meta for k in ["entertainment", "series", "comedy", "lifestyle", "cooking", "travel", "shop", "relax", "culture"]) or \
              any(k in name_l for k in ["entertainment", "comedy", "series", "drama", "reality", "cooking", "travel", "food", "afv", "show"]):
             assigned_cat = "Entertainment"
@@ -778,8 +767,6 @@ def main():
             matched = [c for c in channels if c["category"] == "Local Broadcast"]
         elif cat_id == "public":
             matched = [c for c in channels if c["category"] == "Public & Government"]
-        elif cat_id == "religious":
-            matched = [c for c in channels if c["category"] == "Religious"]
         elif cat_id == "adult":
             matched = [c for c in channels if c["category"] == "Adult"]
 

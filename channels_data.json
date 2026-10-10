@@ -16,32 +16,30 @@
     "Adult": 24
   },
   "languages": {
-    "eng": 1284,
-    "fra": 14,
-    "spa": 105,
-    "vie": 3,
-    "pus": 3,
-    "zho": 6,
-    "hin": 6,
-    "urd": 2,
-    "ara": 19,
-    "fas": 20,
+    "eng": 1222,
+    "spa": 89,
     "prd": 2,
     "arm": 1,
     "rus": 5,
+    "fas": 16,
+    "fra": 13,
     "amh": 2,
-    "mal": 3,
-    "tha": 2,
+    "mal": 1,
+    "zho": 4,
     "aze": 1,
+    "urd": 1,
     "hmn": 2,
+    "hin": 3,
     "pan": 1,
-    "aii": 1,
     "hye": 2,
-    "kor": 2,
-    "ron": 2,
+    "ara": 5,
+    "kor": 1,
     "ita": 2,
+    "tha": 1,
     "jap": 1,
     "ell": 1,
+    "vie": 1,
+    "pus": 1,
     "kur": 1
   },
   "channels": [
@@ -60,34 +58,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "3ABNEnglish.us@SD",
-      "name": "3ABN English",
-      "category": "Religious",
-      "url": "https://3abn.bozztv.com/3abn2/3abn_live/smil:3abn_live.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/16DMxP4.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Christian programming, health lifestyle seminars, and spiritual ministry broadcasts.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "3ABNFrench.us@SD",
-      "name": "3ABN French",
-      "category": "Religious",
-      "url": "https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/B5gsM7m.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Christian programming, health lifestyle seminars, and spiritual ministry broadcasts.",
-      "languages": [
-        "fra"
-      ],
-      "primary_lang": "fra"
-    },
-    {
       "id": "3ABNKids.us@SD",
       "name": "3ABN Kids",
       "category": "Kids & Family",
@@ -102,20 +72,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "3ABNLatino.us@SD",
-      "name": "3ABN Latino (1080p)",
-      "category": "Religious",
-      "url": "http://138.59.177.78:9999/play/a0a3/index.m3u8",
-      "logo": "https://i.imgur.com/Ugb4AFo.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Christian programming, health lifestyle seminars, and spiritual ministry broadcasts.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
       "id": "3ABNPraiseHimMusicNetwork.us@SD",
       "name": "3ABN Praise Him Music Network",
       "category": "Music",
@@ -124,20 +80,6 @@
       "quality": "SD",
       "network": "",
       "description": "Inspirational Christian gospel music, sacred hymns, and worship concerts.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "3ABNProclaimNetwork.us@SD",
-      "name": "3ABN Proclaim! Network",
-      "category": "Religious",
-      "url": "https://3abn.bozztv.com/3abn2/Pro_live/smil:Pro_live.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/zUMUNhe.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Christian programming, health lifestyle seminars, and spiritual ministry broadcasts.",
       "languages": [
         "eng"
       ],
@@ -970,49 +912,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "ABHPTV.us@HD",
-      "name": "ABHP TV (480p)",
-      "category": "Religious",
-      "url": "https://vietprocast.app/hls/abhp/index.m3u8",
-      "logo": "https://i.imgur.com/QznvBD7.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "vie"
-      ],
-      "primary_lang": "vie"
-    },
-    {
-      "id": "ABNAfghanistan.us@SD",
-      "name": "ABN Afghanistan (540p)",
-      "category": "Religious",
-      "url": "https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8",
-      "logo": "https://i.imgur.com/LI30mAt.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "pus",
-        "prd"
-      ],
-      "primary_lang": "pus"
-    },
-    {
-      "id": "ABNAfrica.us@SD",
-      "name": "ABN Africa (480p)",
-      "category": "Religious",
-      "url": "https://mediaserver.abnvideos.com/streams/abnafrica.m3u8",
-      "logo": "https://i.imgur.com/SLrX8Ef.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "ABNBibleMoviesChannel.us@SD",
       "name": "ABN Bible Movies Channel (720p)",
       "category": "Movies",
@@ -1025,48 +924,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "ABNChina.us@SD",
-      "name": "ABN China (720p)",
-      "category": "Religious",
-      "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
-      "logo": "https://i.imgur.com/zagVLQH.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "zho"
-      ],
-      "primary_lang": "zho"
-    },
-    {
-      "id": "ABNTVIndia.us@SD",
-      "name": "ABN TV India (540p)",
-      "category": "Religious",
-      "url": "https://mediaserver.abnvideos.com/streams/abntvindia.m3u8",
-      "logo": "https://i.imgur.com/VcZn60X.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "hin"
-      ],
-      "primary_lang": "hin"
-    },
-    {
-      "id": "ABNUrdu.us@SD",
-      "name": "ABN Urdu (540p)",
-      "category": "Religious",
-      "url": "https://mediaserver.abnvideos.com/streams/abnurdu.m3u8",
-      "logo": "https://i.imgur.com/Y9ScPIl.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "urd"
-      ],
-      "primary_lang": "urd"
     },
     {
       "id": "AbsoluteRealitybyWETV.us@SD",
@@ -1461,48 +1318,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "AlHorreyaTV.us@SD",
-      "name": "Al Horreya TV (1080p)",
-      "category": "Religious",
-      "url": "http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8",
-      "logo": "https://i.imgur.com/EK75DMJ.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlFadyTV.us@SD",
-      "name": "Al-Fady TV (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/7L0l0iY.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlMahdiTV.us@SD",
-      "name": "Al-Mahdi TV (1080p)",
-      "category": "Religious",
-      "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
-      "logo": "https://i.imgur.com/S1YM83i.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "fas"
-      ],
-      "primary_lang": "fas"
-    },
-    {
       "id": "AlabamaWeatherNetwork.us@SD",
       "name": "Alabama Weather Network (720p)",
       "category": "News",
@@ -1515,118 +1330,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "AlientoVision.us@SD",
-      "name": "Aliento Vision (720p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://627bb251f23c7.streamlock.net:444/Alientoenvivo/Alientoenvivo/playlist.m3u8",
-      "logo": "https://i.imgur.com/h5EWT2n.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "AlkarmaTVAustralia.us@SD",
-      "name": "Alkarma TV Australia (1080p)",
-      "category": "Religious",
-      "url": "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/90ykspa.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlkarmaTVFamily.us@SD",
-      "name": "Alkarma TV Family (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/yUEuQA2.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlkarmaTVMiddleEast.us@SD",
-      "name": "Alkarma TV Middle East (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/6OmNw5A.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlkarmaTVNorthAmericaCanada.us@SD",
-      "name": "Alkarma TV North America & Canada (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmana1.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/pnm60bq.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlkarmaTVPraise.us@SD",
-      "name": "Alkarma TV Praise (720p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/bJLKkou.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlkarmaTVTalmazaDiscipleship.us@SD",
-      "name": "Alkarma TV Talmaza Discipleship (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/t2ZkRbr.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlkarmaTVYouthEnglish.us@SD",
-      "name": "Alkarma TV Youth & English (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/kpuO8m7.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
     },
     {
       "id": "AllRealitybyWEtv.us@SD",
@@ -1671,36 +1374,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "AlmagdTVMiddleEast.us@SD",
-      "name": "Almagd TV Middle East (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/3pUik3b.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara",
-        "eng"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "AlmagdTVNorthAmerica.us@SD",
-      "name": "Almagd TV North America (1080p)",
-      "category": "Religious",
-      "url": "https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/3pUik3b.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara",
-        "eng"
-      ],
-      "primary_lang": "ara"
-    },
-    {
       "id": "AlwaysFunnyVideos.us@SD",
       "name": "Always Funny Videos (720p)",
       "category": "Entertainment",
@@ -1709,20 +1382,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "AmazingFactsTV.us@SD",
-      "name": "Amazing Facts TV (1080p)",
-      "category": "Religious",
-      "url": "https://hlspackager.akamaized.net/live/DB/AMAZING_FACTS/HLS/AMAZING_FACTS.m3u8",
-      "logo": "https://i.imgur.com/4d65Bev.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -2924,20 +2583,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "BetterLifeTV.us@SD",
-      "name": "Better Life TV (720p)",
-      "category": "Religious",
-      "url": "https://tgn.bozztv.com/betterlife/betterlife/betterlife/index.m3u8",
-      "logo": "https://i.imgur.com/OWI7Y0l.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "BeverlyHillbillies.us@US",
       "name": "Beverly Hillbillies",
       "category": "Movies",
@@ -3485,20 +3130,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "BXInspire.us@SD",
-      "name": "BX Inspire (720p)",
-      "category": "Religious",
-      "url": "https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8",
-      "logo": "https://i.imgur.com/PF71rdZ.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "BXOmni.us@SD",
       "name": "BX Omni (720p)",
       "category": "General & Regional",
@@ -3639,20 +3270,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "CanaldelaFe.us@SD",
-      "name": "Canal de la Fe (720p)",
-      "category": "Religious",
-      "url": "https://cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/dad6a736-9efb-40ce-89b6-81d1d54f92bd/master.m3u8",
-      "logo": "https://i.imgur.com/n3FffgF.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
       "id": "CanelaTV.us@SD",
       "name": "Canela TV (1080p)",
       "category": "Entertainment",
@@ -3689,62 +3306,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Motorsports racing, high-octane automotive builds, and vehicle performance tests.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "CatholicFaithNetwork.us@SD",
-      "name": "Catholic Faith Network (720p)",
-      "category": "Religious",
-      "url": "https://uni8rtmp.tulix.tv/cfntv/cfntv/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/0/07/Catholic_Faith_Network_2018.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "CatholicTV.us@SD",
-      "name": "Catholic TV (1080p)",
-      "category": "Religious",
-      "url": "https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8",
-      "logo": "https://i.imgur.com/EL0rWD3.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "CBNEspanol.us@SD",
-      "name": "CBN Espanol (1080p)",
-      "category": "Religious",
-      "url": "https://fastly.live.brightcove.com/6383462549112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgzNDYyNTQ5MTEyIn0.g04lznsvgqgIXQt2ZH0H_tWtIeTsMgGjVORsjOJ0T6U/playlist-hls.m3u8",
-      "logo": "https://i.imgur.com/G7B4wSM.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "CBNFamily.us@SD",
-      "name": "CBN Family (1080p)",
-      "category": "Religious",
-      "url": "https://fastly.live.brightcove.com/6380399588112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk5NTg4MTEyIn0.LYfIeObmX4AEStY_xCnPZwMJHXgOAPFMTKfztq-9F8U/playlist-hls.m3u8",
-      "logo": "https://i.imgur.com/wDPkKT1.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -5381,20 +4942,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "CornerstoneTV.us@SD",
-      "name": "Cornerstone TV (720p)",
-      "category": "Religious",
-      "url": "https://2-fss-1.themediacdn.com/pl_122/206280-3059514-1/playlist.m3u8",
-      "logo": "https://i.imgur.com/gqEDwPn.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "COStv.us@SD",
       "name": "COStv",
       "category": "Public & Government",
@@ -5581,20 +5128,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "CSatTV.us@SD",
-      "name": "CSat TV (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/fp2EaLJ.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "CSI.us@SD",
       "name": "CSI (United States)",
       "category": "Entertainment",
@@ -5715,20 +5248,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Public access programming, municipal council meetings, and civic government coverage.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "CTN.us@SD",
-      "name": "CTN (United States) (720p)",
-      "category": "Religious",
-      "url": "https://d3k5y954fiztgy.cloudfront.net/FREECAST/CTN-2b0dd347-f7b0-e7ed-9096-68966d29db50/index.m3u8",
-      "logo": "https://i.imgur.com/42UdwD0.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -5862,20 +5381,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "DareToDreamNetwork.us@SD",
-      "name": "Dare To Dream Network",
-      "category": "Religious",
-      "url": "https://3abn.bozztv.com/3abn2/d2d_live/smil:d2d_live.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/oNUpXA9.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "DarkMatterTV.us@SD",
       "name": "Dark Matter TV (720p)",
       "category": "Entertainment",
@@ -5916,48 +5421,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "DaystarTV.us@SD",
-      "name": "Daystar TV (1080p)",
-      "category": "Religious",
-      "url": "https://live-mcl.cdn01.net/smarttv/48vy43564/playlist.m3u8",
-      "logo": "https://i.imgur.com/uVdKHMG.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "DaystarTV.us@WSLFLD",
-      "name": "Daystar TV WSLF-LD (720p)",
-      "category": "Religious",
-      "url": "https://content.uplynk.com/channel/1992858a34c3423dbdad491d07ae6f75.m3u8",
-      "logo": "https://i.imgur.com/uVdKHMG.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "DaystarTVEspanol.us@SD",
-      "name": "Daystar TV Espanol (1080p)",
-      "category": "Religious",
-      "url": "http://167.249.23.102:8000/play/a0ev/index.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
     },
     {
       "id": "DCCouncilHearingRoom120.us@SD",
@@ -6399,20 +5862,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "DrGeneScott.us@SD",
-      "name": "Dr. Gene Scott (1080p)",
-      "category": "Religious",
-      "url": "https://wescottcc.piksel.tech/hls/live/2041478/adp/playlist.m3u8",
-      "logo": "https://i.imgur.com/Db3EI19.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "DraftKingsNetwork.us@SD",
       "name": "DraftKings Network (1080p)",
       "category": "Sports",
@@ -6567,34 +6016,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "ElSembradorNuevaEvangelizacionESNE.us@SD",
-      "name": "El Sembrador Nueva Evangelizacion ESNE",
-      "category": "Religious",
-      "url": "http://190.61.90.17:40000/play/a025/index.m3u8",
-      "logo": "https://i.imgur.com/APhSi1Y.jpg",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "ElbesharaGTV.us@SD",
-      "name": "Elbeshara GTV (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/b0Wx7pE.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
       "id": "ElectricNow.us@SD",
       "name": "Electric Now (720p)",
       "category": "Entertainment",
@@ -6603,20 +6024,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "ElevationChurchNetwork.us@HD",
-      "name": "Elevation Church Network (1080p)",
-      "category": "Religious",
-      "url": "https://linear-1066.frequency.stream/dist/stirr/1066/hls/master/playlist.m3u8",
-      "logo": "https://i.imgur.com/VosP75g.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -6663,20 +6070,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "ESNETV.us@SD",
-      "name": "ESNE TV (1080p)",
-      "category": "Religious",
-      "url": "http://190.217.66.92:8000/play/a0fp/index.m3u8",
-      "logo": "https://i.imgur.com/bwAuFgx.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
     },
     {
       "id": "ESPNDeportes.us@HD",
@@ -6777,34 +6170,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "EWTN.us@English",
-      "name": "EWTN (United States) (720p) [Geo-blocked]",
-      "category": "Religious",
-      "url": "https://cdn3.wowza.com/1/QjRzVXJtVml5SUVx/WGJRSWxz/hls/live/playlist.m3u8",
-      "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "EWTN.us@Spanish",
-      "name": "EWTN (United States) Spanish (720p) [Geo-blocked]",
-      "category": "Religious",
-      "url": "https://cdn3.wowza.com/1/TUI5dU5ucnUxdGFD/ZFlVeGRl/hls/live/playlist.m3u8",
-      "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
       "id": "ExtremaTV.us@SD",
       "name": "Extrema TV (United States) (720p)",
       "category": "General & Regional",
@@ -6841,20 +6206,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "FaithTV.us@SD",
-      "name": "Faith TV (1080p)",
-      "category": "Religious",
-      "url": "https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/lUBnKK1.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -7859,20 +7210,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "GCNAmerica.us@SD",
-      "name": "GCN America (720p)",
-      "category": "Religious",
-      "url": "http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8",
-      "logo": "https://i.imgur.com/DWSWrtV.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "GCOtv.us@SD",
       "name": "GCO.tv (1080p)",
       "category": "General & Regional",
@@ -7885,20 +7222,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "GEBNetwork.us@KBPXLD",
-      "name": "GEB Network KBPX-LD (1080p)",
-      "category": "Religious",
-      "url": "https://edge1.lifestreamcdn.com/live/geb/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/GEB_logo_blue.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "vie"
-      ],
-      "primary_lang": "vie"
     },
     {
       "id": "GemShoppingNetwork.us@SD",
@@ -8027,20 +7350,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "GlobalBuddhistNetwork.us@SD",
-      "name": "Global Buddhist Network (1080p)",
-      "category": "Religious",
-      "url": "https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/us/gbnus.m3u8",
-      "logo": "https://i.imgur.com/fU0ZhKD.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "tha"
-      ],
-      "primary_lang": "tha"
-    },
-    {
       "id": "GlobalFashionChannel.us@SD",
       "name": "Global Fashion Channel (1080p)",
       "category": "Entertainment",
@@ -8083,20 +7392,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "GodsLearningChannel.us@KPCBDT",
-      "name": "God's Learning Channel KPCB-DT (480p)",
-      "category": "Religious",
-      "url": "https://2-fss-1.streamhoster.com/pl_122/200562-1176456-1/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/f/f3/God%27s_Learning_Channel_logo_2022.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "GolazoNetwork.us@SD",
       "name": "Golazo Network (720p)",
       "category": "Sports",
@@ -8111,20 +7406,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "GoodLife45.us@SD",
-      "name": "GoodLife 45 (720p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://2-fss-2.streamhoster.com/pl_118/201450-1248872-1/playlist.m3u8",
-      "logo": "https://i.imgur.com/AQfVNMK.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "GordonRamsaysHellsKitchen.us@SD",
       "name": "Gordon Ramsay's Hell's Kitchen (720p)",
       "category": "Entertainment",
@@ -8133,20 +7414,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "GospelTruthTV.us@SD",
-      "name": "Gospel Truth TV (1080p)",
-      "category": "Religious",
-      "url": "https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8",
-      "logo": "https://i.imgur.com/LI52X2q.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -8203,20 +7470,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "GreaterLoveTV.us@SD",
-      "name": "Greater Love TV (720p)",
-      "category": "Religious",
-      "url": "https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8",
-      "logo": "https://i.imgur.com/WE0cRXR.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -8390,20 +7643,6 @@
         "urd"
       ],
       "primary_lang": "urd"
-    },
-    {
-      "id": "HarvestUSA.in@SD",
-      "name": "Harvest USA (576p)",
-      "category": "Religious",
-      "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
-      "logo": "",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
     },
     {
       "id": "HasbroLegends.us@SD",
@@ -8746,76 +7985,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "Hope4LifeTV.us@SD",
-      "name": "Hope4Life TV (720p)",
-      "category": "Religious",
-      "url": "http://144.217.14.88/hls/hope4life.m3u8",
-      "logo": "https://i.imgur.com/p24tAjs.jpg",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "HopeChannelInterAmerica.us@SD",
-      "name": "Hope Channel Inter-America",
-      "category": "Religious",
-      "url": "https://jstre.am/live/jsl:EC0Mq0i6HJU.m3u8",
-      "logo": "https://i.imgur.com/wzvgAch.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "HopeChannelInterAmericaEnglish.us@SD",
-      "name": "Hope Channel Inter-America English (1080p)",
-      "category": "Religious",
-      "url": "https://jstre.am/live/jsl:UP9KAdlVrm8.m3u8",
-      "logo": "https://i.imgur.com/wzvgAch.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "HopeChannelInternational.us@SD",
-      "name": "Hope Channel International (1080p)",
-      "category": "Religious",
-      "url": "https://jstre.am/live/jsl:cZXINbwrFj6.m3u8",
-      "logo": "https://i.imgur.com/PNihgl2.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "HopeChannelNorthAmerica.us@SD",
-      "name": "Hope Channel North America (1080p)",
-      "category": "Religious",
-      "url": "https://jstre.am/live/jsl:0sUSK6VA7GT.m3u8",
-      "logo": "https://i.imgur.com/2qXqajS.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "HotBench.us@SD",
       "name": "Hot Bench (720p)",
       "category": "Entertainment",
@@ -8982,20 +8151,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "ImanTV.us@SD",
-      "name": "Iman TV (480p)",
-      "category": "Religious",
-      "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8",
-      "logo": "https://i.imgur.com/Vo6cEYi.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "pus"
-      ],
-      "primary_lang": "pus"
     },
     {
       "id": "ImpactNetwork.us@SD",
@@ -9180,48 +8335,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "ItIsWrittenTV.us@SD",
-      "name": "It Is Written TV (1080p)",
-      "category": "Religious",
-      "url": "https://itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8",
-      "logo": "https://i.imgur.com/0jgzoSF.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "ItsSupernaturalNetwork.us@SD",
-      "name": "It's Supernatural! Network (1080p)",
-      "category": "Religious",
-      "url": "https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8",
-      "logo": "https://i.imgur.com/JWrdL9a.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "JBS.us@SD",
-      "name": "JBS (720p)",
-      "category": "Religious",
-      "url": "https://rpn3.bozztv.com/jbstv-srt/srt-push/jbstv/playlist.m3u8",
-      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lDWY-W9dD7UvLlp1NuWLJs1wV6t_KjeOT-1iVVIGuLZ8U=s512-c-k-c0x00ffffff-no-rj",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "JerseyShore.us@SD",
       "name": "Jersey Shore (United States)",
       "category": "Entertainment",
@@ -9258,34 +8371,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "JewishLifeTelevision.us@SD",
-      "name": "Jewish Life Television (1080p)",
-      "category": "Religious",
-      "url": "https://jlt-jltv-strimm.otteravision.com/jlt/jltv/jltv.m3u8",
-      "logo": "https://yt3.googleusercontent.com/i6ETvgNzA8vvGCo-Ih6eo2XZUwz2VVMnstLyNZVXBlwa4uOeUIEl-3tzphB8phJaibe-FPQ5Fw=s512-c-k-c0x00ffffff-no-rj",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "JoelOsteenNetwork.us@HD",
-      "name": "Joel Osteen Network (1080p)",
-      "category": "Religious",
-      "url": "https://linear-860.frequency.stream/dist/xumo/860/hls/master/playlist.m3u8",
-      "logo": "https://www.tablotv.com/wp-content/uploads/2025/05/Osteen_black.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -9473,21 +8558,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "KBSV231.us@SD",
-      "name": "KBSV 23.1 (720p) [Not 24/7]",
-      "category": "Religious",
-      "url": "http://66.242.170.53/hls/live/temp/index.m3u8",
-      "logo": "https://i.imgur.com/6lklsyN.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "aii",
-        "eng"
-      ],
-      "primary_lang": "aii"
     },
     {
       "id": "KCAT.us@SD",
@@ -9772,36 +8842,6 @@
       "primary_lang": "spa"
     },
     {
-      "id": "KSCE381.us@HD",
-      "name": "KSCE 38.1 (360p)",
-      "category": "Religious",
-      "url": "https://2-fss-2.streamhoster.com/pl_138/200226-1359204-1/playlist.m3u8",
-      "logo": "https://i.imgur.com/FioxUa3.png",
-      "quality": "360p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng",
-        "spa"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "KSCE383.us@HD",
-      "name": "KSCE 38.3 (360p)",
-      "category": "Religious",
-      "url": "https://2-fss-1.streamhoster.com/pl_122/200226-1427780-1/playlist.m3u8",
-      "logo": "https://i.imgur.com/P0vZXU0.png",
-      "quality": "360p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng",
-        "spa"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "KTOO360TV.us@KTOOTV",
       "name": "KTOO 360TV KTOO-TV",
       "category": "General & Regional",
@@ -9810,20 +8850,6 @@
       "quality": "SD",
       "network": "",
       "description": "Community television, regional broadcasts, and general entertainment programming.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "KVTNDT251.us@HD",
-      "name": "KVTN-DT 25.1 (720p)",
-      "category": "Religious",
-      "url": "https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/playlist.m3u8",
-      "logo": "https://i.imgur.com/CjKQuEP.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -9871,21 +8897,6 @@
         "spa"
       ],
       "primary_lang": "spa"
-    },
-    {
-      "id": "LaVozdeJesusHD.do@HD",
-      "name": "La Voz de Jesus HD (720p)",
-      "category": "Religious",
-      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8",
-      "logo": "https://gia.tv/streams/pstream/208429.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng",
-        "spa"
-      ],
-      "primary_lang": "eng"
     },
     {
       "id": "LacrosseTV.us@SD",
@@ -10142,20 +9153,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "LifevisionTV.us@SD",
-      "name": "LifevisionTV (406p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://tgn.bozztv.com/lifevision/lifevision/index.m3u8",
-      "logo": "",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "LindellTV.us@SD",
       "name": "Lindell TV (720p)",
       "category": "News",
@@ -10254,133 +9251,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "LivingFaithTV.us@SD",
-      "name": "Living Faith TV (540p)",
-      "category": "Religious",
-      "url": "https://cdn-unified-hls.streamspot.com/ingest1/0b5c0f18e9/playlist.m3u8?origin=1",
-      "logo": "https://i.imgur.com/FuNpesJ.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng",
-        "spa"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "LLBNHisLight.us@SD",
-      "name": "LLBN His Light (720p)",
-      "category": "Religious",
-      "url": "https://brightstar-hislight-pull-secure.akamaized.net/brightstarhislight/stream.m3u8",
-      "logo": "https://i.imgur.com/YkLZjRw.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "LLBNHisWord.us@SD",
-      "name": "LLBN His Word (720p)",
-      "category": "Religious",
-      "url": "https://brightstar-hisword-pull-secure.akamaized.net/brightstarhisword/stream.m3u8",
-      "logo": "https://i.imgur.com/GbyHlS2.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "LLBNTVArabic.us@SD",
-      "name": "LLBN TV Arabic (480p)",
-      "category": "Religious",
-      "url": "https://brightstar-arabic-pull-secure.akamaized.net/brightstararabic/stream.m3u8",
-      "logo": "https://i.imgur.com/fbrQpC4.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "LLBNTVChinese.us@SD",
-      "name": "LLBN TV Chinese (480p)",
-      "category": "Religious",
-      "url": "https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8",
-      "logo": "https://i.imgur.com/C0jUDMn.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "zho"
-      ],
-      "primary_lang": "zho"
-    },
-    {
-      "id": "LLBNTVKorean.us@SD",
-      "name": "LLBN TV Korean (480p)",
-      "category": "Religious",
-      "url": "https://brightstar-korean-pull-secure.akamaized.net/brightstarkorean/stream.m3u8",
-      "logo": "https://i.imgur.com/WsOfy19.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "kor"
-      ],
-      "primary_lang": "kor"
-    },
-    {
-      "id": "LLBNTVLatino.us@SD",
-      "name": "LLBN TV Latino (480p)",
-      "category": "Religious",
-      "url": "https://brightstar-latino-pull-secure.akamaized.net/brightstarlatino/stream.m3u8",
-      "logo": "https://i.imgur.com/WsOfy19.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "LLBNTVRomanian.us@SD",
-      "name": "LLBN TV Romanian (480p)",
-      "category": "Religious",
-      "url": "https://brightstar-romanian-pull-secure.akamaized.net/brightstarromanian/stream.m3u8",
-      "logo": "https://i.imgur.com/WsOfy19.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ron"
-      ],
-      "primary_lang": "ron"
-    },
-    {
-      "id": "LLBNTVSouthAsia.us@SD",
-      "name": "LLBN TV South Asia (480p)",
-      "category": "Religious",
-      "url": "https://brightstar-southasia-pull-secure.akamaized.net/brightstarsouthasia/stream.m3u8",
-      "logo": "https://i.imgur.com/WsOfy19.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "hin"
-      ],
-      "primary_lang": "hin"
-    },
-    {
       "id": "Localish.us@SD",
       "name": "Localish (1080p)",
       "category": "Entertainment",
@@ -10407,62 +9277,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "LogosTV.es@SD",
-      "name": "Logos TV (Spain) (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://streamer1.streamhost.org/salive/logosH/master.m3u8",
-      "logo": "https://i.imgur.com/Kr3U3Ub.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "LogosTV.us@SD",
-      "name": "Logos TV (United States) (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://5a8308add0b31.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/h8DioXU.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ara"
-      ],
-      "primary_lang": "ara"
-    },
-    {
-      "id": "LogosTVEnglish.us@SD",
-      "name": "Logos TV English (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://5aafcc5de91f1.streamlock.net/logoschannel.com/logoseng/playlist.m3u8",
-      "logo": "https://i.imgur.com/LDfEK81.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "LogosTVEstudio.es@SD",
-      "name": "Logos TV Estudio (720p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8",
-      "logo": "https://i.imgur.com/qkHrttj.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
     },
     {
       "id": "LogosTVKids.es@SD",
@@ -10563,20 +9377,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "LoveWorldUSA.ng@SD",
-      "name": "LoveWorld USA (720p)",
-      "category": "Religious",
-      "url": "https://cdn3.wowza.com/5/RGtVZkFxL3FOQkxX/LWU/ngrp:lwu.stream_all/playlist.m3u8",
-      "logo": "",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "LuckyDog.us@SD",
       "name": "Lucky Dog (720p)",
       "category": "Documentary",
@@ -10655,34 +9455,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "MajestadTV.us@SD",
-      "name": "Majestad TV (480p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://livetv.305streamhd.com:3667/live/majestadtvlive.m3u8",
-      "logo": "https://i.imgur.com/BJhrvtL.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
-      "id": "MariaVisionUSA.us@SD",
-      "name": "Maria Vision USA (1080p)",
-      "category": "Religious",
-      "url": "https://1601580044.rsc.cdn77.org/live/_jcn_/amls:PALMIAMI/playlist.m3u8",
-      "logo": "https://i.imgur.com/eaVt8R1.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -11140,20 +9912,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "MinisterioLaVozDeUnRemanenteTV.us@SD",
-      "name": "Ministerio La Voz De Un Remanente TV",
-      "category": "Religious",
-      "url": "https://vs20.live.opencaster.com/remanente_5925b089/index.m3u8",
-      "logo": "https://new.opencaster.com/uploads/logos/logo_188_1754869413.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
       "id": "MissionImpossible.us@SD",
       "name": "Mission Impossible (United States)",
       "category": "Entertainment",
@@ -11162,20 +9920,6 @@
       "quality": "SD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "MissionTV.us@SD",
-      "name": "Mission TV (1080p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8",
-      "logo": "https://i.imgur.com/Hb38BNo.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -11279,20 +10023,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "MohabatTV.us@SD",
-      "name": "Mohabat TV (United States) (540p)",
-      "category": "Religious",
-      "url": "http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "logo": "https://i.imgur.com/tucTC1O.jpg",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "fas"
-      ],
-      "primary_lang": "fas"
     },
     {
       "id": "MonroeCommunityMediaEducationChannel.us@SD",
@@ -11658,21 +10388,6 @@
       "description": "Curated music videos, artist spotlights, concerts, and continuous music streaming.",
       "languages": [
         "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "MuslimNetworkTV.us@SD",
-      "name": "Muslim Network TV",
-      "category": "Religious",
-      "url": "https://afghantv.app/hls2/muslimnetwork/index.m3u8",
-      "logo": "",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng",
-        "ara"
       ],
       "primary_lang": "eng"
     },
@@ -12998,20 +11713,6 @@
       "primary_lang": "spa"
     },
     {
-      "id": "NRBTV.us@SD",
-      "name": "NRBTV (720p)",
-      "category": "Religious",
-      "url": "http://145.239.5.177/215/index.m3u8",
-      "logo": "https://i.imgur.com/2PL1Au7.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "NTDTV.us@East",
       "name": "NTD TV (1080p)",
       "category": "General & Regional",
@@ -13092,20 +11793,6 @@
       "quality": "SD",
       "network": "",
       "description": "Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "OCNTV.us@SD",
-      "name": "OCN TV",
-      "category": "Religious",
-      "url": "https://5d12bc59c4748.streamlock.net/redirect/ocnbroadcasting.com/ocnbroadcasting2?type=m3u8",
-      "logo": "https://i.imgur.com/iSB5Obl.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -13518,20 +12205,6 @@
         "pus"
       ],
       "primary_lang": "prd"
-    },
-    {
-      "id": "PayameArameshTV.us@SD",
-      "name": "Payame Aramesh TV (720p)",
-      "category": "Religious",
-      "url": "https://hls.keshishhamid.live/hls/stream.m3u8",
-      "logo": "https://i.imgur.com/WaPr0t0.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "fas"
-      ],
-      "primary_lang": "fas"
     },
     {
       "id": "PayvandTV.us@SD",
@@ -14771,20 +13444,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "PottaDivineTVUSA.us@SD",
-      "name": "Potta-Divine TV USA (480p)",
-      "category": "Religious",
-      "url": "https://playout7multirtmp.tulix.tv/live21/Stream1/playlist.m3u8",
-      "logo": "https://i.imgur.com/Yx0AnLW.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "mal"
-      ],
-      "primary_lang": "mal"
-    },
-    {
       "id": "PowerNationTV.us@SD",
       "name": "PowerNation TV (1080p)",
       "category": "Sports",
@@ -14821,20 +13480,6 @@
       "quality": "360p SD",
       "network": "",
       "description": "Public access programming, municipal council meetings, and civic government coverage.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "PTLTVNetwork.us@SD",
-      "name": "PTL TV Network (1080p)",
-      "category": "Religious",
-      "url": "https://storage.sardius.media/archives/-KyMV-J0vDqnClcSXs8p/events/site_1a4721d3BA/playlist.m3u8",
-      "logo": "https://i.imgur.com/EhISpCd.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -14905,20 +13550,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Popular television series, comedy, reality entertainment, and lifestyle shows.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "RadiantTV.us@SD",
-      "name": "RadiantTV (1080p)",
-      "category": "Religious",
-      "url": "https://rpn.bozztv.com/radiant/radiant/radiant/index.m3u8",
-      "logo": "https://static.wixstatic.com/media/ba7a6c_6cc667c69cf24b94934b9d7f2e9853a5~mv2.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -15518,21 +14149,6 @@
       "primary_lang": "rus"
     },
     {
-      "id": "RTNChicago.us@SD",
-      "name": "RTN Chicago (480p)",
-      "category": "Religious",
-      "url": "https://651c69fa2ff4e.streamlock.net/3707/live1/chunklist.m3u8",
-      "logo": "https://i.ibb.co/wwchqYk/889dc1-937ba3d8d4ed4331a668a1c544766318-mv2.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "ron",
-        "eng"
-      ],
-      "primary_lang": "ron"
-    },
-    {
       "id": "RTRPlaneta.ru@US",
       "name": "RTR-Planeta US (720p) [Geo-blocked]",
       "category": "General & Regional",
@@ -15739,35 +14355,6 @@
       "description": "Wildlife expeditions, animal adventures, and breathtaking nature documentaries.",
       "languages": [
         "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "SanskarUSA.in@SD",
-      "name": "Sanskar USA (1080p)",
-      "category": "Religious",
-      "url": "https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8",
-      "logo": "https://i.imgur.com/5WBWruX.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "hin"
-      ],
-      "primary_lang": "hin"
-    },
-    {
-      "id": "SBNTV.us@SD",
-      "name": "SBN TV (720p)",
-      "category": "Religious",
-      "url": "https://watch.sardius.media/channels/Ea867F3e1F56B06/site_c5402f016A/live.m3u8",
-      "logo": "https://i.imgur.com/XLGIz2O.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng",
-        "spa"
       ],
       "primary_lang": "eng"
     },
@@ -16023,20 +14610,6 @@
         "fas"
       ],
       "primary_lang": "fas"
-    },
-    {
-      "id": "ShalomAmerica.us@SD",
-      "name": "Shalom America (720p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://livestreamcdn.net:444/ShalomTV/ShalomTV/playlist.m3u8",
-      "logo": "https://i.imgur.com/qUjsV79.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "mal"
-      ],
-      "primary_lang": "mal"
     },
     {
       "id": "ShemarooBollywood.us@SD",
@@ -16897,20 +15470,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "TBN.us@East",
-      "name": "TBN (1080p)",
-      "category": "Religious",
-      "url": "https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/TBN_logo_2015.jpg/960px-TBN_logo_2015.jpg",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "TBNArmenia.us@SD",
       "name": "TBN Armenia",
       "category": "General & Regional",
@@ -16919,20 +15478,6 @@
       "quality": "SD",
       "network": "",
       "description": "Community television, regional broadcasts, and general entertainment programming.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "TBNInspire.us@SD",
-      "name": "TBN Inspire (1080p)",
-      "category": "Religious",
-      "url": "https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8",
-      "logo": "https://i.imgur.com/GSM0Pkr.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -17306,20 +15851,6 @@
         "eng"
       ],
       "primary_lang": "eng"
-    },
-    {
-      "id": "TeveVidaNetwork.us@SD",
-      "name": "Teve Vida Network (480p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://5bf8041cb3fed.streamlock.net/Tevevida/Tevevida/.m3u8",
-      "logo": "https://i.imgur.com/lCpf5P1.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
     },
     {
       "id": "TGJunior.us@SD",
@@ -17702,20 +16233,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "TheNowNetwork.us@SD",
-      "name": "The Now Network (480p) [Not 24/7]",
-      "category": "Religious",
-      "url": "https://mediaprod1.nowcast.cc:5443/LiveApp/streams/anZPy7eaVWLyDMZB1697488814699.m3u8",
-      "logo": "https://i.imgur.com/Wp6d0F8.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "ThePeninsulaChannel.us@SD",
       "name": "The Peninsula Channel (720p)",
       "category": "Public & Government",
@@ -17739,20 +16256,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Animated adventures, family-friendly series, cartoons, and children's entertainment.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "ThePointTelevsionNetwork.us@SD",
-      "name": "The Point Televsion Network (1080p)",
-      "category": "Religious",
-      "url": "https://tgn.bozztv.com/watc57/watc57-2/watc57-2/index.m3u8",
-      "logo": "https://i.imgur.com/2LWc0OG.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -17857,20 +16360,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "TheWordNetwork.us@SD",
-      "name": "The Word Network (1080p)",
-      "category": "Religious",
-      "url": "https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8",
-      "logo": "https://i.imgur.com/ltFBrrj.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
       "id": "TheYoungTurks.us@SD",
       "name": "The Young Turks (720p)",
       "category": "News",
@@ -17879,20 +16368,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Live news coverage, breaking headlines, weather forecasts, and current affairs reporting.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "theDoveTV.us@SD",
-      "name": "theDove TV (720p)",
-      "category": "Religious",
-      "url": "https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8",
-      "logo": "https://i.imgur.com/ULtuRsj.png",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -17991,34 +16466,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Community television, regional broadcasts, and general entertainment programming.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "TLNMediaChicago.us@SD",
-      "name": "TLN Media Chicago (720p)",
-      "category": "Religious",
-      "url": "https://fuel-streaming-prod01.fuelmedia.io/v1/sem/cb165faa-41c9-42ad-83ee-ad5ca9fb927c.m3u8",
-      "logo": "",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "TLNMediaSanFrancisco.us@SD",
-      "name": "TLN Media San Francisco (720p)",
-      "category": "Religious",
-      "url": "https://fuel-streaming-prod01.fuelmedia.io/v1/sem/b29d27bb-88af-42d1-937a-5bdf76b71c17.m3u8",
-      "logo": "",
-      "quality": "720p HD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -19361,20 +17808,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "VelayatTVNetwork.us@SD",
-      "name": "Velayat TV Network (480p)",
-      "category": "Religious",
-      "url": "https://nl.livekadeh.com/hls2/velayattv.m3u8",
-      "logo": "https://i.imgur.com/bRQSzhs.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "fas"
-      ],
-      "primary_lang": "fas"
-    },
-    {
       "id": "VenevisionInternacional.ve@SD",
       "name": "Venevision Internacional (720p)",
       "category": "General & Regional",
@@ -19585,20 +18018,6 @@
       "primary_lang": "eng"
     },
     {
-      "id": "VidaMejorTV.us@SD",
-      "name": "Vida Mejor TV (480p)",
-      "category": "Religious",
-      "url": "https://tgn.bozztv.com/betterlife/bettervida/bettervida/index.m3u8",
-      "logo": "https://i.imgur.com/1hJ16i0.png",
-      "quality": "480p SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
-      "languages": [
-        "spa"
-      ],
-      "primary_lang": "spa"
-    },
-    {
       "id": "VideoMixTV.us@SD",
       "name": "Video Mix TV",
       "category": "Music",
@@ -19677,20 +18096,6 @@
       "quality": "720p HD",
       "network": "",
       "description": "Community television, regional broadcasts, and general entertainment programming.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "W14DKD141.us@HD",
-      "name": "W14DK-D 14.1",
-      "category": "Religious",
-      "url": "https://2-fss-2.streamhoster.com/pl_118/amlst:204972-1949480/playlist.m3u8",
-      "logo": "https://i.imgur.com/TjQP7kS.png",
-      "quality": "SD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -20139,20 +18544,6 @@
       "quality": "1080p FHD",
       "network": "",
       "description": "Community television, regional broadcasts, and general entertainment programming.",
-      "languages": [
-        "eng"
-      ],
-      "primary_lang": "eng"
-    },
-    {
-      "id": "WLMB.us@SD",
-      "name": "WLMB (1080p)",
-      "category": "Religious",
-      "url": "https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8",
-      "logo": "https://i.imgur.com/KeELZ1Y.png",
-      "quality": "1080p FHD",
-      "network": "",
-      "description": "Faith-based sermons, inspirational worship, spiritual teachings, and religious ministry.",
       "languages": [
         "eng"
       ],
@@ -21061,5 +19452,19 @@
       ],
       "primary_lang": "eng"
     }
-  ]
+  ],
+  "total_channels": 1379,
+  "category_counts": {
+    "Movies": 139,
+    "Kids & Family": 85,
+    "Music": 72,
+    "Sports": 89,
+    "News": 118,
+    "Entertainment": 297,
+    "Local Broadcast": 116,
+    "General & Regional": 243,
+    "Public & Government": 99,
+    "Documentary": 97,
+    "Adult": 24
+  }
 }
